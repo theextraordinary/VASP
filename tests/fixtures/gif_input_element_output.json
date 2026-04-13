@@ -1,0 +1,43 @@
+{
+  "element": {
+    "id": "gif_1",
+    "type": "gif",
+    "name": null,
+    "timing": {
+      "start": 0.5,
+      "duration": 3.0
+    },
+    "transform": {
+      "x": 200.0,
+      "y": 300.0,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "rotation_deg": 0.0,
+      "opacity": 1.0,
+      "anchor": "center",
+      "size": {
+        "width": null,
+        "height": null
+      },
+      "crop": null,
+      "flip_x": false,
+      "flip_y": false
+    },
+    "layer": 0,
+    "z_index": 0,
+    "enabled": true,
+    "design_ref": null,
+    "animation_ref": null,
+    "group_id": null,
+    "parent_id": null,
+    "tags": [],
+    "visible": true,
+    "locked": false,
+    "metadata": {},
+    "source_uri": "assets/inputs/gif.gif",
+    "loop": true,
+    "muted": false,
+    "source_range": null,
+    "source_meta": null
+  }
+}

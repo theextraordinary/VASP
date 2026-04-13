@@ -1,0 +1,16 @@
+{
+  "video": {
+    "size": { "width": 1080, "height": 1920 },
+    "fps": 30,
+    "bg_color": [0, 0, 0],
+    "output_path": "output/figure_test.mp4"
+  },
+  "element": {
+    "type": "figure",
+    "id": "fig_1",
+    "timing": { "start": 1.0, "duration": 2.0 },
+    "transform": { "x": 400, "y": 600 },
+    "figure_type": "sticker",
+    "payload_uri": "assets/inputs/sticker.png"
+  }
+}

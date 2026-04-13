@@ -1,0 +1,59 @@
+{
+  "element": {
+    "id": "vid_1",
+    "type": "video",
+    "name": null,
+    "timing": {
+      "start": 0.0,
+      "duration": 5.0
+    },
+    "transform": {
+      "x": 0.0,
+      "y": 0.0,
+      "scale_x": 1.0,
+      "scale_y": 1.0,
+      "rotation_deg": 0.0,
+      "opacity": 1.0,
+      "anchor": "center",
+      "size": {
+        "width": null,
+        "height": null
+      },
+      "crop": null,
+      "flip_x": false,
+      "flip_y": false
+    },
+    "layer": 0,
+    "z_index": 0,
+    "enabled": true,
+    "design_ref": null,
+    "animation_ref": null,
+    "group_id": null,
+    "parent_id": null,
+    "tags": [],
+    "visible": true,
+    "locked": false,
+    "metadata": {},
+    "source_uri": "assets/inputs/video.mp4",
+    "trim_in": 0.0,
+    "trim_out": 5.0,
+    "has_audio": true,
+    "playback_speed": 1.0,
+    "muted": false,
+    "source_range": null,
+    "source_meta": null
+  },
+  "video": {
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "fps": 30,
+    "bg_color": [
+      0,
+      0,
+      0
+    ],
+    "output_path": "output/video_test.mp4"
+  }
+}
