@@ -108,6 +108,9 @@ class GIF(Element):
     source_uri: str
     loop: bool = True
     muted: bool = False
+    length: Optional[float] = None
+    trim_in: float = 0.0
+    trim_out: Optional[float] = None
     source_range: Optional[SourceRange] = None
     source_meta: Optional[SourceMetadata] = None
 
@@ -141,6 +144,7 @@ class Video(Element):
     has_audio: bool = True
     playback_speed: float = Field(1.0, gt=0.0)
     muted: bool = False
+    length: Optional[float] = None
     source_range: Optional[SourceRange] = None
     source_meta: Optional[SourceMetadata] = None
 
@@ -164,6 +168,9 @@ class Music(Element):
     fade_in: float = 0.0
     fade_out: float = 0.0
     muted: bool = False
+    length: Optional[float] = None
+    trim_in: float = 0.0
+    trim_out: Optional[float] = None
     source_range: Optional[SourceRange] = None
     source_meta: Optional[SourceMetadata] = None
 
@@ -173,5 +180,8 @@ class Sfx(Element):
     source_uri: str
     volume: float = Field(1.0, ge=0.0, le=1.0)
     muted: bool = False
+    length: Optional[float] = None
+    trim_in: float = 0.0
+    trim_out: Optional[float] = None
     source_range: Optional[SourceRange] = None
     source_meta: Optional[SourceMetadata] = None

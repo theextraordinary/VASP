@@ -8,9 +8,11 @@
   "element": {
     "type": "gif",
     "id": "gif_1",
-    "timing": { "start": 0.5, "duration": 3.0 },
     "transform": { "x": 200, "y": 300 },
     "source_uri": "assets/inputs/gif.gif",
-    "loop": true
+    "loop": true,
+    "actions": [
+      { "t_start": 0.5, "t_end": 3.5, "op": "show", "params": { "scale": 1.0 } }
+    ]
   }
 }

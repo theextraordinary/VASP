@@ -1,0 +1,195 @@
+{
+  "version": "1.0",
+  "video": {
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "fps": 30,
+    "bg_color": [
+      0,
+      0,
+      0
+    ],
+    "output_path": "output/video_music_caption_test.mp4"
+  },
+  "properties_path": "C:\\Users\\SHIVANG\\AI\\VASP\\tests\\fixtures\\elementsProps.json",
+  "elements": [
+    {
+      "element_id": "cap_intro",
+      "timing": {
+        "start": 0.0,
+        "duration": 2.0
+      },
+      "actions": [
+        {
+          "t_start": 0.0,
+          "t_end": 2.0,
+          "op": "show",
+          "params": {
+            "font_size": 72,
+            "font_weight": "bold",
+            "font_style": "normal",
+            "color": "#FFFFFF"
+          }
+        }
+      ]
+    },
+    {
+      "element_id": "vid_first",
+      "timing": {
+        "start": 2.0,
+        "duration": 6.0
+      },
+      "actions": [
+        {
+          "t_start": 2.0,
+          "t_end": 8.0,
+          "op": "show",
+          "params": {
+            "trim_in": 0.0,
+            "trim_out": 6.0,
+            "scale": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "element_id": "cap_line1",
+      "timing": {
+        "start": 2.0,
+        "duration": 6.0
+      },
+      "actions": [
+        {
+          "t_start": 2.0,
+          "t_end": 8.0,
+          "op": "show",
+          "params": {
+            "font_size": 48,
+            "font_weight": "regular",
+            "font_style": "italic",
+            "color": "#F2F2F2"
+          }
+        }
+      ]
+    },
+    {
+      "element_id": "cap_mid",
+      "timing": {
+        "start": 8.0,
+        "duration": 1.0
+      },
+      "actions": [
+        {
+          "t_start": 8.0,
+          "t_end": 9.0,
+          "op": "show",
+          "params": {
+            "font_size": 64,
+            "font_weight": "bold",
+            "font_style": "normal",
+            "color": "#FFFFFF"
+          }
+        }
+      ]
+    },
+    {
+      "element_id": "cap_bye",
+      "timing": {
+        "start": 15.0,
+        "duration": 3.0
+      },
+      "actions": [
+        {
+          "t_start": 15.0,
+          "t_end": 18.0,
+          "op": "show",
+          "params": {
+            "font_size": 68,
+            "font_weight": "bold",
+            "font_style": "italic",
+            "color": "#00E5FF"
+          }
+        }
+      ]
+    },
+    {
+      "element_id": "vid_second",
+      "timing": {
+        "start": 9.0,
+        "duration": 6.0
+      },
+      "actions": [
+        {
+          "t_start": 9.0,
+          "t_end": 15.0,
+          "op": "show",
+          "params": {
+            "trim_in": 0.0,
+            "trim_out": 6.0,
+            "scale": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "element_id": "cap_line2",
+      "timing": {
+        "start": 9.0,
+        "duration": 6.0
+      },
+      "actions": [
+        {
+          "t_start": 9.0,
+          "t_end": 15.0,
+          "op": "show",
+          "params": {
+            "font_size": 48,
+            "font_weight": "regular",
+            "font_style": "italic",
+            "color": "#F2F2F2"
+          }
+        }
+      ]
+    },
+    {
+      "element_id": "music_first",
+      "timing": {
+        "start": 2.0,
+        "duration": 6.0
+      },
+      "actions": [
+        {
+          "t_start": 2.0,
+          "t_end": 8.0,
+          "op": "play",
+          "params": {
+            "trim_in": 0.0,
+            "trim_out": 6.0,
+            "volume": 0.9
+          }
+        }
+      ]
+    },
+    {
+      "element_id": "music_last",
+      "timing": {
+        "start": 15.0,
+        "duration": 3.0
+      },
+      "actions": [
+        {
+          "t_start": 15.0,
+          "t_end": 18.0,
+          "op": "play",
+          "params": {
+            "trim_in": 205.0,
+            "trim_out": 208.0,
+            "volume": 0.9
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "elements": [
+    {
+      "element_id": "img_a",
+      "properties": {
+        "id": "img_a",
+        "type": "image",
+        "name": null,
+        "timing": {
+          "start": 0.0,
+          "duration": 6.0
+        },
+        "transform": {
+          "x": 540.0,
+          "y": 960.0,
+          "scale_x": 1.0,
+          "scale_y": 1.0,
+          "rotation_deg": 0.0,
+          "opacity": 1.0,
+          "anchor": "center",
+          "size": {
+            "width": null,
+            "height": null
+          },
+          "crop": null,
+          "flip_x": false,
+          "flip_y": false
+        },
+        "layer": 0,
+        "z_index": 0,
+        "enabled": true,
+        "design_ref": null,
+        "animation_ref": null,
+        "group_id": null,
+        "parent_id": null,
+        "tags": [],
+        "visible": true,
+        "locked": false,
+        "metadata": {},
+        "source_uri": "assets/inputs/image.jpg",
+        "alt_text": null,
+        "source_meta": null
+      }
+    },
+    {
+      "element_id": "img_b",
+      "properties": {
+        "id": "img_b",
+        "type": "image",
+        "name": null,
+        "timing": {
+          "start": 3.0,
+          "duration": 2.0
+        },
+        "transform": {
+          "x": 540.0,
+          "y": 960.0,
+          "scale_x": 1.0,
+          "scale_y": 1.0,
+          "rotation_deg": 0.0,
+          "opacity": 1.0,
+          "anchor": "center",
+          "size": {
+            "width": null,
+            "height": null
+          },
+          "crop": null,
+          "flip_x": false,
+          "flip_y": false
+        },
+        "layer": 1,
+        "z_index": 0,
+        "enabled": true,
+        "design_ref": null,
+        "animation_ref": null,
+        "group_id": null,
+        "parent_id": null,
+        "tags": [],
+        "visible": true,
+        "locked": false,
+        "metadata": {},
+        "source_uri": "assets/inputs/image.jpg",
+        "alt_text": null,
+        "source_meta": null
+      }
+    },
+    {
+      "element_id": "img_c",
+      "properties": {
+        "id": "img_c",
+        "type": "image",
+        "name": null,
+        "timing": {
+          "start": 4.0,
+          "duration": 2.0
+        },
+        "transform": {
+          "x": 500.0,
+          "y": 200.0,
+          "scale_x": 1.0,
+          "scale_y": 1.0,
+          "rotation_deg": 0.0,
+          "opacity": 1.0,
+          "anchor": "center",
+          "size": {
+            "width": null,
+            "height": null
+          },
+          "crop": null,
+          "flip_x": false,
+          "flip_y": false
+        },
+        "layer": 2,
+        "z_index": 0,
+        "enabled": true,
+        "design_ref": null,
+        "animation_ref": null,
+        "group_id": null,
+        "parent_id": null,
+        "tags": [],
+        "visible": true,
+        "locked": false,
+        "metadata": {},
+        "source_uri": "assets/inputs/image.jpg",
+        "alt_text": null,
+        "source_meta": null
+      }
+    }
+  ]
+}

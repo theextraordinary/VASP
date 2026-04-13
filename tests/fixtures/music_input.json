@@ -8,9 +8,11 @@
   "element": {
     "type": "music",
     "id": "music_1",
-    "timing": { "start": 0.0, "duration": 10.0 },
     "source_uri": "assets/inputs/music.mp3",
     "loop": true,
-    "volume": 0.8
+    "volume": 0.8,
+    "actions": [
+      { "t_start": 0.0, "t_end": 10.0, "op": "play", "params": { "volume": 0.8 } }
+    ]
   }
 }

@@ -8,11 +8,13 @@
   "element": {
     "type": "video",
     "id": "vid_1",
-    "timing": { "start": 0.0, "duration": 5.0 },
     "transform": { "x": 0, "y": 0 },
     "source_uri": "assets/inputs/video.mp4",
     "trim_in": 0.0,
     "trim_out": 5.0,
-    "has_audio": true
+    "has_audio": true,
+    "actions": [
+      { "t_start": 0.0, "t_end": 5.0, "op": "show", "params": { "scale": 1.0 } }
+    ]
   }
 }

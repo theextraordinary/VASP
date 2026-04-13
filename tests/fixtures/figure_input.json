@@ -8,9 +8,11 @@
   "element": {
     "type": "figure",
     "id": "fig_1",
-    "timing": { "start": 1.0, "duration": 2.0 },
     "transform": { "x": 400, "y": 600 },
     "figure_type": "sticker",
-    "payload_uri": "assets/inputs/sticker.png"
+    "payload_uri": "assets/inputs/sticker.png",
+    "actions": [
+      { "t_start": 1.0, "t_end": 3.0, "op": "show", "params": { "scale": 1.0 } }
+    ]
   }
 }

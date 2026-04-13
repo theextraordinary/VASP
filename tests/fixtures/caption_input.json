@@ -11,9 +11,11 @@
   "element": {
     "type": "caption",
     "id": "cap_main",
-    "timing": { "start": 0.0, "duration": 3.0 },
     "transform": { "x": 100, "y": 300 },
     "text": "Hello world from VASP",
-    "language": "en"
+    "language": "en",
+    "actions": [
+      { "t_start": 0.0, "t_end": 3.0, "op": "word_scatter_color", "params": { "seed": 42 } }
+    ]
   }
 }

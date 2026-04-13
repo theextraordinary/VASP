@@ -1,0 +1,55 @@
+{
+  "video": {
+    "size": { "width": 1080, "height": 1920 },
+    "fps": 30,
+    "bg_color": [0, 0, 0],
+    "output_path": "output/combine_test.mp4"
+  },
+  "elements": [
+    {
+      "type": "music",
+      "id": "music_main",
+      "source_uri": "assets/inputs/music.mp3",
+      "actions": [
+        { "t_start": 0.0, "t_end": 6.0, "op": "play", "params": { "volume": 1.0, "crop_loudest": true } }
+      ]
+    },
+    {
+      "type": "caption",
+      "id": "cap_hello",
+      "transform": { "x": 540, "y": 960 },
+      "text": "Hello",
+      "actions": [
+        {
+          "t_start": 2.0,
+          "t_end": 5.0,
+          "op": "show",
+          "params": { "font_size": 84, "font_weight": "bold", "font_style": "normal", "color": "#FFFFFF" }
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "img_main",
+      "transform": { "x": 540, "y": 960 },
+      "source_uri": "assets/inputs/image.jpg",
+      "actions": [
+        { "t_start": 3.0, "t_end": 5.0, "op": "show", "params": { "scale": 1.0 } }
+      ]
+    },
+    {
+      "type": "caption",
+      "id": "cap_bye",
+      "transform": { "x": 540, "y": 960 },
+      "text": "Bye",
+      "actions": [
+        {
+          "t_start": 5.0,
+          "t_end": 6.0,
+          "op": "show",
+          "params": { "font_size": 84, "font_weight": "regular", "font_style": "italic", "color": "#FFFFFF" }
+        }
+      ]
+    }
+  ]
+}

@@ -8,8 +8,10 @@
   "element": {
     "type": "sfx",
     "id": "sfx_1",
-    "timing": { "start": 2.0, "duration": 1.0 },
     "source_uri": "assets/inputs/sfx.wav",
-    "volume": 1.0
+    "volume": 1.0,
+    "actions": [
+      { "t_start": 2.0, "t_end": 3.0, "op": "play", "params": { "volume": 1.0 } }
+    ]
   }
 }

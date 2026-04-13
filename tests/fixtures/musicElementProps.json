@@ -1,0 +1,51 @@
+{
+  "elements": [
+    {
+      "element_id": "music_1",
+      "properties": {
+        "id": "music_1",
+        "type": "music",
+        "name": null,
+        "timing": {
+          "start": 0.0,
+          "duration": 10.0
+        },
+        "transform": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale_x": 1.0,
+          "scale_y": 1.0,
+          "rotation_deg": 0.0,
+          "opacity": 1.0,
+          "anchor": "center",
+          "size": {
+            "width": null,
+            "height": null
+          },
+          "crop": null,
+          "flip_x": false,
+          "flip_y": false
+        },
+        "layer": 0,
+        "z_index": 0,
+        "enabled": true,
+        "design_ref": null,
+        "animation_ref": null,
+        "group_id": null,
+        "parent_id": null,
+        "tags": [],
+        "visible": true,
+        "locked": false,
+        "metadata": {},
+        "source_uri": "assets/inputs/music.mp3",
+        "loop": true,
+        "volume": 0.8,
+        "fade_in": 0.0,
+        "fade_out": 0.0,
+        "muted": false,
+        "source_range": null,
+        "source_meta": null
+      }
+    }
+  ]
+}

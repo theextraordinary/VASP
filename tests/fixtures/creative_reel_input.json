@@ -1,0 +1,41 @@
+{
+  "video": {
+    "size": { "width": 1080, "height": 1920 },
+    "fps": 30,
+    "bg_color": [0, 0, 0],
+    "output_path": "output/creative_reel_test.mp4"
+  },
+  "elements": [
+    {
+      "type": "video",
+      "id": "vid_main",
+      "transform": { "x": 540, "y": 960 },
+      "source_uri": "assets/inputs/video.mp4",
+      "length": 60.0,
+      "actions": [
+        { "t_start": 0.0, "t_end": 4.0, "op": "show", "params": { "trim_in": 5.0, "trim_out": 9.0, "scale": 1.0 } },
+        { "t_start": 6.0, "t_end": 8.0, "op": "show", "params": { "trim_in": 20.0, "trim_out": 22.0, "scale": 1.0 } }
+      ]
+    },
+    {
+      "type": "gif",
+      "id": "gif_overlay",
+      "transform": { "x": 820, "y": 280 },
+      "source_uri": "assets/inputs/gif.gif",
+      "length": 5.0,
+      "actions": [
+        { "t_start": 1.5, "t_end": 3.5, "op": "show", "params": { "trim_in": 1.0, "trim_out": 3.0, "scale": 1.0 } }
+      ]
+    },
+    {
+      "type": "sfx",
+      "id": "sfx_hits",
+      "source_uri": "assets/inputs/sfx.wav",
+      "length": 2.0,
+      "actions": [
+        { "t_start": 0.8, "t_end": 1.3, "op": "play", "params": { "trim_in": 0.0, "trim_out": 0.5, "volume": 1.0 } },
+        { "t_start": 4.5, "t_end": 5.0, "op": "play", "params": { "trim_in": 0.5, "trim_out": 1.0, "volume": 1.0 } }
+      ]
+    }
+  ]
+}

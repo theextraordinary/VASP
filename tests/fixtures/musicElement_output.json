@@ -1,15 +1,15 @@
 {
   "element": {
-    "id": "img_1",
-    "type": "image",
+    "id": "music_1",
+    "type": "music",
     "name": null,
     "timing": {
       "start": 0.0,
-      "duration": 8.0
+      "duration": 10.0
     },
     "transform": {
-      "x": 100.0,
-      "y": 150.0,
+      "x": 0.0,
+      "y": 0.0,
       "scale_x": 1.0,
       "scale_y": 1.0,
       "rotation_deg": 0.0,
@@ -34,8 +34,13 @@
     "visible": true,
     "locked": false,
     "metadata": {},
-    "source_uri": "assets/inputs/image.jpg",
-    "alt_text": null,
+    "source_uri": "assets/inputs/music.mp3",
+    "loop": true,
+    "volume": 0.8,
+    "fade_in": 0.0,
+    "fade_out": 0.0,
+    "muted": false,
+    "source_range": null,
     "source_meta": null
   }
 }

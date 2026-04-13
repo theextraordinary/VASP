@@ -1,0 +1,218 @@
+{
+  "elements": [
+    {
+      "element_id": "music_main",
+      "properties": {
+        "id": "music_main",
+        "type": "music",
+        "name": null,
+        "timing": {
+          "start": 0.0,
+          "duration": 6.0
+        },
+        "transform": {
+          "x": 0.0,
+          "y": 0.0,
+          "scale_x": 1.0,
+          "scale_y": 1.0,
+          "rotation_deg": 0.0,
+          "opacity": 1.0,
+          "anchor": "center",
+          "size": {
+            "width": null,
+            "height": null
+          },
+          "crop": null,
+          "flip_x": false,
+          "flip_y": false
+        },
+        "layer": 0,
+        "z_index": 0,
+        "enabled": true,
+        "design_ref": null,
+        "animation_ref": null,
+        "group_id": null,
+        "parent_id": null,
+        "tags": [],
+        "visible": true,
+        "locked": false,
+        "metadata": {
+          "crop_loudest": true,
+          "volume": 1.0
+        },
+        "source_uri": "assets/inputs/music.mp3",
+        "loop": true,
+        "volume": 1.0,
+        "fade_in": 0.0,
+        "fade_out": 0.0,
+        "muted": false,
+        "source_range": null,
+        "source_meta": null
+      }
+    },
+    {
+      "element_id": "cap_hello",
+      "properties": {
+        "id": "cap_hello",
+        "type": "caption",
+        "name": null,
+        "timing": {
+          "start": 2.0,
+          "duration": 3.0
+        },
+        "transform": {
+          "x": 540.0,
+          "y": 960.0,
+          "scale_x": 1.0,
+          "scale_y": 1.0,
+          "rotation_deg": 0.0,
+          "opacity": 1.0,
+          "anchor": "center",
+          "size": {
+            "width": null,
+            "height": null
+          },
+          "crop": null,
+          "flip_x": false,
+          "flip_y": false
+        },
+        "layer": 1,
+        "z_index": 0,
+        "enabled": true,
+        "design_ref": null,
+        "animation_ref": null,
+        "group_id": null,
+        "parent_id": null,
+        "tags": [],
+        "visible": true,
+        "locked": false,
+        "metadata": {},
+        "text": "Hello",
+        "language": null,
+        "max_width": null,
+        "text_align": "center",
+        "line_height": 1.2,
+        "letter_spacing": 0.0,
+        "wrap": true,
+        "font_family": null,
+        "font_size": null,
+        "font_weight": null,
+        "color": null,
+        "padding": {
+          "top": 0.0,
+          "right": 0.0,
+          "bottom": 0.0,
+          "left": 0.0
+        },
+        "background_color": null,
+        "background_opacity": 0.0,
+        "stroke_color": null,
+        "stroke_width": 0.0,
+        "shadow": null
+      }
+    },
+    {
+      "element_id": "img_main",
+      "properties": {
+        "id": "img_main",
+        "type": "image",
+        "name": null,
+        "timing": {
+          "start": 3.0,
+          "duration": 2.0
+        },
+        "transform": {
+          "x": 540.0,
+          "y": 960.0,
+          "scale_x": 1.0,
+          "scale_y": 1.0,
+          "rotation_deg": 0.0,
+          "opacity": 1.0,
+          "anchor": "center",
+          "size": {
+            "width": null,
+            "height": null
+          },
+          "crop": null,
+          "flip_x": false,
+          "flip_y": false
+        },
+        "layer": 2,
+        "z_index": 0,
+        "enabled": true,
+        "design_ref": null,
+        "animation_ref": null,
+        "group_id": null,
+        "parent_id": null,
+        "tags": [],
+        "visible": true,
+        "locked": false,
+        "metadata": {},
+        "source_uri": "assets/inputs/image.jpg",
+        "alt_text": null,
+        "source_meta": null
+      }
+    },
+    {
+      "element_id": "cap_bye",
+      "properties": {
+        "id": "cap_bye",
+        "type": "caption",
+        "name": null,
+        "timing": {
+          "start": 5.0,
+          "duration": 1.0
+        },
+        "transform": {
+          "x": 540.0,
+          "y": 960.0,
+          "scale_x": 1.0,
+          "scale_y": 1.0,
+          "rotation_deg": 0.0,
+          "opacity": 1.0,
+          "anchor": "center",
+          "size": {
+            "width": null,
+            "height": null
+          },
+          "crop": null,
+          "flip_x": false,
+          "flip_y": false
+        },
+        "layer": 1,
+        "z_index": 0,
+        "enabled": true,
+        "design_ref": null,
+        "animation_ref": null,
+        "group_id": null,
+        "parent_id": null,
+        "tags": [],
+        "visible": true,
+        "locked": false,
+        "metadata": {},
+        "text": "Bye",
+        "language": null,
+        "max_width": null,
+        "text_align": "center",
+        "line_height": 1.2,
+        "letter_spacing": 0.0,
+        "wrap": true,
+        "font_family": null,
+        "font_size": null,
+        "font_weight": null,
+        "color": null,
+        "padding": {
+          "top": 0.0,
+          "right": 0.0,
+          "bottom": 0.0,
+          "left": 0.0
+        },
+        "background_color": null,
+        "background_opacity": 0.0,
+        "stroke_color": null,
+        "stroke_width": 0.0,
+        "shadow": null
+      }
+    }
+  ]
+}
