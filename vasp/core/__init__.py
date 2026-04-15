@@ -19,7 +19,13 @@ from vasp.core.timeline import Timeline, Track, TrackType, TimelineItem
 from vasp.core.ids import new_id
 from vasp.core.builder import TimelineBuilder
 from vasp.core.validation import validate_timeline, validate_no_overlap
-from vasp.core.serialization import serialize_element_json
+from vasp.core.serialization import (
+    merge_serialized_bundle,
+    serialize_element2_json,
+    serialize_element_json,
+    serialize_unified_element_json,
+)
+from vasp.core.json_compactor import compact_json_outputs, compact_unified_element_json
 
 __all__ = [
     "Element",
@@ -44,4 +50,9 @@ __all__ = [
     "validate_timeline",
     "validate_no_overlap",
     "serialize_element_json",
+    "serialize_unified_element_json",
+    "serialize_element2_json",
+    "merge_serialized_bundle",
+    "compact_json_outputs",
+    "compact_unified_element_json",
 ]

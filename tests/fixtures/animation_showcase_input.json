@@ -1,0 +1,69 @@
+{
+  "video": {
+    "size": { "width": 1080, "height": 1920 },
+    "fps": 30,
+    "bg_color": [10, 12, 22],
+    "output_path": "output/animation_showcase_test.mp4"
+  },
+  "elements": [
+    {
+      "type": "image",
+      "id": "slide_lr",
+      "transform": { "x": 540, "y": 960 },
+      "source_uri": "assets/inputs/image.jpg",
+      "actions": [
+        { "t_start": 0.0, "t_end": 1.2, "op": "show", "params": { "x": 160, "y": 960, "scale": 0.85 } },
+        { "t_start": 1.2, "t_end": 2.4, "op": "show", "params": { "x": 540, "y": 960, "scale": 1.0 } },
+        { "t_start": 2.4, "t_end": 3.6, "op": "show", "params": { "x": 920, "y": 960, "scale": 0.9 } }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "bounce_center",
+      "transform": { "x": 540, "y": 960 },
+      "source_uri": "assets/inputs/image.jpg",
+      "actions": [
+        { "t_start": 3.6, "t_end": 4.1, "op": "show", "params": { "x": 540, "y": 980, "scale": 1.0 } },
+        { "t_start": 4.1, "t_end": 4.5, "op": "show", "params": { "x": 540, "y": 820, "scale": 1.08 } },
+        { "t_start": 4.5, "t_end": 4.9, "op": "show", "params": { "x": 540, "y": 1020, "scale": 0.95 } },
+        { "t_start": 4.9, "t_end": 5.4, "op": "show", "params": { "x": 540, "y": 900, "scale": 1.03 } },
+        { "t_start": 5.4, "t_end": 5.9, "op": "show", "params": { "x": 540, "y": 960, "scale": 1.0 } }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "zigzag_move",
+      "transform": { "x": 540, "y": 960 },
+      "source_uri": "assets/inputs/image.jpg",
+      "actions": [
+        { "t_start": 5.9, "t_end": 6.7, "op": "show", "params": { "x": 260, "y": 660, "scale": 0.82 } },
+        { "t_start": 6.7, "t_end": 7.5, "op": "show", "params": { "x": 820, "y": 760, "scale": 0.9 } },
+        { "t_start": 7.5, "t_end": 8.3, "op": "show", "params": { "x": 300, "y": 1180, "scale": 0.95 } },
+        { "t_start": 8.3, "t_end": 9.1, "op": "show", "params": { "x": 780, "y": 1260, "scale": 1.02 } }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "pop_pulse",
+      "transform": { "x": 540, "y": 960 },
+      "source_uri": "assets/inputs/image.jpg",
+      "actions": [
+        { "t_start": 9.1, "t_end": 9.5, "op": "show", "params": { "x": 540, "y": 960, "scale": 1.28 } },
+        { "t_start": 9.5, "t_end": 9.9, "op": "show", "params": { "x": 540, "y": 960, "scale": 1.0 } },
+        { "t_start": 9.9, "t_end": 10.3, "op": "show", "params": { "x": 540, "y": 960, "scale": 1.16 } },
+        { "t_start": 10.3, "t_end": 10.7, "op": "show", "params": { "x": 540, "y": 960, "scale": 1.0 } }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "slide_down_round",
+      "transform": { "x": 540, "y": 960 },
+      "source_uri": "assets/inputs/image.jpg",
+      "actions": [
+        { "t_start": 10.7, "t_end": 11.3, "op": "show", "params": { "x": 540, "y": 520, "scale": 0.9, "round_corners": 0 } },
+        { "t_start": 11.3, "t_end": 11.9, "op": "show", "params": { "x": 540, "y": 860, "scale": 1.0, "round_corners": 14 } },
+        { "t_start": 11.9, "t_end": 12.6, "op": "show", "params": { "x": 540, "y": 1240, "scale": 1.06, "round_corners": 28 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+predictions_path: finetune/output/e2b_qlora/predictions.jsonl
+references_path: finetune/data/sample_val.jsonl
+report_path: finetune/output/e2b_qlora/eval_report.json
+
+strict_json_only: true
+require_schema_validity: true

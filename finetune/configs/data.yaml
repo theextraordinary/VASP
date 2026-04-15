@@ -1,0 +1,11 @@
+seed: 42
+output_dir: finetune/data
+train_file: finetune/data/sample_train.jsonl
+val_file: finetune/data/sample_val.jsonl
+system_prompt_path: finetune/prompts/system_prompt.txt
+
+use_bootstrap_examples: true
+hand_authored_path: null
+deduplicate: true
+
+train_split_ratio: 0.9
