@@ -7,186 +7,248 @@
     },
     "fps": 30,
     "bg_color": [
-      0,
-      0,
-      0
+      10,
+      12,
+      22
     ],
-    "output_path": "output/video_music_caption_test.mp4"
+    "output_path": "output/animation_showcase_test.mp4"
   },
   "properties_path": "C:\\Users\\SHIVANG\\AI\\VASP\\tests\\fixtures\\elementsProps.json",
   "elements": [
     {
-      "element_id": "cap_intro",
+      "element_id": "slide_lr",
       "timing": {
         "start": 0.0,
-        "duration": 2.0
+        "duration": 3.6
       },
       "actions": [
         {
           "t_start": 0.0,
-          "t_end": 2.0,
+          "t_end": 1.2,
           "op": "show",
           "params": {
-            "font_size": 72,
-            "font_weight": "bold",
-            "font_style": "normal",
-            "color": "#FFFFFF"
+            "x": 160,
+            "y": 960,
+            "scale": 0.85
+          }
+        },
+        {
+          "t_start": 1.2,
+          "t_end": 2.4,
+          "op": "show",
+          "params": {
+            "x": 540,
+            "y": 960,
+            "scale": 1.0
+          }
+        },
+        {
+          "t_start": 2.4,
+          "t_end": 3.6,
+          "op": "show",
+          "params": {
+            "x": 920,
+            "y": 960,
+            "scale": 0.9
           }
         }
       ]
     },
     {
-      "element_id": "vid_first",
+      "element_id": "bounce_center",
       "timing": {
-        "start": 2.0,
-        "duration": 6.0
+        "start": 3.6,
+        "duration": 2.3000000000000003
       },
       "actions": [
         {
-          "t_start": 2.0,
-          "t_end": 8.0,
+          "t_start": 3.6,
+          "t_end": 4.1,
           "op": "show",
           "params": {
-            "trim_in": 0.0,
-            "trim_out": 6.0,
+            "x": 540,
+            "y": 980,
+            "scale": 1.0
+          }
+        },
+        {
+          "t_start": 4.1,
+          "t_end": 4.5,
+          "op": "show",
+          "params": {
+            "x": 540,
+            "y": 820,
+            "scale": 1.08
+          }
+        },
+        {
+          "t_start": 4.5,
+          "t_end": 4.9,
+          "op": "show",
+          "params": {
+            "x": 540,
+            "y": 1020,
+            "scale": 0.95
+          }
+        },
+        {
+          "t_start": 4.9,
+          "t_end": 5.4,
+          "op": "show",
+          "params": {
+            "x": 540,
+            "y": 900,
+            "scale": 1.03
+          }
+        },
+        {
+          "t_start": 5.4,
+          "t_end": 5.9,
+          "op": "show",
+          "params": {
+            "x": 540,
+            "y": 960,
             "scale": 1.0
           }
         }
       ]
     },
     {
-      "element_id": "cap_line1",
+      "element_id": "zigzag_move",
       "timing": {
-        "start": 2.0,
-        "duration": 6.0
+        "start": 5.9,
+        "duration": 3.1999999999999993
       },
       "actions": [
         {
-          "t_start": 2.0,
-          "t_end": 8.0,
+          "t_start": 5.9,
+          "t_end": 6.7,
           "op": "show",
           "params": {
-            "font_size": 48,
-            "font_weight": "regular",
-            "font_style": "italic",
-            "color": "#F2F2F2"
+            "x": 260,
+            "y": 660,
+            "scale": 0.82
+          }
+        },
+        {
+          "t_start": 6.7,
+          "t_end": 7.5,
+          "op": "show",
+          "params": {
+            "x": 820,
+            "y": 760,
+            "scale": 0.9
+          }
+        },
+        {
+          "t_start": 7.5,
+          "t_end": 8.3,
+          "op": "show",
+          "params": {
+            "x": 300,
+            "y": 1180,
+            "scale": 0.95
+          }
+        },
+        {
+          "t_start": 8.3,
+          "t_end": 9.1,
+          "op": "show",
+          "params": {
+            "x": 780,
+            "y": 1260,
+            "scale": 1.02
           }
         }
       ]
     },
     {
-      "element_id": "cap_mid",
+      "element_id": "pop_pulse",
       "timing": {
-        "start": 8.0,
-        "duration": 1.0
+        "start": 9.1,
+        "duration": 1.5999999999999996
       },
       "actions": [
         {
-          "t_start": 8.0,
-          "t_end": 9.0,
+          "t_start": 9.1,
+          "t_end": 9.5,
           "op": "show",
           "params": {
-            "font_size": 64,
-            "font_weight": "bold",
-            "font_style": "normal",
-            "color": "#FFFFFF"
+            "x": 540,
+            "y": 960,
+            "scale": 1.28
           }
-        }
-      ]
-    },
-    {
-      "element_id": "cap_bye",
-      "timing": {
-        "start": 15.0,
-        "duration": 3.0
-      },
-      "actions": [
+        },
         {
-          "t_start": 15.0,
-          "t_end": 18.0,
+          "t_start": 9.5,
+          "t_end": 9.9,
           "op": "show",
           "params": {
-            "font_size": 68,
-            "font_weight": "bold",
-            "font_style": "italic",
-            "color": "#00E5FF"
+            "x": 540,
+            "y": 960,
+            "scale": 1.0
           }
-        }
-      ]
-    },
-    {
-      "element_id": "vid_second",
-      "timing": {
-        "start": 9.0,
-        "duration": 6.0
-      },
-      "actions": [
+        },
         {
-          "t_start": 9.0,
-          "t_end": 15.0,
+          "t_start": 9.9,
+          "t_end": 10.3,
           "op": "show",
           "params": {
-            "trim_in": 0.0,
-            "trim_out": 6.0,
+            "x": 540,
+            "y": 960,
+            "scale": 1.16
+          }
+        },
+        {
+          "t_start": 10.3,
+          "t_end": 10.7,
+          "op": "show",
+          "params": {
+            "x": 540,
+            "y": 960,
             "scale": 1.0
           }
         }
       ]
     },
     {
-      "element_id": "cap_line2",
+      "element_id": "slide_down_round",
       "timing": {
-        "start": 9.0,
-        "duration": 6.0
+        "start": 10.7,
+        "duration": 1.9000000000000004
       },
       "actions": [
         {
-          "t_start": 9.0,
-          "t_end": 15.0,
+          "t_start": 10.7,
+          "t_end": 11.3,
           "op": "show",
           "params": {
-            "font_size": 48,
-            "font_weight": "regular",
-            "font_style": "italic",
-            "color": "#F2F2F2"
+            "x": 540,
+            "y": 520,
+            "scale": 0.9,
+            "round_corners": 0
           }
-        }
-      ]
-    },
-    {
-      "element_id": "music_first",
-      "timing": {
-        "start": 2.0,
-        "duration": 6.0
-      },
-      "actions": [
+        },
         {
-          "t_start": 2.0,
-          "t_end": 8.0,
-          "op": "play",
+          "t_start": 11.3,
+          "t_end": 11.9,
+          "op": "show",
           "params": {
-            "trim_in": 0.0,
-            "trim_out": 6.0,
-            "volume": 0.9
+            "x": 540,
+            "y": 860,
+            "scale": 1.0,
+            "round_corners": 14
           }
-        }
-      ]
-    },
-    {
-      "element_id": "music_last",
-      "timing": {
-        "start": 15.0,
-        "duration": 3.0
-      },
-      "actions": [
+        },
         {
-          "t_start": 15.0,
-          "t_end": 18.0,
-          "op": "play",
+          "t_start": 11.9,
+          "t_end": 12.6,
+          "op": "show",
           "params": {
-            "trim_in": 205.0,
-            "trim_out": 208.0,
-            "volume": 0.9
+            "x": 540,
+            "y": 1240,
+            "scale": 1.06,
+            "round_corners": 28
           }
         }
       ]

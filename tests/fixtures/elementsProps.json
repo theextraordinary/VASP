@@ -1,184 +1,14 @@
 {
   "elements": [
     {
-      "element_id": "cap_intro",
+      "element_id": "slide_lr",
       "properties": {
-        "id": "cap_intro",
-        "type": "caption",
+        "id": "slide_lr",
+        "type": "image",
         "name": null,
         "timing": {
           "start": 0.0,
-          "duration": 2.0
-        },
-        "transform": {
-          "x": 540.0,
-          "y": 240.0,
-          "scale_x": 1.0,
-          "scale_y": 1.0,
-          "rotation_deg": 0.0,
-          "opacity": 1.0,
-          "anchor": "center",
-          "size": {
-            "width": null,
-            "height": null
-          },
-          "crop": null,
-          "flip_x": false,
-          "flip_y": false
-        },
-        "layer": 0,
-        "z_index": 0,
-        "enabled": true,
-        "design_ref": null,
-        "animation_ref": null,
-        "group_id": null,
-        "parent_id": null,
-        "tags": [],
-        "visible": true,
-        "locked": false,
-        "metadata": {},
-        "text": "This is AI",
-        "language": null,
-        "max_width": null,
-        "text_align": "center",
-        "line_height": 1.2,
-        "letter_spacing": 0.0,
-        "wrap": true,
-        "font_family": null,
-        "font_size": null,
-        "font_weight": null,
-        "color": null,
-        "padding": {
-          "top": 0.0,
-          "right": 0.0,
-          "bottom": 0.0,
-          "left": 0.0
-        },
-        "background_color": null,
-        "background_opacity": 0.0,
-        "stroke_color": null,
-        "stroke_width": 0.0,
-        "shadow": null
-      }
-    },
-    {
-      "element_id": "vid_first",
-      "properties": {
-        "id": "vid_first",
-        "type": "video",
-        "name": null,
-        "timing": {
-          "start": 2.0,
-          "duration": 6.0
-        },
-        "transform": {
-          "x": 540.0,
-          "y": 900.0,
-          "scale_x": 1.0,
-          "scale_y": 1.0,
-          "rotation_deg": 0.0,
-          "opacity": 1.0,
-          "anchor": "center",
-          "size": {
-            "width": null,
-            "height": null
-          },
-          "crop": null,
-          "flip_x": false,
-          "flip_y": false
-        },
-        "layer": 0,
-        "z_index": 0,
-        "enabled": true,
-        "design_ref": null,
-        "animation_ref": null,
-        "group_id": null,
-        "parent_id": null,
-        "tags": [],
-        "visible": true,
-        "locked": false,
-        "metadata": {},
-        "source_uri": "assets/inputs/video.mp4",
-        "trim_in": 0.0,
-        "trim_out": null,
-        "has_audio": true,
-        "playback_speed": 1.0,
-        "muted": false,
-        "length": 6.0,
-        "source_range": null,
-        "source_meta": null
-      }
-    },
-    {
-      "element_id": "cap_line1",
-      "properties": {
-        "id": "cap_line1",
-        "type": "caption",
-        "name": null,
-        "timing": {
-          "start": 2.0,
-          "duration": 6.0
-        },
-        "transform": {
-          "x": 540.0,
-          "y": 1500.0,
-          "scale_x": 1.0,
-          "scale_y": 1.0,
-          "rotation_deg": 0.0,
-          "opacity": 1.0,
-          "anchor": "center",
-          "size": {
-            "width": null,
-            "height": null
-          },
-          "crop": null,
-          "flip_x": false,
-          "flip_y": false
-        },
-        "layer": 0,
-        "z_index": 0,
-        "enabled": true,
-        "design_ref": null,
-        "animation_ref": null,
-        "group_id": null,
-        "parent_id": null,
-        "tags": [],
-        "visible": true,
-        "locked": false,
-        "metadata": {},
-        "text": "A man enters the house",
-        "language": null,
-        "max_width": null,
-        "text_align": "center",
-        "line_height": 1.2,
-        "letter_spacing": 0.0,
-        "wrap": true,
-        "font_family": null,
-        "font_size": null,
-        "font_weight": null,
-        "color": null,
-        "padding": {
-          "top": 0.0,
-          "right": 0.0,
-          "bottom": 0.0,
-          "left": 0.0
-        },
-        "background_color": null,
-        "background_opacity": 0.0,
-        "stroke_color": null,
-        "stroke_width": 0.0,
-        "shadow": null
-      }
-    },
-    {
-      "element_id": "cap_mid",
-      "properties": {
-        "id": "cap_mid",
-        "type": "caption",
-        "name": null,
-        "timing": {
-          "start": 8.0,
-          "duration": 1.0
+          "duration": 3.6
         },
         "transform": {
           "x": 540.0,
@@ -207,39 +37,20 @@
         "visible": true,
         "locked": false,
         "metadata": {},
-        "text": "second time",
-        "language": null,
-        "max_width": null,
-        "text_align": "center",
-        "line_height": 1.2,
-        "letter_spacing": 0.0,
-        "wrap": true,
-        "font_family": null,
-        "font_size": null,
-        "font_weight": null,
-        "color": null,
-        "padding": {
-          "top": 0.0,
-          "right": 0.0,
-          "bottom": 0.0,
-          "left": 0.0
-        },
-        "background_color": null,
-        "background_opacity": 0.0,
-        "stroke_color": null,
-        "stroke_width": 0.0,
-        "shadow": null
+        "source_uri": "assets/inputs/image.jpg",
+        "alt_text": null,
+        "source_meta": null
       }
     },
     {
-      "element_id": "cap_bye",
+      "element_id": "bounce_center",
       "properties": {
-        "id": "cap_bye",
-        "type": "caption",
+        "id": "bounce_center",
+        "type": "image",
         "name": null,
         "timing": {
-          "start": 15.0,
-          "duration": 3.0
+          "start": 3.6,
+          "duration": 2.3000000000000003
         },
         "transform": {
           "x": 540.0,
@@ -268,43 +79,24 @@
         "visible": true,
         "locked": false,
         "metadata": {},
-        "text": "ByeBye",
-        "language": null,
-        "max_width": null,
-        "text_align": "center",
-        "line_height": 1.2,
-        "letter_spacing": 0.0,
-        "wrap": true,
-        "font_family": null,
-        "font_size": null,
-        "font_weight": null,
-        "color": null,
-        "padding": {
-          "top": 0.0,
-          "right": 0.0,
-          "bottom": 0.0,
-          "left": 0.0
-        },
-        "background_color": null,
-        "background_opacity": 0.0,
-        "stroke_color": null,
-        "stroke_width": 0.0,
-        "shadow": null
+        "source_uri": "assets/inputs/image.jpg",
+        "alt_text": null,
+        "source_meta": null
       }
     },
     {
-      "element_id": "vid_second",
+      "element_id": "zigzag_move",
       "properties": {
-        "id": "vid_second",
-        "type": "video",
+        "id": "zigzag_move",
+        "type": "image",
         "name": null,
         "timing": {
-          "start": 9.0,
-          "duration": 6.0
+          "start": 5.9,
+          "duration": 3.1999999999999993
         },
         "transform": {
           "x": 540.0,
-          "y": 900.0,
+          "y": 960.0,
           "scale_x": 1.0,
           "scale_y": 1.0,
           "rotation_deg": 0.0,
@@ -329,30 +121,24 @@
         "visible": true,
         "locked": false,
         "metadata": {},
-        "source_uri": "assets/inputs/video_second.mp4",
-        "trim_in": 0.0,
-        "trim_out": null,
-        "has_audio": true,
-        "playback_speed": 1.0,
-        "muted": false,
-        "length": 12.0,
-        "source_range": null,
+        "source_uri": "assets/inputs/image.jpg",
+        "alt_text": null,
         "source_meta": null
       }
     },
     {
-      "element_id": "cap_line2",
+      "element_id": "pop_pulse",
       "properties": {
-        "id": "cap_line2",
-        "type": "caption",
+        "id": "pop_pulse",
+        "type": "image",
         "name": null,
         "timing": {
-          "start": 9.0,
-          "duration": 6.0
+          "start": 9.1,
+          "duration": 1.5999999999999996
         },
         "transform": {
           "x": 540.0,
-          "y": 1500.0,
+          "y": 960.0,
           "scale_x": 1.0,
           "scale_y": 1.0,
           "rotation_deg": 0.0,
@@ -377,95 +163,24 @@
         "visible": true,
         "locked": false,
         "metadata": {},
-        "text": "A man enters house again",
-        "language": null,
-        "max_width": null,
-        "text_align": "center",
-        "line_height": 1.2,
-        "letter_spacing": 0.0,
-        "wrap": true,
-        "font_family": null,
-        "font_size": null,
-        "font_weight": null,
-        "color": null,
-        "padding": {
-          "top": 0.0,
-          "right": 0.0,
-          "bottom": 0.0,
-          "left": 0.0
-        },
-        "background_color": null,
-        "background_opacity": 0.0,
-        "stroke_color": null,
-        "stroke_width": 0.0,
-        "shadow": null
-      }
-    },
-    {
-      "element_id": "music_first",
-      "properties": {
-        "id": "music_first",
-        "type": "music",
-        "name": null,
-        "timing": {
-          "start": 2.0,
-          "duration": 6.0
-        },
-        "transform": {
-          "x": 0.0,
-          "y": 0.0,
-          "scale_x": 1.0,
-          "scale_y": 1.0,
-          "rotation_deg": 0.0,
-          "opacity": 1.0,
-          "anchor": "center",
-          "size": {
-            "width": null,
-            "height": null
-          },
-          "crop": null,
-          "flip_x": false,
-          "flip_y": false
-        },
-        "layer": 0,
-        "z_index": 0,
-        "enabled": true,
-        "design_ref": null,
-        "animation_ref": null,
-        "group_id": null,
-        "parent_id": null,
-        "tags": [],
-        "visible": true,
-        "locked": false,
-        "metadata": {
-          "volume": 0.9
-        },
-        "source_uri": "assets/inputs/music.mp3",
-        "loop": true,
-        "volume": 1.0,
-        "fade_in": 0.0,
-        "fade_out": 0.0,
-        "muted": false,
-        "length": 210.0,
-        "trim_in": 0.0,
-        "trim_out": null,
-        "source_range": null,
+        "source_uri": "assets/inputs/image.jpg",
+        "alt_text": null,
         "source_meta": null
       }
     },
     {
-      "element_id": "music_last",
+      "element_id": "slide_down_round",
       "properties": {
-        "id": "music_last",
-        "type": "music",
+        "id": "slide_down_round",
+        "type": "image",
         "name": null,
         "timing": {
-          "start": 15.0,
-          "duration": 3.0
+          "start": 10.7,
+          "duration": 1.9000000000000004
         },
         "transform": {
-          "x": 0.0,
-          "y": 0.0,
+          "x": 540.0,
+          "y": 960.0,
           "scale_x": 1.0,
           "scale_y": 1.0,
           "rotation_deg": 0.0,
@@ -489,19 +204,9 @@
         "tags": [],
         "visible": true,
         "locked": false,
-        "metadata": {
-          "volume": 0.9
-        },
-        "source_uri": "assets/inputs/music.mp3",
-        "loop": true,
-        "volume": 1.0,
-        "fade_in": 0.0,
-        "fade_out": 0.0,
-        "muted": false,
-        "length": 210.0,
-        "trim_in": 0.0,
-        "trim_out": null,
-        "source_range": null,
+        "metadata": {},
+        "source_uri": "assets/inputs/image.jpg",
+        "alt_text": null,
         "source_meta": null
       }
     }

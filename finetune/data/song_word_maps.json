@@ -1,0 +1,7822 @@
+[
+  {
+    "audio_path": "assets/inputs/song_0001.m4a",
+    "word_timing_map": [
+      {
+        "text": "down",
+        "start": 27.278,
+        "end": 27.782
+      },
+      {
+        "text": "sit",
+        "start": 28.346,
+        "end": 28.568
+      },
+      {
+        "text": "me",
+        "start": 28.588,
+        "end": 28.769
+      },
+      {
+        "text": "down",
+        "start": 28.809,
+        "end": 29.273
+      },
+      {
+        "text": "they",
+        "start": 29.293,
+        "end": 29.837
+      },
+      {
+        "text": "say",
+        "start": 29.897,
+        "end": 30.018
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0002.m4a",
+    "word_timing_map": [
+      {
+        "text": "Do",
+        "start": 2.217,
+        "end": 2.517
+      },
+      {
+        "text": "anything",
+        "start": 2.657,
+        "end": 3.117
+      },
+      {
+        "text": "else,",
+        "start": 3.397,
+        "end": 3.678
+      },
+      {
+        "text": "look",
+        "start": 4.198,
+        "end": 4.538
+      },
+      {
+        "text": "around",
+        "start": 4.658,
+        "end": 5.278
+      },
+      {
+        "text": "We",
+        "start": 5.718,
+        "end": 5.858
+      },
+      {
+        "text": "work",
+        "start": 5.898,
+        "end": 6.198
+      },
+      {
+        "text": "to",
+        "start": 6.258,
+        "end": 6.599
+      },
+      {
+        "text": "their",
+        "start": 6.639,
+        "end": 6.939
+      },
+      {
+        "text": "heart",
+        "start": 7.019,
+        "end": 7.399
+      },
+      {
+        "text": "for",
+        "start": 7.439,
+        "end": 7.619
+      },
+      {
+        "text": "this",
+        "start": 7.659,
+        "end": 8.119
+      },
+      {
+        "text": "Just",
+        "start": 8.159,
+        "end": 8.339
+      },
+      {
+        "text": "to",
+        "start": 8.359,
+        "end": 8.499
+      },
+      {
+        "text": "give",
+        "start": 8.539,
+        "end": 8.779
+      },
+      {
+        "text": "it",
+        "start": 8.819,
+        "end": 8.899
+      },
+      {
+        "text": "up",
+        "start": 8.939,
+        "end": 9.079
+      },
+      {
+        "text": "now",
+        "start": 9.12,
+        "end": 9.62
+      },
+      {
+        "text": "If",
+        "start": 9.74,
+        "end": 9.82
+      },
+      {
+        "text": "you",
+        "start": 9.86,
+        "end": 9.96
+      },
+      {
+        "text": "don't",
+        "start": 10.02,
+        "end": 10.28
+      },
+      {
+        "text": "swim,",
+        "start": 10.34,
+        "end": 10.92
+      },
+      {
+        "text": "you'll",
+        "start": 11.44,
+        "end": 11.82
+      },
+      {
+        "text": "drown",
+        "start": 11.88,
+        "end": 12.361
+      },
+      {
+        "text": "But",
+        "start": 12.821,
+        "end": 12.921
+      },
+      {
+        "text": "don't",
+        "start": 12.981,
+        "end": 13.361
+      },
+      {
+        "text": "move,",
+        "start": 13.461,
+        "end": 13.601
+      },
+      {
+        "text": "honey",
+        "start": 13.621,
+        "end": 13.781
+      },
+      {
+        "text": "You",
+        "start": 13.801,
+        "end": 13.861
+      },
+      {
+        "text": "live",
+        "start": 13.881,
+        "end": 14.722
+      },
+      {
+        "text": "so",
+        "start": 14.742,
+        "end": 14.782
+      },
+      {
+        "text": "perfect",
+        "start": 15.062,
+        "end": 15.342
+      },
+      {
+        "text": "standing",
+        "start": 15.482,
+        "end": 16.642
+      },
+      {
+        "text": "there",
+        "start": 16.802,
+        "end": 17.002
+      },
+      {
+        "text": "In",
+        "start": 17.022,
+        "end": 17.282
+      },
+      {
+        "text": "my",
+        "start": 17.342,
+        "end": 17.463
+      },
+      {
+        "text": "American",
+        "start": 17.483,
+        "end": 18.283
+      },
+      {
+        "text": "apparel",
+        "start": 18.783,
+        "end": 19.663
+      },
+      {
+        "text": "underwear",
+        "start": 20.063,
+        "end": 20.604
+      },
+      {
+        "text": "And",
+        "start": 21.184,
+        "end": 21.324
+      },
+      {
+        "text": "I",
+        "start": 21.344,
+        "end": 21.364
+      },
+      {
+        "text": "know",
+        "start": 21.624,
+        "end": 22.324
+      },
+      {
+        "text": "it",
+        "start": 22.384,
+        "end": 22.464
+      },
+      {
+        "text": "now,",
+        "start": 22.644,
+        "end": 23.025
+      },
+      {
+        "text": "that",
+        "start": 23.485,
+        "end": 24.345
+      },
+      {
+        "text": "I'm",
+        "start": 24.545,
+        "end": 24.685
+      },
+      {
+        "text": "sold",
+        "start": 24.845,
+        "end": 25.045
+      },
+      {
+        "text": "out",
+        "start": 25.125,
+        "end": 25.305
+      },
+      {
+        "text": "You",
+        "start": 25.445,
+        "end": 26.146
+      },
+      {
+        "text": "live",
+        "start": 26.166,
+        "end": 27.286
+      },
+      {
+        "text": "six",
+        "start": 27.306,
+        "end": 27.366
+      },
+      {
+        "text": "days",
+        "start": 27.646,
+        "end": 27.786
+      },
+      {
+        "text": "of",
+        "start": 27.806,
+        "end": 27.846
+      },
+      {
+        "text": "the",
+        "start": 28.026,
+        "end": 28.186
+      },
+      {
+        "text": "work",
+        "start": 28.707,
+        "end": 28.887
+      },
+      {
+        "text": "of",
+        "start": 29.227,
+        "end": 29.327
+      },
+      {
+        "text": "the",
+        "start": 29.387,
+        "end": 29.527
+      },
+      {
+        "text": "heart",
+        "start": 29.547,
+        "end": 29.807
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0003.m4a",
+    "word_timing_map": [
+      {
+        "text": "But",
+        "start": 0.131,
+        "end": 0.271
+      },
+      {
+        "text": "your",
+        "start": 0.491,
+        "end": 1.352
+      },
+      {
+        "text": "name",
+        "start": 1.432,
+        "end": 1.652
+      },
+      {
+        "text": "talks",
+        "start": 1.692,
+        "end": 2.333
+      },
+      {
+        "text": "to",
+        "start": 2.373,
+        "end": 2.633
+      },
+      {
+        "text": "it",
+        "start": 2.773,
+        "end": 2.893
+      },
+      {
+        "text": "and",
+        "start": 3.213,
+        "end": 3.334
+      },
+      {
+        "text": "I",
+        "start": 3.714,
+        "end": 3.774
+      },
+      {
+        "text": "reward",
+        "start": 4.054,
+        "end": 5.595
+      },
+      {
+        "text": "it",
+        "start": 5.996,
+        "end": 6.156
+      },
+      {
+        "text": "And",
+        "start": 6.176,
+        "end": 6.276
+      },
+      {
+        "text": "I",
+        "start": 6.556,
+        "end": 6.696
+      },
+      {
+        "text": "don't",
+        "start": 6.856,
+        "end": 7.317
+      },
+      {
+        "text": "know",
+        "start": 7.417,
+        "end": 8.498
+      },
+      {
+        "text": "that",
+        "start": 10.379,
+        "end": 18.966
+      },
+      {
+        "text": "I'm",
+        "start": 20.847,
+        "end": 21.007
+      },
+      {
+        "text": "so",
+        "start": 21.187,
+        "end": 21.388
+      },
+      {
+        "text": "down",
+        "start": 21.428,
+        "end": 21.748
+      },
+      {
+        "text": "Let's",
+        "start": 22.248,
+        "end": 22.528
+      },
+      {
+        "text": "get",
+        "start": 22.588,
+        "end": 22.809
+      },
+      {
+        "text": "up,",
+        "start": 22.829,
+        "end": 22.889
+      },
+      {
+        "text": "let's",
+        "start": 22.949,
+        "end": 23.109
+      },
+      {
+        "text": "get",
+        "start": 23.149,
+        "end": 23.229
+      },
+      {
+        "text": "up",
+        "start": 23.389,
+        "end": 23.649
+      },
+      {
+        "text": "Cause",
+        "start": 23.729,
+        "end": 23.869
+      },
+      {
+        "text": "these",
+        "start": 23.91,
+        "end": 24.17
+      },
+      {
+        "text": "dead",
+        "start": 24.29,
+        "end": 24.61
+      },
+      {
+        "text": "beat",
+        "start": 24.67,
+        "end": 24.93
+      },
+      {
+        "text": "tones",
+        "start": 25.03,
+        "end": 25.371
+      },
+      {
+        "text": "only",
+        "start": 25.511,
+        "end": 25.731
+      },
+      {
+        "text": "here",
+        "start": 25.771,
+        "end": 25.871
+      },
+      {
+        "text": "just",
+        "start": 25.891,
+        "end": 26.271
+      },
+      {
+        "text": "to",
+        "start": 26.351,
+        "end": 26.471
+      },
+      {
+        "text": "keep",
+        "start": 26.532,
+        "end": 26.992
+      },
+      {
+        "text": "us",
+        "start": 27.512,
+        "end": 27.772
+      },
+      {
+        "text": "down",
+        "start": 27.833,
+        "end": 28.133
+      },
+      {
+        "text": "While",
+        "start": 28.233,
+        "end": 28.553
+      },
+      {
+        "text": "I",
+        "start": 28.573,
+        "end": 28.593
+      },
+      {
+        "text": "was",
+        "start": 28.613,
+        "end": 28.793
+      },
+      {
+        "text": "out",
+        "start": 28.993,
+        "end": 29.334
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0004.m4a",
+    "word_timing_map": [
+      {
+        "text": "Perfect",
+        "start": 17.329,
+        "end": 17.53
+      },
+      {
+        "text": "standing",
+        "start": 17.55,
+        "end": 18.813
+      },
+      {
+        "text": "there",
+        "start": 18.833,
+        "end": 18.953
+      },
+      {
+        "text": "in",
+        "start": 20.076,
+        "end": 20.196
+      },
+      {
+        "text": "my",
+        "start": 20.376,
+        "end": 20.416
+      },
+      {
+        "text": "American",
+        "start": 20.436,
+        "end": 20.637
+      },
+      {
+        "text": "apparel",
+        "start": 20.697,
+        "end": 21.358
+      },
+      {
+        "text": "underwear",
+        "start": 21.679,
+        "end": 24.185
+      },
+      {
+        "text": "And",
+        "start": 24.205,
+        "end": 24.345
+      },
+      {
+        "text": "I",
+        "start": 24.566,
+        "end": 24.686
+      },
+      {
+        "text": "know",
+        "start": 24.846,
+        "end": 25.027
+      },
+      {
+        "text": "it",
+        "start": 25.067,
+        "end": 25.127
+      },
+      {
+        "text": "now",
+        "start": 25.147,
+        "end": 25.327
+      },
+      {
+        "text": "that",
+        "start": 25.468,
+        "end": 25.608
+      },
+      {
+        "text": "I'm",
+        "start": 25.628,
+        "end": 25.688
+      },
+      {
+        "text": "so",
+        "start": 25.708,
+        "end": 25.788
+      },
+      {
+        "text": "down",
+        "start": 25.989,
+        "end": 26.971
+      },
+      {
+        "text": "I've",
+        "start": 26.991,
+        "end": 27.111
+      },
+      {
+        "text": "been",
+        "start": 28.114,
+        "end": 28.354
+      },
+      {
+        "text": "missing",
+        "start": 28.635,
+        "end": 29.296
+      },
+      {
+        "text": "straight",
+        "start": 29.316,
+        "end": 29.657
+      },
+      {
+        "text": "out",
+        "start": 29.677,
+        "end": 29.757
+      },
+      {
+        "text": "of",
+        "start": 29.777,
+        "end": 29.858
+      },
+      {
+        "text": "94",
+        "start": 29.878,
+        "end": 29.918
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0005.m4a",
+    "word_timing_map": [
+      {
+        "text": "To",
+        "start": 22.424,
+        "end": 22.464
+      },
+      {
+        "text": "extend",
+        "start": 22.524,
+        "end": 23.268
+      },
+      {
+        "text": "near",
+        "start": 23.348,
+        "end": 23.83
+      },
+      {
+        "text": "my",
+        "start": 23.891,
+        "end": 24.112
+      },
+      {
+        "text": "American",
+        "start": 24.132,
+        "end": 24.875
+      },
+      {
+        "text": "apparel",
+        "start": 24.935,
+        "end": 25.658
+      },
+      {
+        "text": "underwear",
+        "start": 25.94,
+        "end": 26.723
+      },
+      {
+        "text": "And",
+        "start": 27.607,
+        "end": 27.788
+      },
+      {
+        "text": "I",
+        "start": 27.808,
+        "end": 27.828
+      },
+      {
+        "text": "know",
+        "start": 27.868,
+        "end": 28.29
+      },
+      {
+        "text": "now",
+        "start": 28.411,
+        "end": 28.813
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0006.m4a",
+    "word_timing_map": [
+      {
+        "text": "that",
+        "start": 0.091,
+        "end": 0.331
+      },
+      {
+        "text": "I'm",
+        "start": 0.472,
+        "end": 0.692
+      },
+      {
+        "text": "sold",
+        "start": 0.792,
+        "end": 1.313
+      },
+      {
+        "text": "down",
+        "start": 1.433,
+        "end": 2.594
+      },
+      {
+        "text": "your",
+        "start": 3.055,
+        "end": 3.235
+      },
+      {
+        "text": "lipstick",
+        "start": 3.275,
+        "end": 3.896
+      },
+      {
+        "text": "state",
+        "start": 3.916,
+        "end": 4.397
+      },
+      {
+        "text": "is",
+        "start": 4.497,
+        "end": 4.577
+      },
+      {
+        "text": "a",
+        "start": 4.697,
+        "end": 4.737
+      },
+      {
+        "text": "work",
+        "start": 4.777,
+        "end": 5.118
+      },
+      {
+        "text": "of",
+        "start": 5.238,
+        "end": 5.338
+      },
+      {
+        "text": "art",
+        "start": 5.358,
+        "end": 5.738
+      },
+      {
+        "text": "I",
+        "start": 5.759,
+        "end": 5.899
+      },
+      {
+        "text": "got",
+        "start": 5.919,
+        "end": 6.079
+      },
+      {
+        "text": "your",
+        "start": 6.119,
+        "end": 6.279
+      },
+      {
+        "text": "name",
+        "start": 6.299,
+        "end": 6.64
+      },
+      {
+        "text": "tattooed",
+        "start": 6.68,
+        "end": 7.401
+      },
+      {
+        "text": "in",
+        "start": 7.561,
+        "end": 7.741
+      },
+      {
+        "text": "an",
+        "start": 7.761,
+        "end": 7.981
+      },
+      {
+        "text": "iron",
+        "start": 8.041,
+        "end": 8.222
+      },
+      {
+        "text": "ward",
+        "start": 8.362,
+        "end": 8.883
+      },
+      {
+        "text": "and",
+        "start": 9.704,
+        "end": 9.804
+      },
+      {
+        "text": "I",
+        "start": 9.824,
+        "end": 10.024
+      },
+      {
+        "text": "load",
+        "start": 10.084,
+        "end": 10.324
+      },
+      {
+        "text": "now",
+        "start": 10.425,
+        "end": 11.045
+      },
+      {
+        "text": "that",
+        "start": 12.127,
+        "end": 12.307
+      },
+      {
+        "text": "I'm",
+        "start": 12.467,
+        "end": 12.628
+      },
+      {
+        "text": "sold",
+        "start": 12.668,
+        "end": 12.928
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0007.m4a",
+    "word_timing_map": [
+      {
+        "text": "And",
+        "start": 3.237,
+        "end": 3.317
+      },
+      {
+        "text": "I",
+        "start": 3.337,
+        "end": 3.357
+      },
+      {
+        "text": "know",
+        "start": 4.398,
+        "end": 4.538
+      },
+      {
+        "text": "now",
+        "start": 4.598,
+        "end": 4.678
+      },
+      {
+        "text": "that",
+        "start": 6.059,
+        "end": 6.359
+      },
+      {
+        "text": "I'm",
+        "start": 6.559,
+        "end": 6.659
+      },
+      {
+        "text": "so",
+        "start": 6.679,
+        "end": 7.019
+      },
+      {
+        "text": "down",
+        "start": 7.039,
+        "end": 7.119
+      },
+      {
+        "text": "Mystic",
+        "start": 7.2,
+        "end": 7.58
+      },
+      {
+        "text": "setting",
+        "start": 7.6,
+        "end": 7.76
+      },
+      {
+        "text": "in",
+        "start": 7.78,
+        "end": 7.82
+      },
+      {
+        "text": "the",
+        "start": 7.84,
+        "end": 8.06
+      },
+      {
+        "text": "world",
+        "start": 8.08,
+        "end": 8.28
+      },
+      {
+        "text": "gives",
+        "start": 9.021,
+        "end": 9.301
+      },
+      {
+        "text": "a",
+        "start": 11.042,
+        "end": 11.142
+      },
+      {
+        "text": "heart",
+        "start": 11.202,
+        "end": 11.922
+      },
+      {
+        "text": "I",
+        "start": 12.023,
+        "end": 12.083
+      },
+      {
+        "text": "guess",
+        "start": 12.123,
+        "end": 12.283
+      },
+      {
+        "text": "it",
+        "start": 12.403,
+        "end": 13.363
+      },
+      {
+        "text": "ain't",
+        "start": 13.503,
+        "end": 13.644
+      },
+      {
+        "text": "time",
+        "start": 13.684,
+        "end": 13.804
+      },
+      {
+        "text": "to",
+        "start": 14.044,
+        "end": 14.124
+      },
+      {
+        "text": "end",
+        "start": 14.204,
+        "end": 14.284
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0008.m4a",
+    "word_timing_map": []
+  },
+  {
+    "audio_path": "assets/inputs/song_0009.m4a",
+    "word_timing_map": []
+  },
+  {
+    "audio_path": "assets/inputs/song_0010.m4a",
+    "word_timing_map": [
+      {
+        "text": "It's",
+        "start": 5.37,
+        "end": 5.594
+      },
+      {
+        "text": "right",
+        "start": 5.655,
+        "end": 6.103
+      },
+      {
+        "text": "here",
+        "start": 6.205,
+        "end": 6.551
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0011.m4a",
+    "word_timing_map": []
+  },
+  {
+    "audio_path": "assets/inputs/song_0012.m4a",
+    "word_timing_map": []
+  },
+  {
+    "audio_path": "assets/inputs/song_0013.m4a",
+    "word_timing_map": [
+      {
+        "text": "I",
+        "start": 11.084,
+        "end": 11.185
+      },
+      {
+        "text": "told",
+        "start": 11.265,
+        "end": 11.567
+      },
+      {
+        "text": "you",
+        "start": 11.607,
+        "end": 11.748
+      },
+      {
+        "text": "what",
+        "start": 11.889,
+        "end": 12.19
+      },
+      {
+        "text": "it",
+        "start": 12.25,
+        "end": 12.311
+      },
+      {
+        "text": "is",
+        "start": 12.351,
+        "end": 12.411
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0014.m4a",
+    "word_timing_map": []
+  },
+  {
+    "audio_path": "assets/inputs/song_0015.m4a",
+    "word_timing_map": []
+  },
+  {
+    "audio_path": "assets/inputs/song_0016.m4a",
+    "word_timing_map": []
+  },
+  {
+    "audio_path": "assets/inputs/song_0017.m4a",
+    "word_timing_map": [
+      {
+        "text": "Don't",
+        "start": 14.381,
+        "end": 14.901
+      },
+      {
+        "text": "see",
+        "start": 15.082,
+        "end": 17.163
+      },
+      {
+        "text": "Just",
+        "start": 17.263,
+        "end": 17.644
+      },
+      {
+        "text": "a",
+        "start": 17.724,
+        "end": 17.784
+      },
+      {
+        "text": "boy",
+        "start": 17.824,
+        "end": 18.184
+      },
+      {
+        "text": "caught",
+        "start": 18.204,
+        "end": 18.624
+      },
+      {
+        "text": "up",
+        "start": 18.744,
+        "end": 18.844
+      },
+      {
+        "text": "in",
+        "start": 19.065,
+        "end": 19.205
+      },
+      {
+        "text": "dreams",
+        "start": 19.305,
+        "end": 19.765
+      },
+      {
+        "text": "of",
+        "start": 19.785,
+        "end": 19.845
+      },
+      {
+        "text": "fantasy",
+        "start": 20.045,
+        "end": 21.467
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0018.m4a",
+    "word_timing_map": [
+      {
+        "text": "for",
+        "start": 0.791,
+        "end": 0.951
+      },
+      {
+        "text": "someone",
+        "start": 1.011,
+        "end": 1.771
+      },
+      {
+        "text": "I",
+        "start": 1.891,
+        "end": 2.051
+      },
+      {
+        "text": "can't",
+        "start": 2.131,
+        "end": 2.712
+      },
+      {
+        "text": "see.",
+        "start": 3.012,
+        "end": 3.432
+      },
+      {
+        "text": "Take",
+        "start": 4.112,
+        "end": 4.772
+      },
+      {
+        "text": "my",
+        "start": 4.872,
+        "end": 5.532
+      },
+      {
+        "text": "hand,",
+        "start": 5.592,
+        "end": 5.912
+      },
+      {
+        "text": "let's",
+        "start": 5.952,
+        "end": 6.192
+      },
+      {
+        "text": "see",
+        "start": 6.272,
+        "end": 6.573
+      },
+      {
+        "text": "what",
+        "start": 6.613,
+        "end": 6.833
+      },
+      {
+        "text": "we'll",
+        "start": 6.893,
+        "end": 7.293
+      },
+      {
+        "text": "wake",
+        "start": 7.433,
+        "end": 7.793
+      },
+      {
+        "text": "up",
+        "start": 7.973,
+        "end": 8.073
+      },
+      {
+        "text": "tomorrow.",
+        "start": 8.133,
+        "end": 9.233
+      },
+      {
+        "text": "Best",
+        "start": 9.973,
+        "end": 10.594
+      },
+      {
+        "text": "state",
+        "start": 10.634,
+        "end": 11.314
+      },
+      {
+        "text": "plan,",
+        "start": 11.394,
+        "end": 11.794
+      },
+      {
+        "text": "sometimes",
+        "start": 11.814,
+        "end": 12.514
+      },
+      {
+        "text": "it's",
+        "start": 12.534,
+        "end": 12.674
+      },
+      {
+        "text": "just",
+        "start": 12.714,
+        "end": 13.214
+      },
+      {
+        "text": "a",
+        "start": 13.314,
+        "end": 13.414
+      },
+      {
+        "text": "one-night",
+        "start": 13.574,
+        "end": 14.514
+      },
+      {
+        "text": "stay.",
+        "start": 14.574,
+        "end": 15.155
+      },
+      {
+        "text": "I'll",
+        "start": 16.255,
+        "end": 16.475
+      },
+      {
+        "text": "be",
+        "start": 16.555,
+        "end": 17.195
+      },
+      {
+        "text": "damn",
+        "start": 17.275,
+        "end": 17.655
+      },
+      {
+        "text": "cute,",
+        "start": 17.695,
+        "end": 17.935
+      },
+      {
+        "text": "business",
+        "start": 17.995,
+        "end": 18.475
+      },
+      {
+        "text": "man,",
+        "start": 18.555,
+        "end": 19.096
+      },
+      {
+        "text": "and",
+        "start": 19.156,
+        "end": 19.216
+      },
+      {
+        "text": "back",
+        "start": 19.276,
+        "end": 19.776
+      },
+      {
+        "text": "it's",
+        "start": 19.916,
+        "end": 20.056
+      },
+      {
+        "text": "arrow.",
+        "start": 20.376,
+        "end": 20.916
+      },
+      {
+        "text": "So",
+        "start": 22.176,
+        "end": 22.376
+      },
+      {
+        "text": "let's",
+        "start": 22.416,
+        "end": 22.736
+      },
+      {
+        "text": "get",
+        "start": 22.776,
+        "end": 23.016
+      },
+      {
+        "text": "drunk",
+        "start": 23.076,
+        "end": 23.917
+      },
+      {
+        "text": "on",
+        "start": 25.097,
+        "end": 25.337
+      },
+      {
+        "text": "our",
+        "start": 27.157,
+        "end": 27.438
+      },
+      {
+        "text": "Tuesday.",
+        "start": 27.498,
+        "end": 28.698
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0019.m4a",
+    "word_timing_map": [
+      {
+        "text": "Tell",
+        "start": 0.826,
+        "end": 1.186
+      },
+      {
+        "text": "us",
+        "start": 1.266,
+        "end": 1.466
+      },
+      {
+        "text": "the",
+        "start": 1.546,
+        "end": 1.726
+      },
+      {
+        "text": "reason",
+        "start": 1.786,
+        "end": 2.567
+      },
+      {
+        "text": "he's",
+        "start": 3.027,
+        "end": 3.127
+      },
+      {
+        "text": "wasted",
+        "start": 3.227,
+        "end": 4.187
+      },
+      {
+        "text": "on",
+        "start": 4.427,
+        "end": 4.508
+      },
+      {
+        "text": "the",
+        "start": 4.528,
+        "end": 4.668
+      },
+      {
+        "text": "young",
+        "start": 4.748,
+        "end": 6.028
+      },
+      {
+        "text": "It's",
+        "start": 6.808,
+        "end": 6.948
+      },
+      {
+        "text": "hunting",
+        "start": 7.089,
+        "end": 7.609
+      },
+      {
+        "text": "season",
+        "start": 7.629,
+        "end": 8.509
+      },
+      {
+        "text": "and",
+        "start": 8.749,
+        "end": 8.849
+      },
+      {
+        "text": "the",
+        "start": 8.889,
+        "end": 9.009
+      },
+      {
+        "text": "lambs",
+        "start": 9.069,
+        "end": 9.51
+      },
+      {
+        "text": "are",
+        "start": 9.55,
+        "end": 9.79
+      },
+      {
+        "text": "on",
+        "start": 9.91,
+        "end": 10.07
+      },
+      {
+        "text": "the",
+        "start": 10.17,
+        "end": 10.59
+      },
+      {
+        "text": "road",
+        "start": 11.23,
+        "end": 11.93
+      },
+      {
+        "text": "Searching",
+        "start": 12.471,
+        "end": 13.191
+      },
+      {
+        "text": "for",
+        "start": 13.251,
+        "end": 13.431
+      },
+      {
+        "text": "meaning",
+        "start": 13.491,
+        "end": 14.892
+      },
+      {
+        "text": "But",
+        "start": 15.652,
+        "end": 15.832
+      },
+      {
+        "text": "are",
+        "start": 15.892,
+        "end": 16.032
+      },
+      {
+        "text": "we",
+        "start": 16.072,
+        "end": 16.492
+      },
+      {
+        "text": "all",
+        "start": 17.693,
+        "end": 17.953
+      },
+      {
+        "text": "lost",
+        "start": 18.753,
+        "end": 19.273
+      },
+      {
+        "text": "dogs?",
+        "start": 19.293,
+        "end": 20.614
+      },
+      {
+        "text": "Trying",
+        "start": 21.674,
+        "end": 22.014
+      },
+      {
+        "text": "to",
+        "start": 22.034,
+        "end": 22.315
+      },
+      {
+        "text": "lie,",
+        "start": 22.335,
+        "end": 23.295
+      },
+      {
+        "text": "open",
+        "start": 24.235,
+        "end": 24.415
+      },
+      {
+        "text": "up",
+        "start": 24.876,
+        "end": 24.916
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0020.m4a",
+    "word_timing_map": [
+      {
+        "text": "Just",
+        "start": 3.388,
+        "end": 3.708
+      },
+      {
+        "text": "a",
+        "start": 3.769,
+        "end": 3.829
+      },
+      {
+        "text": "speck",
+        "start": 3.849,
+        "end": 4.429
+      },
+      {
+        "text": "of",
+        "start": 4.509,
+        "end": 4.569
+      },
+      {
+        "text": "dust",
+        "start": 4.67,
+        "end": 5.05
+      },
+      {
+        "text": "within",
+        "start": 5.19,
+        "end": 5.891
+      },
+      {
+        "text": "the",
+        "start": 5.931,
+        "end": 5.991
+      },
+      {
+        "text": "galaxy.",
+        "start": 6.111,
+        "end": 8.474
+      },
+      {
+        "text": "Whoa,",
+        "start": 9.996,
+        "end": 11.597
+      },
+      {
+        "text": "it's",
+        "start": 11.958,
+        "end": 12.699
+      },
+      {
+        "text": "me.",
+        "start": 12.739,
+        "end": 14.501
+      },
+      {
+        "text": "But",
+        "start": 15.101,
+        "end": 15.281
+      },
+      {
+        "text": "not",
+        "start": 15.322,
+        "end": 15.502
+      },
+      {
+        "text": "careful",
+        "start": 15.602,
+        "end": 16.403
+      },
+      {
+        "text": "turns",
+        "start": 16.523,
+        "end": 16.923
+      },
+      {
+        "text": "into",
+        "start": 16.963,
+        "end": 17.624
+      },
+      {
+        "text": "reality.",
+        "start": 17.664,
+        "end": 19.486
+      },
+      {
+        "text": "But",
+        "start": 19.706,
+        "end": 20.127
+      },
+      {
+        "text": "don't",
+        "start": 20.207,
+        "end": 21.268
+      },
+      {
+        "text": "you",
+        "start": 21.528,
+        "end": 21.669
+      },
+      {
+        "text": "dare",
+        "start": 21.709,
+        "end": 22.029
+      },
+      {
+        "text": "let",
+        "start": 22.069,
+        "end": 22.429
+      },
+      {
+        "text": "our",
+        "start": 22.49,
+        "end": 22.59
+      },
+      {
+        "text": "best",
+        "start": 22.65,
+        "end": 22.89
+      },
+      {
+        "text": "memories",
+        "start": 22.97,
+        "end": 23.751
+      },
+      {
+        "text": "bring",
+        "start": 23.851,
+        "end": 24.292
+      },
+      {
+        "text": "sorrow.",
+        "start": 24.372,
+        "end": 25.353
+      },
+      {
+        "text": "Yesterday",
+        "start": 26.394,
+        "end": 27.956
+      },
+      {
+        "text": "I",
+        "start": 28.056,
+        "end": 28.196
+      },
+      {
+        "text": "saw",
+        "start": 28.216,
+        "end": 28.737
+      },
+      {
+        "text": "a",
+        "start": 28.937,
+        "end": 29.097
+      },
+      {
+        "text": "light",
+        "start": 29.157,
+        "end": 29.437
+      },
+      {
+        "text": "kisser.",
+        "start": 29.517,
+        "end": 29.858
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0021.m4a",
+    "word_timing_map": [
+      {
+        "text": "Turn",
+        "start": 0.772,
+        "end": 2.573
+      },
+      {
+        "text": "the",
+        "start": 2.653,
+        "end": 3.234
+      },
+      {
+        "text": "page,",
+        "start": 3.354,
+        "end": 3.694
+      },
+      {
+        "text": "maybe",
+        "start": 3.754,
+        "end": 4.055
+      },
+      {
+        "text": "we'll",
+        "start": 4.135,
+        "end": 4.555
+      },
+      {
+        "text": "find",
+        "start": 4.635,
+        "end": 5.256
+      },
+      {
+        "text": "a",
+        "start": 5.276,
+        "end": 5.296
+      },
+      {
+        "text": "brand",
+        "start": 5.396,
+        "end": 5.876
+      },
+      {
+        "text": "new",
+        "start": 5.936,
+        "end": 6.217
+      },
+      {
+        "text": "ending",
+        "start": 6.477,
+        "end": 7.117
+      },
+      {
+        "text": "Where",
+        "start": 8.519,
+        "end": 8.839
+      },
+      {
+        "text": "we're",
+        "start": 8.899,
+        "end": 9.159
+      },
+      {
+        "text": "dancing",
+        "start": 9.239,
+        "end": 11.281
+      },
+      {
+        "text": "and",
+        "start": 11.842,
+        "end": 12.142
+      },
+      {
+        "text": "I'll",
+        "start": 12.662,
+        "end": 12.782
+      },
+      {
+        "text": "choose",
+        "start": 13.603,
+        "end": 14.304
+      },
+      {
+        "text": "that",
+        "start": 14.344,
+        "end": 14.744
+      },
+      {
+        "text": "guy",
+        "start": 14.764,
+        "end": 14.924
+      },
+      {
+        "text": "And",
+        "start": 18.187,
+        "end": 18.368
+      },
+      {
+        "text": "tell",
+        "start": 18.408,
+        "end": 18.748
+      },
+      {
+        "text": "us",
+        "start": 18.908,
+        "end": 19.068
+      },
+      {
+        "text": "the",
+        "start": 19.128,
+        "end": 19.228
+      },
+      {
+        "text": "reason",
+        "start": 19.328,
+        "end": 19.749
+      },
+      {
+        "text": "we're",
+        "start": 19.829,
+        "end": 20.289
+      },
+      {
+        "text": "facing",
+        "start": 20.409,
+        "end": 21.39
+      },
+      {
+        "text": "the",
+        "start": 22.631,
+        "end": 22.791
+      },
+      {
+        "text": "yoke",
+        "start": 22.872,
+        "end": 23.092
+      },
+      {
+        "text": "If",
+        "start": 23.232,
+        "end": 23.432
+      },
+      {
+        "text": "something's",
+        "start": 23.732,
+        "end": 24.213
+      },
+      {
+        "text": "season",
+        "start": 24.233,
+        "end": 24.653
+      },
+      {
+        "text": "and",
+        "start": 24.873,
+        "end": 24.973
+      },
+      {
+        "text": "the",
+        "start": 25.013,
+        "end": 25.154
+      },
+      {
+        "text": "lambs",
+        "start": 25.194,
+        "end": 25.614
+      },
+      {
+        "text": "were",
+        "start": 25.694,
+        "end": 25.934
+      },
+      {
+        "text": "on",
+        "start": 25.994,
+        "end": 26.155
+      },
+      {
+        "text": "the",
+        "start": 26.275,
+        "end": 26.495
+      },
+      {
+        "text": "road",
+        "start": 27.576,
+        "end": 27.936
+      },
+      {
+        "text": "Searching",
+        "start": 28.597,
+        "end": 29.337
+      },
+      {
+        "text": "for",
+        "start": 29.397,
+        "end": 29.538
+      },
+      {
+        "text": "me",
+        "start": 29.598,
+        "end": 29.738
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0022.m4a",
+    "word_timing_map": [
+      {
+        "text": "We",
+        "start": 2.468,
+        "end": 2.588
+      },
+      {
+        "text": "all",
+        "start": 2.829,
+        "end": 2.909
+      },
+      {
+        "text": "lost",
+        "start": 3.169,
+        "end": 3.469
+      },
+      {
+        "text": "our",
+        "start": 3.81,
+        "end": 3.87
+      },
+      {
+        "text": "stars",
+        "start": 3.93,
+        "end": 4.07
+      },
+      {
+        "text": "Trying",
+        "start": 4.631,
+        "end": 4.771
+      },
+      {
+        "text": "to",
+        "start": 4.791,
+        "end": 5.031
+      },
+      {
+        "text": "light",
+        "start": 5.071,
+        "end": 5.211
+      },
+      {
+        "text": "up",
+        "start": 5.231,
+        "end": 5.351
+      },
+      {
+        "text": "the",
+        "start": 5.552,
+        "end": 6.292
+      },
+      {
+        "text": "dark",
+        "start": 6.312,
+        "end": 7.033
+      },
+      {
+        "text": "And",
+        "start": 7.974,
+        "end": 8.094
+      },
+      {
+        "text": "I",
+        "start": 8.114,
+        "end": 8.134
+      },
+      {
+        "text": "thought",
+        "start": 8.154,
+        "end": 8.515
+      },
+      {
+        "text": "I",
+        "start": 8.795,
+        "end": 9.196
+      },
+      {
+        "text": "saw",
+        "start": 9.296,
+        "end": 9.616
+      },
+      {
+        "text": "you",
+        "start": 9.816,
+        "end": 9.896
+      },
+      {
+        "text": "out",
+        "start": 10.117,
+        "end": 10.377
+      },
+      {
+        "text": "there",
+        "start": 10.657,
+        "end": 10.837
+      },
+      {
+        "text": "crying",
+        "start": 10.997,
+        "end": 11.138
+      },
+      {
+        "text": "And",
+        "start": 11.158,
+        "end": 11.238
+      },
+      {
+        "text": "I",
+        "start": 11.298,
+        "end": 11.358
+      },
+      {
+        "text": "thought",
+        "start": 11.398,
+        "end": 11.838
+      },
+      {
+        "text": "I",
+        "start": 11.898,
+        "end": 11.918
+      },
+      {
+        "text": "heard",
+        "start": 12.239,
+        "end": 12.94
+      },
+      {
+        "text": "you",
+        "start": 12.96,
+        "end": 13.18
+      },
+      {
+        "text": "call",
+        "start": 13.36,
+        "end": 13.56
+      },
+      {
+        "text": "my",
+        "start": 13.64,
+        "end": 13.72
+      },
+      {
+        "text": "name",
+        "start": 13.76,
+        "end": 14.141
+      },
+      {
+        "text": "And",
+        "start": 17.825,
+        "end": 17.945
+      },
+      {
+        "text": "I",
+        "start": 19.306,
+        "end": 19.407
+      },
+      {
+        "text": "thought",
+        "start": 19.487,
+        "end": 20.608
+      },
+      {
+        "text": "I",
+        "start": 20.988,
+        "end": 21.989
+      },
+      {
+        "text": "heard",
+        "start": 22.069,
+        "end": 24.592
+      },
+      {
+        "text": "you",
+        "start": 25.733,
+        "end": 26.494
+      },
+      {
+        "text": "out",
+        "start": 26.855,
+        "end": 29.277
+      },
+      {
+        "text": "there",
+        "start": 29.357,
+        "end": 29.718
+      },
+      {
+        "text": "crying",
+        "start": 29.758,
+        "end": 30.018
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0023.m4a",
+    "word_timing_map": [
+      {
+        "text": "Oh,",
+        "start": 0.451,
+        "end": 0.712
+      },
+      {
+        "text": "just",
+        "start": 0.772,
+        "end": 1.052
+      },
+      {
+        "text": "the",
+        "start": 1.152,
+        "end": 1.352
+      },
+      {
+        "text": "same.",
+        "start": 1.492,
+        "end": 4.175
+      },
+      {
+        "text": "Oh,",
+        "start": 4.375,
+        "end": 4.815
+      },
+      {
+        "text": "yeah,",
+        "start": 5.996,
+        "end": 9.62
+      },
+      {
+        "text": "yeah,",
+        "start": 9.86,
+        "end": 10.661
+      },
+      {
+        "text": "yeah,",
+        "start": 10.921,
+        "end": 11.581
+      },
+      {
+        "text": "yeah,",
+        "start": 11.822,
+        "end": 12.662
+      },
+      {
+        "text": "yeah,",
+        "start": 12.702,
+        "end": 13.283
+      },
+      {
+        "text": "yeah.",
+        "start": 13.503,
+        "end": 14.664
+      },
+      {
+        "text": "God,",
+        "start": 15.805,
+        "end": 16.065
+      },
+      {
+        "text": "give",
+        "start": 16.386,
+        "end": 16.586
+      },
+      {
+        "text": "us",
+        "start": 16.686,
+        "end": 16.846
+      },
+      {
+        "text": "the",
+        "start": 16.906,
+        "end": 16.986
+      },
+      {
+        "text": "reason",
+        "start": 17.006,
+        "end": 17.287
+      },
+      {
+        "text": "for",
+        "start": 17.327,
+        "end": 17.387
+      },
+      {
+        "text": "you",
+        "start": 17.407,
+        "end": 17.567
+      },
+      {
+        "text": "this",
+        "start": 17.647,
+        "end": 17.767
+      },
+      {
+        "text": "way.",
+        "start": 17.847,
+        "end": 18.087
+      },
+      {
+        "text": "Say,",
+        "start": 18.287,
+        "end": 18.548
+      },
+      {
+        "text": "I'm",
+        "start": 18.648,
+        "end": 18.848
+      },
+      {
+        "text": "new",
+        "start": 19.028,
+        "end": 19.428
+      },
+      {
+        "text": "here.",
+        "start": 19.549,
+        "end": 20.189
+      },
+      {
+        "text": "It's",
+        "start": 20.289,
+        "end": 21.19
+      },
+      {
+        "text": "the",
+        "start": 21.29,
+        "end": 21.59
+      },
+      {
+        "text": "season.",
+        "start": 21.65,
+        "end": 22.231
+      },
+      {
+        "text": "This",
+        "start": 22.271,
+        "end": 22.411
+      },
+      {
+        "text": "land",
+        "start": 22.491,
+        "end": 22.711
+      },
+      {
+        "text": "is",
+        "start": 22.952,
+        "end": 23.192
+      },
+      {
+        "text": "on",
+        "start": 23.332,
+        "end": 23.512
+      },
+      {
+        "text": "the",
+        "start": 24.333,
+        "end": 24.693
+      },
+      {
+        "text": "road.",
+        "start": 24.813,
+        "end": 24.973
+      },
+      {
+        "text": "Searching",
+        "start": 24.993,
+        "end": 25.654
+      },
+      {
+        "text": "for",
+        "start": 25.674,
+        "end": 26.074
+      },
+      {
+        "text": "meaning.",
+        "start": 26.215,
+        "end": 27.576
+      },
+      {
+        "text": "But",
+        "start": 28.256,
+        "end": 28.377
+      },
+      {
+        "text": "are",
+        "start": 28.497,
+        "end": 28.657
+      },
+      {
+        "text": "we",
+        "start": 28.857,
+        "end": 29.097
+      },
+      {
+        "text": "all",
+        "start": 29.237,
+        "end": 29.357
+      },
+      {
+        "text": "lost?",
+        "start": 29.478,
+        "end": 29.658
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0024.m4a",
+    "word_timing_map": []
+  },
+  {
+    "audio_path": "assets/inputs/song_0025.m4a",
+    "word_timing_map": []
+  },
+  {
+    "audio_path": "assets/inputs/song_0026.m4a",
+    "word_timing_map": []
+  },
+  {
+    "audio_path": "assets/inputs/song_0027.m4a",
+    "word_timing_map": [
+      {
+        "text": "Yeah,",
+        "start": 7.78,
+        "end": 9.463
+      },
+      {
+        "text": "yeah,",
+        "start": 9.583,
+        "end": 10.384
+      },
+      {
+        "text": "yeah,",
+        "start": 10.425,
+        "end": 12.168
+      },
+      {
+        "text": "yeah,",
+        "start": 12.308,
+        "end": 14.732
+      },
+      {
+        "text": "yeah",
+        "start": 14.832,
+        "end": 16.375
+      },
+      {
+        "text": "As",
+        "start": 16.815,
+        "end": 16.916
+      },
+      {
+        "text": "you",
+        "start": 16.956,
+        "end": 17.096
+      },
+      {
+        "text": "once,",
+        "start": 17.176,
+        "end": 17.336
+      },
+      {
+        "text": "as",
+        "start": 17.437,
+        "end": 17.517
+      },
+      {
+        "text": "you",
+        "start": 17.537,
+        "end": 17.717
+      },
+      {
+        "text": "twice",
+        "start": 17.737,
+        "end": 18.038
+      },
+      {
+        "text": "now",
+        "start": 18.118,
+        "end": 18.378
+      },
+      {
+        "text": "There's",
+        "start": 18.999,
+        "end": 19.179
+      },
+      {
+        "text": "lipstick",
+        "start": 19.2,
+        "end": 19.58
+      },
+      {
+        "text": "on",
+        "start": 19.68,
+        "end": 19.801
+      },
+      {
+        "text": "your",
+        "start": 19.821,
+        "end": 19.921
+      },
+      {
+        "text": "collar",
+        "start": 19.961,
+        "end": 20.422
+      },
+      {
+        "text": "You",
+        "start": 21.263,
+        "end": 21.423
+      },
+      {
+        "text": "say",
+        "start": 21.463,
+        "end": 21.644
+      },
+      {
+        "text": "she's",
+        "start": 21.664,
+        "end": 21.864
+      },
+      {
+        "text": "just",
+        "start": 21.904,
+        "end": 22.104
+      },
+      {
+        "text": "a",
+        "start": 22.185,
+        "end": 22.245
+      },
+      {
+        "text": "friend",
+        "start": 22.285,
+        "end": 22.565
+      },
+      {
+        "text": "now",
+        "start": 22.605,
+        "end": 22.906
+      },
+      {
+        "text": "Then",
+        "start": 23.687,
+        "end": 23.867
+      },
+      {
+        "text": "why",
+        "start": 23.928,
+        "end": 24.108
+      },
+      {
+        "text": "don't",
+        "start": 24.148,
+        "end": 24.328
+      },
+      {
+        "text": "we",
+        "start": 24.368,
+        "end": 24.509
+      },
+      {
+        "text": "call",
+        "start": 24.529,
+        "end": 24.809
+      },
+      {
+        "text": "her?",
+        "start": 24.849,
+        "end": 25.05
+      },
+      {
+        "text": "So",
+        "start": 25.831,
+        "end": 25.991
+      },
+      {
+        "text": "you",
+        "start": 26.011,
+        "end": 26.151
+      },
+      {
+        "text": "wanna",
+        "start": 26.212,
+        "end": 26.572
+      },
+      {
+        "text": "go",
+        "start": 26.612,
+        "end": 26.772
+      },
+      {
+        "text": "on",
+        "start": 26.893,
+        "end": 26.993
+      },
+      {
+        "text": "with",
+        "start": 27.033,
+        "end": 27.173
+      },
+      {
+        "text": "someone",
+        "start": 27.213,
+        "end": 27.714
+      },
+      {
+        "text": "to",
+        "start": 27.754,
+        "end": 27.894
+      },
+      {
+        "text": "do",
+        "start": 27.914,
+        "end": 28.155
+      },
+      {
+        "text": "all",
+        "start": 28.235,
+        "end": 28.355
+      },
+      {
+        "text": "the",
+        "start": 28.375,
+        "end": 28.535
+      },
+      {
+        "text": "things",
+        "start": 28.596,
+        "end": 28.856
+      },
+      {
+        "text": "you",
+        "start": 28.876,
+        "end": 29.036
+      },
+      {
+        "text": "used",
+        "start": 29.116,
+        "end": 29.257
+      },
+      {
+        "text": "to",
+        "start": 29.297,
+        "end": 29.477
+      },
+      {
+        "text": "do",
+        "start": 29.497,
+        "end": 29.657
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0028.m4a",
+    "word_timing_map": [
+      {
+        "text": "I",
+        "start": 0.573,
+        "end": 0.673
+      },
+      {
+        "text": "swear",
+        "start": 0.693,
+        "end": 0.994
+      },
+      {
+        "text": "I",
+        "start": 1.154,
+        "end": 1.254
+      },
+      {
+        "text": "know",
+        "start": 1.295,
+        "end": 1.555
+      },
+      {
+        "text": "you",
+        "start": 1.636,
+        "end": 1.816
+      },
+      {
+        "text": "do",
+        "start": 1.876,
+        "end": 2.037
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0029.m4a",
+    "word_timing_map": [
+      {
+        "text": "After",
+        "start": 20.202,
+        "end": 20.422
+      },
+      {
+        "text": "three",
+        "start": 20.482,
+        "end": 20.702
+      },
+      {
+        "text": "after",
+        "start": 20.803,
+        "end": 21.043
+      },
+      {
+        "text": "four",
+        "start": 21.083,
+        "end": 21.323
+      },
+      {
+        "text": "times",
+        "start": 21.364,
+        "end": 21.824
+      },
+      {
+        "text": "why",
+        "start": 22.746,
+        "end": 22.946
+      },
+      {
+        "text": "did",
+        "start": 22.986,
+        "end": 23.147
+      },
+      {
+        "text": "I",
+        "start": 23.227,
+        "end": 23.327
+      },
+      {
+        "text": "bother",
+        "start": 23.367,
+        "end": 23.768
+      },
+      {
+        "text": "tell",
+        "start": 24.669,
+        "end": 24.889
+      },
+      {
+        "text": "me",
+        "start": 24.93,
+        "end": 25.03
+      },
+      {
+        "text": "how",
+        "start": 25.09,
+        "end": 25.27
+      },
+      {
+        "text": "many",
+        "start": 25.35,
+        "end": 25.571
+      },
+      {
+        "text": "more",
+        "start": 25.651,
+        "end": 25.871
+      },
+      {
+        "text": "times",
+        "start": 25.931,
+        "end": 26.412
+      },
+      {
+        "text": "does",
+        "start": 26.953,
+        "end": 27.113
+      },
+      {
+        "text": "it",
+        "start": 27.173,
+        "end": 27.253
+      },
+      {
+        "text": "take",
+        "start": 27.293,
+        "end": 27.534
+      },
+      {
+        "text": "to",
+        "start": 27.574,
+        "end": 27.674
+      },
+      {
+        "text": "get",
+        "start": 27.694,
+        "end": 27.874
+      },
+      {
+        "text": "smarter",
+        "start": 27.894,
+        "end": 28.495
+      },
+      {
+        "text": "don't",
+        "start": 29.297,
+        "end": 29.497
+      },
+      {
+        "text": "need",
+        "start": 29.517,
+        "end": 29.717
+      },
+      {
+        "text": "to",
+        "start": 29.778,
+        "end": 29.878
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0030.m4a",
+    "word_timing_map": [
+      {
+        "text": "Neither",
+        "start": 0.151,
+        "end": 0.432
+      },
+      {
+        "text": "hurt",
+        "start": 0.592,
+        "end": 1.074
+      },
+      {
+        "text": "nor",
+        "start": 1.114,
+        "end": 1.254
+      },
+      {
+        "text": "lies",
+        "start": 1.294,
+        "end": 1.555
+      },
+      {
+        "text": "And",
+        "start": 1.615,
+        "end": 1.715
+      },
+      {
+        "text": "all",
+        "start": 1.835,
+        "end": 1.976
+      },
+      {
+        "text": "other",
+        "start": 2.116,
+        "end": 2.357
+      },
+      {
+        "text": "things",
+        "start": 2.397,
+        "end": 2.657
+      },
+      {
+        "text": "you",
+        "start": 2.678,
+        "end": 2.878
+      },
+      {
+        "text": "did",
+        "start": 2.898,
+        "end": 3.139
+      },
+      {
+        "text": "To",
+        "start": 3.379,
+        "end": 3.56
+      },
+      {
+        "text": "me,",
+        "start": 3.6,
+        "end": 3.82
+      },
+      {
+        "text": "I",
+        "start": 4.001,
+        "end": 4.101
+      },
+      {
+        "text": "swear",
+        "start": 4.121,
+        "end": 4.402
+      },
+      {
+        "text": "I",
+        "start": 4.622,
+        "end": 4.723
+      },
+      {
+        "text": "know",
+        "start": 4.743,
+        "end": 5.083
+      },
+      {
+        "text": "you",
+        "start": 5.104,
+        "end": 5.284
+      },
+      {
+        "text": "did",
+        "start": 5.304,
+        "end": 5.545
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0031.m4a",
+    "word_timing_map": []
+  },
+  {
+    "audio_path": "assets/inputs/song_0032.m4a",
+    "word_timing_map": [
+      {
+        "text": "Now",
+        "start": 0.391,
+        "end": 0.651
+      },
+      {
+        "text": "you",
+        "start": 0.691,
+        "end": 0.971
+      },
+      {
+        "text": "take",
+        "start": 1.752,
+        "end": 2.032
+      },
+      {
+        "text": "her",
+        "start": 2.112,
+        "end": 2.312
+      },
+      {
+        "text": "out",
+        "start": 2.492,
+        "end": 2.652
+      },
+      {
+        "text": "in",
+        "start": 2.712,
+        "end": 2.792
+      },
+      {
+        "text": "your",
+        "start": 2.812,
+        "end": 2.932
+      },
+      {
+        "text": "fancy",
+        "start": 2.952,
+        "end": 3.352
+      },
+      {
+        "text": "car",
+        "start": 3.392,
+        "end": 3.793
+      },
+      {
+        "text": "and",
+        "start": 3.913,
+        "end": 4.053
+      },
+      {
+        "text": "make",
+        "start": 4.093,
+        "end": 4.333
+      },
+      {
+        "text": "out",
+        "start": 4.493,
+        "end": 4.653
+      },
+      {
+        "text": "in",
+        "start": 4.773,
+        "end": 4.913
+      },
+      {
+        "text": "the",
+        "start": 4.953,
+        "end": 5.073
+      },
+      {
+        "text": "rain",
+        "start": 5.093,
+        "end": 5.493
+      },
+      {
+        "text": "And",
+        "start": 5.954,
+        "end": 6.034
+      },
+      {
+        "text": "when",
+        "start": 6.074,
+        "end": 6.194
+      },
+      {
+        "text": "she",
+        "start": 6.234,
+        "end": 6.354
+      },
+      {
+        "text": "rings",
+        "start": 6.374,
+        "end": 6.614
+      },
+      {
+        "text": "you",
+        "start": 6.634,
+        "end": 6.814
+      },
+      {
+        "text": "up",
+        "start": 6.974,
+        "end": 7.154
+      },
+      {
+        "text": "she",
+        "start": 7.174,
+        "end": 7.294
+      },
+      {
+        "text": "know",
+        "start": 7.334,
+        "end": 7.474
+      },
+      {
+        "text": "where",
+        "start": 7.494,
+        "end": 7.754
+      },
+      {
+        "text": "you",
+        "start": 7.774,
+        "end": 8.035
+      },
+      {
+        "text": "are",
+        "start": 8.135,
+        "end": 8.315
+      },
+      {
+        "text": "but",
+        "start": 8.355,
+        "end": 8.595
+      },
+      {
+        "text": "I",
+        "start": 8.755,
+        "end": 8.895
+      },
+      {
+        "text": "know",
+        "start": 8.915,
+        "end": 9.135
+      },
+      {
+        "text": "differently",
+        "start": 9.175,
+        "end": 9.915
+      },
+      {
+        "text": "Now",
+        "start": 10.576,
+        "end": 10.696
+      },
+      {
+        "text": "she",
+        "start": 10.736,
+        "end": 10.836
+      },
+      {
+        "text": "sings",
+        "start": 10.856,
+        "end": 11.136
+      },
+      {
+        "text": "along",
+        "start": 11.236,
+        "end": 11.696
+      },
+      {
+        "text": "when",
+        "start": 11.716,
+        "end": 11.836
+      },
+      {
+        "text": "you",
+        "start": 11.876,
+        "end": 11.996
+      },
+      {
+        "text": "play",
+        "start": 12.016,
+        "end": 12.276
+      },
+      {
+        "text": "guitar",
+        "start": 12.296,
+        "end": 12.577
+      },
+      {
+        "text": "making",
+        "start": 12.777,
+        "end": 13.137
+      },
+      {
+        "text": "brand",
+        "start": 13.157,
+        "end": 13.397
+      },
+      {
+        "text": "new",
+        "start": 13.437,
+        "end": 13.657
+      },
+      {
+        "text": "memories",
+        "start": 13.717,
+        "end": 14.577
+      },
+      {
+        "text": "Hope",
+        "start": 15.098,
+        "end": 15.258
+      },
+      {
+        "text": "you",
+        "start": 15.278,
+        "end": 15.398
+      },
+      {
+        "text": "treat",
+        "start": 15.438,
+        "end": 15.738
+      },
+      {
+        "text": "her",
+        "start": 15.778,
+        "end": 15.878
+      },
+      {
+        "text": "better",
+        "start": 15.898,
+        "end": 16.418
+      },
+      {
+        "text": "than",
+        "start": 16.458,
+        "end": 16.778
+      },
+      {
+        "text": "you",
+        "start": 16.818,
+        "end": 16.978
+      },
+      {
+        "text": "treated",
+        "start": 16.998,
+        "end": 17.519
+      },
+      {
+        "text": "me",
+        "start": 17.579,
+        "end": 17.719
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0033.m4a",
+    "word_timing_map": []
+  },
+  {
+    "audio_path": "assets/inputs/song_0034.m4a",
+    "word_timing_map": []
+  },
+  {
+    "audio_path": "assets/inputs/song_0035.m4a",
+    "word_timing_map": [
+      {
+        "text": "Have",
+        "start": 0.031,
+        "end": 0.151
+      },
+      {
+        "text": "you",
+        "start": 0.191,
+        "end": 0.351
+      },
+      {
+        "text": "got",
+        "start": 0.391,
+        "end": 0.612
+      },
+      {
+        "text": "color",
+        "start": 0.692,
+        "end": 1.132
+      },
+      {
+        "text": "in",
+        "start": 1.252,
+        "end": 1.432
+      },
+      {
+        "text": "your",
+        "start": 1.452,
+        "end": 1.713
+      },
+      {
+        "text": "cheeks?",
+        "start": 1.813,
+        "end": 3.374
+      },
+      {
+        "text": "Do",
+        "start": 3.634,
+        "end": 3.955
+      },
+      {
+        "text": "you",
+        "start": 4.995,
+        "end": 5.156
+      },
+      {
+        "text": "ever",
+        "start": 5.216,
+        "end": 5.416
+      },
+      {
+        "text": "get",
+        "start": 5.476,
+        "end": 5.656
+      },
+      {
+        "text": "that",
+        "start": 5.716,
+        "end": 5.916
+      },
+      {
+        "text": "feel",
+        "start": 6.076,
+        "end": 6.497
+      },
+      {
+        "text": "that",
+        "start": 6.537,
+        "end": 6.657
+      },
+      {
+        "text": "you've",
+        "start": 6.717,
+        "end": 6.977
+      },
+      {
+        "text": "got?",
+        "start": 7.037,
+        "end": 7.378
+      },
+      {
+        "text": "Shift",
+        "start": 7.478,
+        "end": 7.898
+      },
+      {
+        "text": "the",
+        "start": 7.918,
+        "end": 8.038
+      },
+      {
+        "text": "tide",
+        "start": 8.098,
+        "end": 8.459
+      },
+      {
+        "text": "that",
+        "start": 8.499,
+        "end": 8.699
+      },
+      {
+        "text": "sticks",
+        "start": 8.759,
+        "end": 9.259
+      },
+      {
+        "text": "around",
+        "start": 9.439,
+        "end": 9.86
+      },
+      {
+        "text": "like",
+        "start": 9.9,
+        "end": 10.32
+      },
+      {
+        "text": "summits",
+        "start": 10.38,
+        "end": 10.861
+      },
+      {
+        "text": "in",
+        "start": 10.941,
+        "end": 11.041
+      },
+      {
+        "text": "your",
+        "start": 11.081,
+        "end": 11.281
+      },
+      {
+        "text": "teeth?",
+        "start": 11.341,
+        "end": 11.782
+      },
+      {
+        "text": "Are",
+        "start": 12.782,
+        "end": 12.963
+      },
+      {
+        "text": "there",
+        "start": 13.023,
+        "end": 13.183
+      },
+      {
+        "text": "some",
+        "start": 13.203,
+        "end": 13.403
+      },
+      {
+        "text": "aces",
+        "start": 13.643,
+        "end": 13.964
+      },
+      {
+        "text": "up",
+        "start": 14.084,
+        "end": 14.224
+      },
+      {
+        "text": "your",
+        "start": 14.284,
+        "end": 14.564
+      },
+      {
+        "text": "sleeve?",
+        "start": 14.584,
+        "end": 15.705
+      },
+      {
+        "text": "Have",
+        "start": 16.426,
+        "end": 16.546
+      },
+      {
+        "text": "you",
+        "start": 16.566,
+        "end": 16.746
+      },
+      {
+        "text": "no",
+        "start": 16.786,
+        "end": 17.026
+      },
+      {
+        "text": "idea",
+        "start": 17.186,
+        "end": 17.787
+      },
+      {
+        "text": "that",
+        "start": 17.827,
+        "end": 17.967
+      },
+      {
+        "text": "you're",
+        "start": 18.007,
+        "end": 18.448
+      },
+      {
+        "text": "in",
+        "start": 18.548,
+        "end": 18.648
+      },
+      {
+        "text": "deep?",
+        "start": 18.728,
+        "end": 19.448
+      },
+      {
+        "text": "I",
+        "start": 19.529,
+        "end": 19.569
+      },
+      {
+        "text": "dreamt",
+        "start": 19.629,
+        "end": 19.969
+      },
+      {
+        "text": "about",
+        "start": 20.049,
+        "end": 20.569
+      },
+      {
+        "text": "you",
+        "start": 20.63,
+        "end": 20.87
+      },
+      {
+        "text": "nearly",
+        "start": 20.91,
+        "end": 21.41
+      },
+      {
+        "text": "every",
+        "start": 21.831,
+        "end": 22.291
+      },
+      {
+        "text": "night",
+        "start": 22.331,
+        "end": 22.631
+      },
+      {
+        "text": "this",
+        "start": 22.671,
+        "end": 22.872
+      },
+      {
+        "text": "week.",
+        "start": 22.992,
+        "end": 23.392
+      },
+      {
+        "text": "How",
+        "start": 24.013,
+        "end": 24.233
+      },
+      {
+        "text": "many",
+        "start": 24.253,
+        "end": 24.573
+      },
+      {
+        "text": "secrets",
+        "start": 24.713,
+        "end": 25.374
+      },
+      {
+        "text": "can",
+        "start": 25.494,
+        "end": 25.894
+      },
+      {
+        "text": "you",
+        "start": 25.914,
+        "end": 26.175
+      },
+      {
+        "text": "keep?",
+        "start": 26.235,
+        "end": 26.655
+      },
+      {
+        "text": "Because",
+        "start": 27.235,
+        "end": 28.016
+      },
+      {
+        "text": "there's",
+        "start": 28.076,
+        "end": 28.357
+      },
+      {
+        "text": "this",
+        "start": 28.397,
+        "end": 28.557
+      },
+      {
+        "text": "tune",
+        "start": 28.657,
+        "end": 29.037
+      },
+      {
+        "text": "I",
+        "start": 29.117,
+        "end": 29.237
+      },
+      {
+        "text": "found",
+        "start": 29.357,
+        "end": 29.778
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0036.m4a",
+    "word_timing_map": [
+      {
+        "text": "Makes",
+        "start": 0.051,
+        "end": 0.471
+      },
+      {
+        "text": "me",
+        "start": 0.551,
+        "end": 0.772
+      },
+      {
+        "text": "think",
+        "start": 0.792,
+        "end": 1.092
+      },
+      {
+        "text": "of",
+        "start": 1.272,
+        "end": 1.512
+      },
+      {
+        "text": "you",
+        "start": 1.532,
+        "end": 1.692
+      },
+      {
+        "text": "somehow",
+        "start": 1.773,
+        "end": 2.413
+      },
+      {
+        "text": "When",
+        "start": 2.473,
+        "end": 2.613
+      },
+      {
+        "text": "I",
+        "start": 2.733,
+        "end": 2.874
+      },
+      {
+        "text": "play",
+        "start": 2.934,
+        "end": 3.374
+      },
+      {
+        "text": "it",
+        "start": 3.394,
+        "end": 3.514
+      },
+      {
+        "text": "on",
+        "start": 3.694,
+        "end": 3.894
+      },
+      {
+        "text": "repeat",
+        "start": 3.955,
+        "end": 4.735
+      },
+      {
+        "text": "Until",
+        "start": 6.417,
+        "end": 6.737
+      },
+      {
+        "text": "I",
+        "start": 6.837,
+        "end": 6.977
+      },
+      {
+        "text": "fall",
+        "start": 7.077,
+        "end": 7.738
+      },
+      {
+        "text": "asleep",
+        "start": 7.758,
+        "end": 8.399
+      },
+      {
+        "text": "Spilling",
+        "start": 9.6,
+        "end": 10.2
+      },
+      {
+        "text": "drinks",
+        "start": 10.24,
+        "end": 10.58
+      },
+      {
+        "text": "on",
+        "start": 10.781,
+        "end": 10.941
+      },
+      {
+        "text": "my",
+        "start": 11.001,
+        "end": 11.381
+      },
+      {
+        "text": "set",
+        "start": 11.441,
+        "end": 11.802
+      },
+      {
+        "text": "seat",
+        "start": 11.822,
+        "end": 12.142
+      },
+      {
+        "text": "Do",
+        "start": 13.583,
+        "end": 13.763
+      },
+      {
+        "text": "I",
+        "start": 13.964,
+        "end": 14.084
+      },
+      {
+        "text": "wanna",
+        "start": 14.124,
+        "end": 14.804
+      },
+      {
+        "text": "know",
+        "start": 14.824,
+        "end": 15.225
+      },
+      {
+        "text": "If",
+        "start": 16.386,
+        "end": 16.526
+      },
+      {
+        "text": "this",
+        "start": 16.566,
+        "end": 16.846
+      },
+      {
+        "text": "feeling",
+        "start": 16.986,
+        "end": 17.587
+      },
+      {
+        "text": "flows",
+        "start": 17.647,
+        "end": 17.967
+      },
+      {
+        "text": "both",
+        "start": 18.047,
+        "end": 18.327
+      },
+      {
+        "text": "ways?",
+        "start": 18.388,
+        "end": 19.028
+      },
+      {
+        "text": "Is",
+        "start": 19.108,
+        "end": 19.228
+      },
+      {
+        "text": "that",
+        "start": 19.268,
+        "end": 19.509
+      },
+      {
+        "text": "to",
+        "start": 19.529,
+        "end": 19.629
+      },
+      {
+        "text": "see",
+        "start": 19.789,
+        "end": 20.009
+      },
+      {
+        "text": "it",
+        "start": 20.049,
+        "end": 20.149
+      },
+      {
+        "text": "all?",
+        "start": 20.249,
+        "end": 20.389
+      },
+      {
+        "text": "You",
+        "start": 20.469,
+        "end": 20.95
+      },
+      {
+        "text": "saw",
+        "start": 22.051,
+        "end": 22.371
+      },
+      {
+        "text": "the",
+        "start": 22.391,
+        "end": 22.611
+      },
+      {
+        "text": "hope",
+        "start": 22.651,
+        "end": 22.952
+      },
+      {
+        "text": "in",
+        "start": 23.152,
+        "end": 23.292
+      },
+      {
+        "text": "that",
+        "start": 23.352,
+        "end": 23.552
+      },
+      {
+        "text": "you'd",
+        "start": 23.612,
+        "end": 23.973
+      },
+      {
+        "text": "stay",
+        "start": 23.993,
+        "end": 24.733
+      },
+      {
+        "text": "Maybe",
+        "start": 24.973,
+        "end": 25.694
+      },
+      {
+        "text": "we",
+        "start": 25.774,
+        "end": 26.074
+      },
+      {
+        "text": "both",
+        "start": 26.155,
+        "end": 27.035
+      },
+      {
+        "text": "know",
+        "start": 27.376,
+        "end": 27.696
+      },
+      {
+        "text": "That",
+        "start": 27.736,
+        "end": 28.056
+      },
+      {
+        "text": "the",
+        "start": 28.076,
+        "end": 28.256
+      },
+      {
+        "text": "nights",
+        "start": 28.296,
+        "end": 28.777
+      },
+      {
+        "text": "were",
+        "start": 28.817,
+        "end": 28.997
+      },
+      {
+        "text": "mainly",
+        "start": 29.017,
+        "end": 29.658
+      },
+      {
+        "text": "made",
+        "start": 29.738,
+        "end": 30.018
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0037.m4a",
+    "word_timing_map": [
+      {
+        "text": "They're",
+        "start": 0.431,
+        "end": 0.732
+      },
+      {
+        "text": "saying",
+        "start": 0.752,
+        "end": 0.972
+      },
+      {
+        "text": "things",
+        "start": 1.072,
+        "end": 1.572
+      },
+      {
+        "text": "that",
+        "start": 1.632,
+        "end": 1.773
+      },
+      {
+        "text": "you",
+        "start": 1.833,
+        "end": 2.013
+      },
+      {
+        "text": "can't",
+        "start": 2.113,
+        "end": 2.393
+      },
+      {
+        "text": "say",
+        "start": 2.533,
+        "end": 3.054
+      },
+      {
+        "text": "tomorrow",
+        "start": 3.114,
+        "end": 3.754
+      },
+      {
+        "text": "day",
+        "start": 3.834,
+        "end": 4.515
+      },
+      {
+        "text": "Crawling",
+        "start": 5.396,
+        "end": 6.036
+      },
+      {
+        "text": "back",
+        "start": 6.096,
+        "end": 6.377
+      },
+      {
+        "text": "to",
+        "start": 6.497,
+        "end": 6.557
+      },
+      {
+        "text": "you",
+        "start": 6.577,
+        "end": 6.777
+      },
+      {
+        "text": "I",
+        "start": 6.797,
+        "end": 6.817
+      },
+      {
+        "text": "never",
+        "start": 6.857,
+        "end": 7.117
+      },
+      {
+        "text": "thought",
+        "start": 7.157,
+        "end": 7.838
+      },
+      {
+        "text": "I'd",
+        "start": 8.699,
+        "end": 8.939
+      },
+      {
+        "text": "call",
+        "start": 9.319,
+        "end": 11.161
+      },
+      {
+        "text": "and",
+        "start": 11.401,
+        "end": 11.501
+      },
+      {
+        "text": "run",
+        "start": 11.561,
+        "end": 11.822
+      },
+      {
+        "text": "If",
+        "start": 12.402,
+        "end": 12.542
+      },
+      {
+        "text": "I",
+        "start": 13.003,
+        "end": 13.263
+      },
+      {
+        "text": "knew,",
+        "start": 13.463,
+        "end": 14.164
+      },
+      {
+        "text": "I'd",
+        "start": 14.344,
+        "end": 14.444
+      },
+      {
+        "text": "not",
+        "start": 14.584,
+        "end": 15.265
+      },
+      {
+        "text": "always",
+        "start": 15.485,
+        "end": 16.065
+      },
+      {
+        "text": "knew",
+        "start": 16.166,
+        "end": 16.786
+      },
+      {
+        "text": "Maybe",
+        "start": 16.886,
+        "end": 17.747
+      },
+      {
+        "text": "I",
+        "start": 17.787,
+        "end": 18.107
+      },
+      {
+        "text": "too,",
+        "start": 18.227,
+        "end": 18.808
+      },
+      {
+        "text": "didn't",
+        "start": 18.988,
+        "end": 20.289
+      },
+      {
+        "text": "even",
+        "start": 20.389,
+        "end": 20.95
+      },
+      {
+        "text": "know",
+        "start": 20.99,
+        "end": 22.992
+      },
+      {
+        "text": "what",
+        "start": 23.172,
+        "end": 23.572
+      },
+      {
+        "text": "to",
+        "start": 23.632,
+        "end": 23.812
+      },
+      {
+        "text": "fall",
+        "start": 24.173,
+        "end": 24.533
+      },
+      {
+        "text": "for",
+        "start": 24.593,
+        "end": 24.833
+      },
+      {
+        "text": "So",
+        "start": 24.853,
+        "end": 25.074
+      },
+      {
+        "text": "I",
+        "start": 25.214,
+        "end": 25.254
+      },
+      {
+        "text": "knew,",
+        "start": 25.354,
+        "end": 25.894
+      },
+      {
+        "text": "now",
+        "start": 26.655,
+        "end": 26.855
+      },
+      {
+        "text": "I'm",
+        "start": 26.895,
+        "end": 27.135
+      },
+      {
+        "text": "going",
+        "start": 27.256,
+        "end": 27.956
+      },
+      {
+        "text": "through",
+        "start": 28.016,
+        "end": 28.417
+      },
+      {
+        "text": "Crawling",
+        "start": 28.437,
+        "end": 28.677
+      },
+      {
+        "text": "back",
+        "start": 28.777,
+        "end": 29.077
+      },
+      {
+        "text": "to",
+        "start": 29.137,
+        "end": 29.337
+      },
+      {
+        "text": "you",
+        "start": 29.638,
+        "end": 29.958
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0038.m4a",
+    "word_timing_map": [
+      {
+        "text": "So",
+        "start": 1.019,
+        "end": 1.199
+      },
+      {
+        "text": "have",
+        "start": 1.259,
+        "end": 1.459
+      },
+      {
+        "text": "you",
+        "start": 1.519,
+        "end": 1.66
+      },
+      {
+        "text": "got",
+        "start": 1.74,
+        "end": 2.02
+      },
+      {
+        "text": "the",
+        "start": 2.08,
+        "end": 2.2
+      },
+      {
+        "text": "guts",
+        "start": 2.26,
+        "end": 3.141
+      },
+      {
+        "text": "Been",
+        "start": 5.603,
+        "end": 5.743
+      },
+      {
+        "text": "wondering",
+        "start": 5.803,
+        "end": 6.404
+      },
+      {
+        "text": "if",
+        "start": 6.484,
+        "end": 6.644
+      },
+      {
+        "text": "your",
+        "start": 6.684,
+        "end": 7.064
+      },
+      {
+        "text": "heart's",
+        "start": 7.144,
+        "end": 7.505
+      },
+      {
+        "text": "still",
+        "start": 7.525,
+        "end": 7.885
+      },
+      {
+        "text": "open",
+        "start": 7.925,
+        "end": 8.445
+      },
+      {
+        "text": "And",
+        "start": 8.706,
+        "end": 8.866
+      },
+      {
+        "text": "if",
+        "start": 8.946,
+        "end": 9.066
+      },
+      {
+        "text": "so,",
+        "start": 9.146,
+        "end": 9.426
+      },
+      {
+        "text": "I",
+        "start": 9.666,
+        "end": 9.826
+      },
+      {
+        "text": "wanna",
+        "start": 9.907,
+        "end": 10.327
+      },
+      {
+        "text": "know",
+        "start": 10.547,
+        "end": 10.807
+      },
+      {
+        "text": "what",
+        "start": 10.907,
+        "end": 11.248
+      },
+      {
+        "text": "time",
+        "start": 11.288,
+        "end": 11.708
+      },
+      {
+        "text": "it",
+        "start": 11.808,
+        "end": 11.908
+      },
+      {
+        "text": "should",
+        "start": 12.008,
+        "end": 12.509
+      },
+      {
+        "text": "Simmer",
+        "start": 13.91,
+        "end": 14.35
+      },
+      {
+        "text": "down,",
+        "start": 14.41,
+        "end": 14.931
+      },
+      {
+        "text": "I'm",
+        "start": 14.951,
+        "end": 15.111
+      },
+      {
+        "text": "poker",
+        "start": 15.191,
+        "end": 16.052
+      },
+      {
+        "text": "up",
+        "start": 16.072,
+        "end": 16.112
+      },
+      {
+        "text": "I'm",
+        "start": 16.832,
+        "end": 17.013
+      },
+      {
+        "text": "sorry",
+        "start": 17.113,
+        "end": 17.633
+      },
+      {
+        "text": "to",
+        "start": 17.673,
+        "end": 17.913
+      },
+      {
+        "text": "interrupt,",
+        "start": 18.013,
+        "end": 18.754
+      },
+      {
+        "text": "it's",
+        "start": 18.894,
+        "end": 19.054
+      },
+      {
+        "text": "just",
+        "start": 19.094,
+        "end": 19.535
+      },
+      {
+        "text": "I'm",
+        "start": 19.555,
+        "end": 19.675
+      },
+      {
+        "text": "constantly",
+        "start": 19.775,
+        "end": 20.656
+      },
+      {
+        "text": "on",
+        "start": 20.796,
+        "end": 20.936
+      },
+      {
+        "text": "the",
+        "start": 20.996,
+        "end": 21.136
+      },
+      {
+        "text": "course",
+        "start": 21.176,
+        "end": 21.436
+      },
+      {
+        "text": "I've",
+        "start": 21.917,
+        "end": 22.117
+      },
+      {
+        "text": "tried",
+        "start": 22.197,
+        "end": 24.079
+      },
+      {
+        "text": "In",
+        "start": 24.279,
+        "end": 24.499
+      },
+      {
+        "text": "to",
+        "start": 24.539,
+        "end": 24.719
+      },
+      {
+        "text": "kiss",
+        "start": 24.759,
+        "end": 25.119
+      },
+      {
+        "text": "you,",
+        "start": 25.179,
+        "end": 26.28
+      },
+      {
+        "text": "I",
+        "start": 26.521,
+        "end": 26.841
+      },
+      {
+        "text": "don't",
+        "start": 27.221,
+        "end": 27.401
+      },
+      {
+        "text": "know",
+        "start": 27.421,
+        "end": 27.662
+      },
+      {
+        "text": "if",
+        "start": 27.742,
+        "end": 27.862
+      },
+      {
+        "text": "you",
+        "start": 27.922,
+        "end": 28.102
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0039.m4a",
+    "word_timing_map": [
+      {
+        "text": "If",
+        "start": 10.741,
+        "end": 10.861
+      },
+      {
+        "text": "you",
+        "start": 10.921,
+        "end": 11.122
+      },
+      {
+        "text": "want",
+        "start": 11.202,
+        "end": 11.462
+      },
+      {
+        "text": "it",
+        "start": 11.522,
+        "end": 11.662
+      },
+      {
+        "text": "soon,",
+        "start": 11.742,
+        "end": 14.425
+      },
+      {
+        "text": "I",
+        "start": 14.585,
+        "end": 14.665
+      },
+      {
+        "text": "want",
+        "start": 14.725,
+        "end": 14.986
+      },
+      {
+        "text": "to",
+        "start": 15.006,
+        "end": 15.166
+      },
+      {
+        "text": "know",
+        "start": 15.186,
+        "end": 15.686
+      },
+      {
+        "text": "If",
+        "start": 16.727,
+        "end": 16.908
+      },
+      {
+        "text": "this",
+        "start": 16.968,
+        "end": 17.128
+      },
+      {
+        "text": "feeling",
+        "start": 17.228,
+        "end": 17.889
+      },
+      {
+        "text": "flows",
+        "start": 17.949,
+        "end": 18.329
+      },
+      {
+        "text": "both",
+        "start": 18.389,
+        "end": 18.669
+      },
+      {
+        "text": "ways,",
+        "start": 18.729,
+        "end": 19.35
+      },
+      {
+        "text": "it's",
+        "start": 19.43,
+        "end": 19.51
+      },
+      {
+        "text": "sad",
+        "start": 20.111,
+        "end": 20.451
+      },
+      {
+        "text": "to",
+        "start": 20.511,
+        "end": 20.651
+      },
+      {
+        "text": "see",
+        "start": 20.751,
+        "end": 20.812
+      },
+      {
+        "text": "you",
+        "start": 20.872,
+        "end": 20.992
+      },
+      {
+        "text": "go",
+        "start": 21.072,
+        "end": 21.372
+      },
+      {
+        "text": "We're",
+        "start": 22.153,
+        "end": 22.313
+      },
+      {
+        "text": "sort",
+        "start": 22.393,
+        "end": 22.734
+      },
+      {
+        "text": "of",
+        "start": 23.034,
+        "end": 23.234
+      },
+      {
+        "text": "hoping",
+        "start": 23.294,
+        "end": 23.634
+      },
+      {
+        "text": "that",
+        "start": 23.695,
+        "end": 23.975
+      },
+      {
+        "text": "you'd",
+        "start": 24.015,
+        "end": 24.375
+      },
+      {
+        "text": "stay,",
+        "start": 24.395,
+        "end": 25.096
+      },
+      {
+        "text": "and",
+        "start": 25.476,
+        "end": 25.737
+      },
+      {
+        "text": "we",
+        "start": 25.777,
+        "end": 26.117
+      },
+      {
+        "text": "both",
+        "start": 26.157,
+        "end": 26.457
+      },
+      {
+        "text": "know",
+        "start": 26.477,
+        "end": 26.918
+      },
+      {
+        "text": "That",
+        "start": 27.699,
+        "end": 27.879
+      },
+      {
+        "text": "the",
+        "start": 27.919,
+        "end": 28.019
+      },
+      {
+        "text": "nights",
+        "start": 28.059,
+        "end": 29.08
+      },
+      {
+        "text": "will",
+        "start": 29.14,
+        "end": 29.32
+      },
+      {
+        "text": "mainly",
+        "start": 29.36,
+        "end": 29.921
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0040.m4a",
+    "word_timing_map": [
+      {
+        "text": "Made",
+        "start": 0.051,
+        "end": 0.632
+      },
+      {
+        "text": "for",
+        "start": 0.772,
+        "end": 0.892
+      },
+      {
+        "text": "saying",
+        "start": 0.912,
+        "end": 1.332
+      },
+      {
+        "text": "things",
+        "start": 1.412,
+        "end": 2.053
+      },
+      {
+        "text": "that",
+        "start": 2.113,
+        "end": 2.733
+      },
+      {
+        "text": "you",
+        "start": 3.054,
+        "end": 3.414
+      },
+      {
+        "text": "can't",
+        "start": 3.514,
+        "end": 3.694
+      },
+      {
+        "text": "say",
+        "start": 3.714,
+        "end": 4.055
+      },
+      {
+        "text": "tomorrow",
+        "start": 4.175,
+        "end": 4.395
+      },
+      {
+        "text": "day",
+        "start": 4.415,
+        "end": 4.595
+      },
+      {
+        "text": "Crawling",
+        "start": 4.615,
+        "end": 5.136
+      },
+      {
+        "text": "back",
+        "start": 5.856,
+        "end": 6.257
+      },
+      {
+        "text": "to",
+        "start": 6.277,
+        "end": 6.377
+      },
+      {
+        "text": "you",
+        "start": 6.397,
+        "end": 6.477
+      },
+      {
+        "text": "And",
+        "start": 6.617,
+        "end": 6.757
+      },
+      {
+        "text": "the",
+        "start": 6.837,
+        "end": 7.057
+      },
+      {
+        "text": "hope",
+        "start": 7.097,
+        "end": 7.197
+      },
+      {
+        "text": "of",
+        "start": 7.217,
+        "end": 7.258
+      },
+      {
+        "text": "coming",
+        "start": 7.278,
+        "end": 7.518
+      },
+      {
+        "text": "when",
+        "start": 7.558,
+        "end": 7.738
+      },
+      {
+        "text": "You",
+        "start": 7.758,
+        "end": 7.938
+      },
+      {
+        "text": "better",
+        "start": 8.038,
+        "end": 8.739
+      },
+      {
+        "text": "feel",
+        "start": 8.859,
+        "end": 8.999
+      },
+      {
+        "text": "like",
+        "start": 9.019,
+        "end": 9.299
+      },
+      {
+        "text": "you're",
+        "start": 10.42,
+        "end": 11.421
+      },
+      {
+        "text": "always",
+        "start": 11.561,
+        "end": 12.622
+      },
+      {
+        "text": "through",
+        "start": 12.662,
+        "end": 13.383
+      },
+      {
+        "text": "Maybe",
+        "start": 13.403,
+        "end": 14.084
+      },
+      {
+        "text": "I'm",
+        "start": 14.124,
+        "end": 14.404
+      },
+      {
+        "text": "too",
+        "start": 14.424,
+        "end": 14.604
+      },
+      {
+        "text": "busy",
+        "start": 14.644,
+        "end": 15.645
+      },
+      {
+        "text": "Maybe",
+        "start": 15.745,
+        "end": 15.925
+      },
+      {
+        "text": "you",
+        "start": 16.025,
+        "end": 16.226
+      },
+      {
+        "text": "want",
+        "start": 16.706,
+        "end": 17.066
+      },
+      {
+        "text": "to",
+        "start": 17.086,
+        "end": 17.146
+      },
+      {
+        "text": "fall",
+        "start": 17.206,
+        "end": 17.507
+      },
+      {
+        "text": "for",
+        "start": 17.547,
+        "end": 17.667
+      },
+      {
+        "text": "somebody",
+        "start": 17.687,
+        "end": 18.187
+      },
+      {
+        "text": "new",
+        "start": 18.207,
+        "end": 18.508
+      },
+      {
+        "text": "Now",
+        "start": 18.708,
+        "end": 18.868
+      },
+      {
+        "text": "I've",
+        "start": 18.928,
+        "end": 19.108
+      },
+      {
+        "text": "bought",
+        "start": 19.148,
+        "end": 19.789
+      },
+      {
+        "text": "it",
+        "start": 19.849,
+        "end": 20.169
+      },
+      {
+        "text": "through",
+        "start": 20.189,
+        "end": 20.61
+      },
+      {
+        "text": "Crawling",
+        "start": 20.67,
+        "end": 20.97
+      },
+      {
+        "text": "back",
+        "start": 20.99,
+        "end": 21.07
+      },
+      {
+        "text": "to",
+        "start": 21.09,
+        "end": 21.21
+      },
+      {
+        "text": "you",
+        "start": 21.23,
+        "end": 21.31
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0041.m4a",
+    "word_timing_map": [
+      {
+        "text": "If",
+        "start": 1.833,
+        "end": 2.353
+      },
+      {
+        "text": "this",
+        "start": 2.473,
+        "end": 3.494
+      },
+      {
+        "text": "feeling",
+        "start": 3.554,
+        "end": 4.655
+      },
+      {
+        "text": "flows",
+        "start": 4.795,
+        "end": 5.176
+      },
+      {
+        "text": "away",
+        "start": 5.396,
+        "end": 7.478
+      },
+      {
+        "text": "Without",
+        "start": 7.638,
+        "end": 8.819
+      },
+      {
+        "text": "opening",
+        "start": 8.899,
+        "end": 9.54
+      },
+      {
+        "text": "that",
+        "start": 9.66,
+        "end": 10.1
+      },
+      {
+        "text": "you",
+        "start": 10.12,
+        "end": 10.38
+      },
+      {
+        "text": "stay",
+        "start": 10.4,
+        "end": 11.201
+      },
+      {
+        "text": "Or",
+        "start": 11.942,
+        "end": 12.582
+      },
+      {
+        "text": "at",
+        "start": 13.003,
+        "end": 13.343
+      },
+      {
+        "text": "the",
+        "start": 13.543,
+        "end": 13.663
+      },
+      {
+        "text": "nights",
+        "start": 13.683,
+        "end": 14.724
+      },
+      {
+        "text": "when",
+        "start": 15.205,
+        "end": 15.845
+      },
+      {
+        "text": "they",
+        "start": 15.945,
+        "end": 16.085
+      },
+      {
+        "text": "would",
+        "start": 16.105,
+        "end": 16.566
+      },
+      {
+        "text": "make",
+        "start": 16.646,
+        "end": 17.287
+      },
+      {
+        "text": "the",
+        "start": 17.347,
+        "end": 17.587
+      },
+      {
+        "text": "same",
+        "start": 17.607,
+        "end": 17.967
+      },
+      {
+        "text": "things",
+        "start": 18.067,
+        "end": 18.668
+      },
+      {
+        "text": "But",
+        "start": 18.708,
+        "end": 18.888
+      },
+      {
+        "text": "you",
+        "start": 19.168,
+        "end": 19.308
+      },
+      {
+        "text": "can't",
+        "start": 19.368,
+        "end": 19.629
+      },
+      {
+        "text": "say",
+        "start": 19.869,
+        "end": 20.169
+      },
+      {
+        "text": "it's",
+        "start": 20.209,
+        "end": 20.529
+      },
+      {
+        "text": "a",
+        "start": 20.73,
+        "end": 20.75
+      },
+      {
+        "text": "matter",
+        "start": 21.37,
+        "end": 22.131
+      },
+      {
+        "text": "of",
+        "start": 22.271,
+        "end": 22.531
+      },
+      {
+        "text": "days",
+        "start": 22.852,
+        "end": 23.933
+      },
+      {
+        "text": "You",
+        "start": 24.093,
+        "end": 24.173
+      },
+      {
+        "text": "are",
+        "start": 24.233,
+        "end": 24.353
+      },
+      {
+        "text": "born",
+        "start": 24.393,
+        "end": 24.533
+      },
+      {
+        "text": "alone",
+        "start": 24.913,
+        "end": 25.154
+      },
+      {
+        "text": "You",
+        "start": 25.234,
+        "end": 27.816
+      },
+      {
+        "text": "can",
+        "start": 27.896,
+        "end": 28.076
+      },
+      {
+        "text": "do",
+        "start": 28.096,
+        "end": 28.236
+      },
+      {
+        "text": "what",
+        "start": 28.316,
+        "end": 29.197
+      },
+      {
+        "text": "you",
+        "start": 29.257,
+        "end": 29.397
+      },
+      {
+        "text": "lost",
+        "start": 29.437,
+        "end": 29.578
+      },
+      {
+        "text": "before",
+        "start": 29.638,
+        "end": 29.918
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0042.m4a",
+    "word_timing_map": [
+      {
+        "text": "I",
+        "start": 4.317,
+        "end": 4.83
+      },
+      {
+        "text": "won't",
+        "start": 4.83,
+        "end": 5.342
+      },
+      {
+        "text": "let",
+        "start": 5.342,
+        "end": 5.855
+      },
+      {
+        "text": "go",
+        "start": 5.855,
+        "end": 6.367
+      },
+      {
+        "text": "of",
+        "start": 6.367,
+        "end": 6.88
+      },
+      {
+        "text": "the",
+        "start": 6.88,
+        "end": 7.393
+      },
+      {
+        "text": "run",
+        "start": 7.393,
+        "end": 7.905
+      },
+      {
+        "text": "by",
+        "start": 7.905,
+        "end": 8.418
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0043.m4a",
+    "word_timing_map": [
+      {
+        "text": "When",
+        "start": 17.652,
+        "end": 17.732
+      },
+      {
+        "text": "I",
+        "start": 17.893,
+        "end": 17.993
+      },
+      {
+        "text": "was",
+        "start": 18.013,
+        "end": 18.173
+      },
+      {
+        "text": "listening",
+        "start": 18.233,
+        "end": 18.935
+      },
+      {
+        "text": "to",
+        "start": 19.056,
+        "end": 19.236
+      },
+      {
+        "text": "the",
+        "start": 19.276,
+        "end": 19.396
+      },
+      {
+        "text": "ocean",
+        "start": 19.737,
+        "end": 20.439
+      },
+      {
+        "text": "I",
+        "start": 21.702,
+        "end": 21.842
+      },
+      {
+        "text": "saw",
+        "start": 21.943,
+        "end": 22.223
+      },
+      {
+        "text": "a",
+        "start": 22.243,
+        "end": 22.264
+      },
+      {
+        "text": "face",
+        "start": 22.304,
+        "end": 22.885
+      },
+      {
+        "text": "in",
+        "start": 23.025,
+        "end": 23.206
+      },
+      {
+        "text": "the",
+        "start": 23.226,
+        "end": 23.306
+      },
+      {
+        "text": "sand",
+        "start": 23.406,
+        "end": 24.369
+      },
+      {
+        "text": "But",
+        "start": 24.389,
+        "end": 24.449
+      },
+      {
+        "text": "when",
+        "start": 24.99,
+        "end": 25.351
+      },
+      {
+        "text": "I",
+        "start": 25.492,
+        "end": 25.572
+      },
+      {
+        "text": "picked",
+        "start": 25.652,
+        "end": 26.033
+      },
+      {
+        "text": "it",
+        "start": 26.113,
+        "end": 26.213
+      },
+      {
+        "text": "up",
+        "start": 26.233,
+        "end": 26.394
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0044.m4a",
+    "word_timing_map": [
+      {
+        "text": "We",
+        "start": 4.486,
+        "end": 4.526
+      },
+      {
+        "text": "had",
+        "start": 4.546,
+        "end": 4.846
+      },
+      {
+        "text": "a",
+        "start": 4.887,
+        "end": 4.927
+      },
+      {
+        "text": "dream,",
+        "start": 4.967,
+        "end": 5.447
+      },
+      {
+        "text": "I",
+        "start": 5.627,
+        "end": 5.728
+      },
+      {
+        "text": "was",
+        "start": 5.768,
+        "end": 5.928
+      },
+      {
+        "text": "seven",
+        "start": 6.028,
+        "end": 6.529
+      },
+      {
+        "text": "Climbing",
+        "start": 8.01,
+        "end": 8.811
+      },
+      {
+        "text": "my",
+        "start": 8.871,
+        "end": 9.032
+      },
+      {
+        "text": "way",
+        "start": 9.092,
+        "end": 9.452
+      },
+      {
+        "text": "in",
+        "start": 9.572,
+        "end": 9.673
+      },
+      {
+        "text": "a",
+        "start": 9.713,
+        "end": 9.733
+      },
+      {
+        "text": "tree",
+        "start": 9.873,
+        "end": 10.494
+      },
+      {
+        "text": "I",
+        "start": 11.735,
+        "end": 11.835
+      },
+      {
+        "text": "saw",
+        "start": 11.915,
+        "end": 12.176
+      },
+      {
+        "text": "a",
+        "start": 12.196,
+        "end": 12.216
+      },
+      {
+        "text": "piece",
+        "start": 12.296,
+        "end": 12.696
+      },
+      {
+        "text": "of",
+        "start": 12.856,
+        "end": 12.957
+      },
+      {
+        "text": "heaven",
+        "start": 13.057,
+        "end": 13.818
+      },
+      {
+        "text": "Waiting",
+        "start": 13.838,
+        "end": 15.159
+      },
+      {
+        "text": "impatient",
+        "start": 15.219,
+        "end": 16.141
+      },
+      {
+        "text": "for",
+        "start": 16.241,
+        "end": 16.741
+      },
+      {
+        "text": "me,",
+        "start": 16.962,
+        "end": 17.242
+      },
+      {
+        "text": "darling",
+        "start": 17.582,
+        "end": 19.385
+      },
+      {
+        "text": "And",
+        "start": 20.586,
+        "end": 20.706
+      },
+      {
+        "text": "I",
+        "start": 20.927,
+        "end": 21.027
+      },
+      {
+        "text": "was",
+        "start": 21.067,
+        "end": 21.207
+      },
+      {
+        "text": "running",
+        "start": 21.267,
+        "end": 21.728
+      },
+      {
+        "text": "far",
+        "start": 21.788,
+        "end": 22.148
+      },
+      {
+        "text": "away",
+        "start": 22.188,
+        "end": 22.589
+      },
+      {
+        "text": "Would",
+        "start": 22.629,
+        "end": 22.869
+      },
+      {
+        "text": "open",
+        "start": 23.049,
+        "end": 23.39
+      },
+      {
+        "text": "up",
+        "start": 23.53,
+        "end": 23.69
+      },
+      {
+        "text": "the",
+        "start": 23.75,
+        "end": 23.83
+      },
+      {
+        "text": "walls",
+        "start": 23.87,
+        "end": 24.191
+      },
+      {
+        "text": "someday",
+        "start": 24.231,
+        "end": 25.212
+      },
+      {
+        "text": "Nobody",
+        "start": 25.252,
+        "end": 25.913
+      },
+      {
+        "text": "knows,",
+        "start": 25.933,
+        "end": 26.413
+      },
+      {
+        "text": "nobody",
+        "start": 26.754,
+        "end": 27.455
+      },
+      {
+        "text": "knows",
+        "start": 27.495,
+        "end": 27.955
+      },
+      {
+        "text": "And",
+        "start": 28.296,
+        "end": 28.616
+      },
+      {
+        "text": "I",
+        "start": 29.317,
+        "end": 29.397
+      },
+      {
+        "text": "was",
+        "start": 29.417,
+        "end": 29.537
+      },
+      {
+        "text": "dancing",
+        "start": 29.597,
+        "end": 30.018
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0045.m4a",
+    "word_timing_map": [
+      {
+        "text": "And",
+        "start": 0.051,
+        "end": 0.171
+      },
+      {
+        "text": "in",
+        "start": 0.191,
+        "end": 0.371
+      },
+      {
+        "text": "the",
+        "start": 0.431,
+        "end": 0.571
+      },
+      {
+        "text": "rain",
+        "start": 0.631,
+        "end": 0.971
+      },
+      {
+        "text": "I",
+        "start": 1.071,
+        "end": 1.131
+      },
+      {
+        "text": "felt",
+        "start": 1.171,
+        "end": 1.511
+      },
+      {
+        "text": "alive",
+        "start": 1.591,
+        "end": 1.951
+      },
+      {
+        "text": "And",
+        "start": 1.991,
+        "end": 2.071
+      },
+      {
+        "text": "I",
+        "start": 2.111,
+        "end": 2.131
+      },
+      {
+        "text": "can't",
+        "start": 2.191,
+        "end": 2.671
+      },
+      {
+        "text": "complain",
+        "start": 2.731,
+        "end": 3.532
+      },
+      {
+        "text": "But",
+        "start": 3.552,
+        "end": 3.692
+      },
+      {
+        "text": "no,",
+        "start": 3.752,
+        "end": 4.172
+      },
+      {
+        "text": "take",
+        "start": 4.252,
+        "end": 4.572
+      },
+      {
+        "text": "me",
+        "start": 4.632,
+        "end": 4.752
+      },
+      {
+        "text": "home",
+        "start": 4.832,
+        "end": 5.272
+      },
+      {
+        "text": "Take",
+        "start": 5.672,
+        "end": 6.012
+      },
+      {
+        "text": "me",
+        "start": 6.072,
+        "end": 6.272
+      },
+      {
+        "text": "home",
+        "start": 6.392,
+        "end": 6.752
+      },
+      {
+        "text": "where",
+        "start": 6.772,
+        "end": 7.752
+      },
+      {
+        "text": "I",
+        "start": 7.772,
+        "end": 7.792
+      },
+      {
+        "text": "belong",
+        "start": 7.812,
+        "end": 10.033
+      },
+      {
+        "text": "I",
+        "start": 10.053,
+        "end": 10.073
+      },
+      {
+        "text": "can't",
+        "start": 10.153,
+        "end": 10.453
+      },
+      {
+        "text": "take",
+        "start": 10.533,
+        "end": 10.893
+      },
+      {
+        "text": "it",
+        "start": 10.993,
+        "end": 11.073
+      },
+      {
+        "text": "anymore",
+        "start": 11.153,
+        "end": 15.254
+      },
+      {
+        "text": "I",
+        "start": 16.334,
+        "end": 16.414
+      },
+      {
+        "text": "was",
+        "start": 16.474,
+        "end": 16.634
+      },
+      {
+        "text": "painting",
+        "start": 16.794,
+        "end": 17.734
+      },
+      {
+        "text": "a",
+        "start": 17.754,
+        "end": 17.774
+      },
+      {
+        "text": "picture",
+        "start": 17.814,
+        "end": 18.734
+      },
+      {
+        "text": "The",
+        "start": 19.574,
+        "end": 19.795
+      },
+      {
+        "text": "picture",
+        "start": 19.915,
+        "end": 20.495
+      },
+      {
+        "text": "was",
+        "start": 20.535,
+        "end": 20.655
+      },
+      {
+        "text": "a",
+        "start": 20.675,
+        "end": 20.695
+      },
+      {
+        "text": "painting",
+        "start": 20.775,
+        "end": 21.495
+      },
+      {
+        "text": "of",
+        "start": 21.575,
+        "end": 21.655
+      },
+      {
+        "text": "you",
+        "start": 21.735,
+        "end": 22.315
+      },
+      {
+        "text": "And",
+        "start": 22.595,
+        "end": 22.755
+      },
+      {
+        "text": "for",
+        "start": 23.555,
+        "end": 23.955
+      },
+      {
+        "text": "a",
+        "start": 23.995,
+        "end": 24.095
+      },
+      {
+        "text": "moment",
+        "start": 24.175,
+        "end": 24.575
+      },
+      {
+        "text": "I",
+        "start": 24.855,
+        "end": 25.035
+      },
+      {
+        "text": "thought",
+        "start": 25.115,
+        "end": 25.476
+      },
+      {
+        "text": "it",
+        "start": 25.516,
+        "end": 25.576
+      },
+      {
+        "text": "would",
+        "start": 25.596,
+        "end": 25.816
+      },
+      {
+        "text": "happen",
+        "start": 25.856,
+        "end": 26.376
+      },
+      {
+        "text": "But",
+        "start": 26.396,
+        "end": 26.516
+      },
+      {
+        "text": "then",
+        "start": 26.536,
+        "end": 26.716
+      },
+      {
+        "text": "again",
+        "start": 26.776,
+        "end": 27.016
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0046.m4a",
+    "word_timing_map": [
+      {
+        "text": "Lying",
+        "start": 6.532,
+        "end": 7.193
+      },
+      {
+        "text": "in",
+        "start": 7.373,
+        "end": 7.593
+      },
+      {
+        "text": "secret",
+        "start": 7.674,
+        "end": 8.074
+      },
+      {
+        "text": "to",
+        "start": 8.114,
+        "end": 8.274
+      },
+      {
+        "text": "myself",
+        "start": 8.314,
+        "end": 9.776
+      },
+      {
+        "text": "I've",
+        "start": 9.796,
+        "end": 10.336
+      },
+      {
+        "text": "been",
+        "start": 10.457,
+        "end": 11.077
+      },
+      {
+        "text": "putting",
+        "start": 11.157,
+        "end": 11.698
+      },
+      {
+        "text": "sorrow",
+        "start": 11.778,
+        "end": 12.078
+      },
+      {
+        "text": "on",
+        "start": 12.299,
+        "end": 12.439
+      },
+      {
+        "text": "the",
+        "start": 12.499,
+        "end": 12.759
+      },
+      {
+        "text": "forest",
+        "start": 12.859,
+        "end": 13.42
+      },
+      {
+        "text": "place",
+        "start": 13.62,
+        "end": 13.96
+      },
+      {
+        "text": "on",
+        "start": 14.321,
+        "end": 14.401
+      },
+      {
+        "text": "my",
+        "start": 14.441,
+        "end": 14.841
+      },
+      {
+        "text": "shelf",
+        "start": 14.962,
+        "end": 15.342
+      },
+      {
+        "text": "And",
+        "start": 16.403,
+        "end": 18.505
+      },
+      {
+        "text": "I",
+        "start": 19.326,
+        "end": 19.446
+      },
+      {
+        "text": "was",
+        "start": 19.486,
+        "end": 19.627
+      },
+      {
+        "text": "running",
+        "start": 19.667,
+        "end": 20.087
+      },
+      {
+        "text": "far",
+        "start": 20.187,
+        "end": 20.528
+      },
+      {
+        "text": "away,",
+        "start": 20.608,
+        "end": 20.988
+      },
+      {
+        "text": "would",
+        "start": 21.048,
+        "end": 21.268
+      },
+      {
+        "text": "I",
+        "start": 21.449,
+        "end": 21.589
+      },
+      {
+        "text": "run",
+        "start": 21.609,
+        "end": 21.729
+      },
+      {
+        "text": "off",
+        "start": 21.929,
+        "end": 22.109
+      },
+      {
+        "text": "the",
+        "start": 22.149,
+        "end": 22.229
+      },
+      {
+        "text": "world",
+        "start": 22.29,
+        "end": 22.59
+      },
+      {
+        "text": "someday?",
+        "start": 22.65,
+        "end": 23.631
+      },
+      {
+        "text": "Nobody",
+        "start": 23.671,
+        "end": 24.332
+      },
+      {
+        "text": "knows,",
+        "start": 24.352,
+        "end": 24.852
+      },
+      {
+        "text": "nobody",
+        "start": 25.213,
+        "end": 25.873
+      },
+      {
+        "text": "knows",
+        "start": 25.893,
+        "end": 27.055
+      },
+      {
+        "text": "And",
+        "start": 27.235,
+        "end": 27.335
+      },
+      {
+        "text": "I",
+        "start": 27.756,
+        "end": 27.836
+      },
+      {
+        "text": "was",
+        "start": 27.856,
+        "end": 27.976
+      },
+      {
+        "text": "dancing",
+        "start": 28.036,
+        "end": 28.777
+      },
+      {
+        "text": "in",
+        "start": 28.797,
+        "end": 28.837
+      },
+      {
+        "text": "the",
+        "start": 28.897,
+        "end": 29.017
+      },
+      {
+        "text": "rain,",
+        "start": 29.057,
+        "end": 29.377
+      },
+      {
+        "text": "I",
+        "start": 29.477,
+        "end": 29.517
+      },
+      {
+        "text": "felt",
+        "start": 29.578,
+        "end": 29.798
+      },
+      {
+        "text": "alone",
+        "start": 29.818,
+        "end": 29.918
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0047.m4a",
+    "word_timing_map": [
+      {
+        "text": "The",
+        "start": 8.961,
+        "end": 9.283
+      },
+      {
+        "text": "place",
+        "start": 9.363,
+        "end": 9.987
+      },
+      {
+        "text": "to",
+        "start": 10.067,
+        "end": 10.449
+      },
+      {
+        "text": "go,",
+        "start": 10.51,
+        "end": 10.731
+      },
+      {
+        "text": "don't",
+        "start": 10.811,
+        "end": 10.972
+      },
+      {
+        "text": "take",
+        "start": 11.073,
+        "end": 11.334
+      },
+      {
+        "text": "it",
+        "start": 11.354,
+        "end": 11.395
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0048.m4a",
+    "word_timing_map": [
+      {
+        "text": "But",
+        "start": 0.071,
+        "end": 0.211
+      },
+      {
+        "text": "I",
+        "start": 0.331,
+        "end": 0.431
+      },
+      {
+        "text": "kept",
+        "start": 0.531,
+        "end": 1.172
+      },
+      {
+        "text": "running",
+        "start": 1.272,
+        "end": 2.413
+      },
+      {
+        "text": "for",
+        "start": 3.234,
+        "end": 3.494
+      },
+      {
+        "text": "a",
+        "start": 3.594,
+        "end": 3.694
+      },
+      {
+        "text": "soft",
+        "start": 3.774,
+        "end": 4.275
+      },
+      {
+        "text": "place",
+        "start": 4.335,
+        "end": 4.675
+      },
+      {
+        "text": "to",
+        "start": 4.715,
+        "end": 4.915
+      },
+      {
+        "text": "fall",
+        "start": 5.036,
+        "end": 7.758
+      },
+      {
+        "text": "And",
+        "start": 8.399,
+        "end": 8.499
+      },
+      {
+        "text": "I",
+        "start": 8.619,
+        "end": 8.719
+      },
+      {
+        "text": "kept",
+        "start": 8.819,
+        "end": 9.52
+      },
+      {
+        "text": "running",
+        "start": 9.62,
+        "end": 10.5
+      },
+      {
+        "text": "for",
+        "start": 11.601,
+        "end": 11.942
+      },
+      {
+        "text": "a",
+        "start": 12.022,
+        "end": 12.102
+      },
+      {
+        "text": "soft",
+        "start": 12.162,
+        "end": 12.642
+      },
+      {
+        "text": "place",
+        "start": 12.662,
+        "end": 12.963
+      },
+      {
+        "text": "to",
+        "start": 13.023,
+        "end": 13.283
+      },
+      {
+        "text": "fall",
+        "start": 13.363,
+        "end": 13.703
+      },
+      {
+        "text": "And",
+        "start": 16.886,
+        "end": 16.966
+      },
+      {
+        "text": "I",
+        "start": 17.086,
+        "end": 17.186
+      },
+      {
+        "text": "kept",
+        "start": 17.267,
+        "end": 17.887
+      },
+      {
+        "text": "running",
+        "start": 17.967,
+        "end": 19.929
+      },
+      {
+        "text": "for",
+        "start": 19.989,
+        "end": 20.229
+      },
+      {
+        "text": "a",
+        "start": 20.329,
+        "end": 20.429
+      },
+      {
+        "text": "soft",
+        "start": 20.509,
+        "end": 20.99
+      },
+      {
+        "text": "place",
+        "start": 21.05,
+        "end": 21.39
+      },
+      {
+        "text": "to",
+        "start": 21.43,
+        "end": 21.65
+      },
+      {
+        "text": "fall",
+        "start": 21.751,
+        "end": 24.813
+      },
+      {
+        "text": "And",
+        "start": 25.194,
+        "end": 25.274
+      },
+      {
+        "text": "I",
+        "start": 25.394,
+        "end": 25.494
+      },
+      {
+        "text": "kept",
+        "start": 25.574,
+        "end": 26.255
+      },
+      {
+        "text": "running",
+        "start": 26.335,
+        "end": 27.075
+      },
+      {
+        "text": "for",
+        "start": 28.357,
+        "end": 28.657
+      },
+      {
+        "text": "a",
+        "start": 28.737,
+        "end": 28.817
+      },
+      {
+        "text": "soft",
+        "start": 28.877,
+        "end": 29.317
+      },
+      {
+        "text": "place",
+        "start": 29.357,
+        "end": 29.738
+      },
+      {
+        "text": "to",
+        "start": 29.758,
+        "end": 29.818
+      },
+      {
+        "text": "fall",
+        "start": 29.838,
+        "end": 29.918
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0049.m4a",
+    "word_timing_map": [
+      {
+        "text": "And",
+        "start": 4.074,
+        "end": 4.534
+      },
+      {
+        "text": "I",
+        "start": 4.554,
+        "end": 4.574
+      },
+      {
+        "text": "was",
+        "start": 4.614,
+        "end": 4.774
+      },
+      {
+        "text": "running",
+        "start": 4.814,
+        "end": 5.235
+      },
+      {
+        "text": "far",
+        "start": 5.315,
+        "end": 5.655
+      },
+      {
+        "text": "away",
+        "start": 5.715,
+        "end": 6.115
+      },
+      {
+        "text": "Would",
+        "start": 6.195,
+        "end": 6.356
+      },
+      {
+        "text": "I",
+        "start": 6.376,
+        "end": 6.396
+      },
+      {
+        "text": "fall",
+        "start": 6.416,
+        "end": 6.716
+      },
+      {
+        "text": "in",
+        "start": 6.776,
+        "end": 6.876
+      },
+      {
+        "text": "love",
+        "start": 6.896,
+        "end": 7.096
+      },
+      {
+        "text": "with",
+        "start": 7.136,
+        "end": 7.216
+      },
+      {
+        "text": "the",
+        "start": 7.236,
+        "end": 7.336
+      },
+      {
+        "text": "world",
+        "start": 7.396,
+        "end": 7.757
+      },
+      {
+        "text": "someday?",
+        "start": 7.777,
+        "end": 8.757
+      },
+      {
+        "text": "But",
+        "start": 8.797,
+        "end": 8.957
+      },
+      {
+        "text": "no,",
+        "start": 8.997,
+        "end": 9.278
+      },
+      {
+        "text": "take",
+        "start": 9.498,
+        "end": 9.778
+      },
+      {
+        "text": "me",
+        "start": 9.838,
+        "end": 9.998
+      },
+      {
+        "text": "home,",
+        "start": 10.018,
+        "end": 10.839
+      },
+      {
+        "text": "take",
+        "start": 10.899,
+        "end": 11.219
+      },
+      {
+        "text": "me",
+        "start": 11.259,
+        "end": 11.519
+      },
+      {
+        "text": "home",
+        "start": 11.599,
+        "end": 11.819
+      },
+      {
+        "text": "where",
+        "start": 11.96,
+        "end": 13.0
+      },
+      {
+        "text": "I",
+        "start": 13.02,
+        "end": 13.04
+      },
+      {
+        "text": "belong",
+        "start": 13.14,
+        "end": 14.501
+      },
+      {
+        "text": "I",
+        "start": 14.622,
+        "end": 14.702
+      },
+      {
+        "text": "got",
+        "start": 14.762,
+        "end": 15.122
+      },
+      {
+        "text": "no",
+        "start": 15.222,
+        "end": 15.642
+      },
+      {
+        "text": "other",
+        "start": 15.702,
+        "end": 16.063
+      },
+      {
+        "text": "place",
+        "start": 16.163,
+        "end": 16.843
+      },
+      {
+        "text": "to",
+        "start": 16.923,
+        "end": 17.303
+      },
+      {
+        "text": "go",
+        "start": 17.384,
+        "end": 17.724
+      },
+      {
+        "text": "No,",
+        "start": 17.764,
+        "end": 17.824
+      },
+      {
+        "text": "take",
+        "start": 17.884,
+        "end": 18.184
+      },
+      {
+        "text": "me",
+        "start": 18.224,
+        "end": 18.364
+      },
+      {
+        "text": "home,",
+        "start": 18.624,
+        "end": 18.785
+      },
+      {
+        "text": "take",
+        "start": 19.245,
+        "end": 19.545
+      },
+      {
+        "text": "me",
+        "start": 19.585,
+        "end": 19.865
+      },
+      {
+        "text": "home",
+        "start": 19.965,
+        "end": 20.266
+      },
+      {
+        "text": "where",
+        "start": 20.326,
+        "end": 20.446
+      },
+      {
+        "text": "I",
+        "start": 20.986,
+        "end": 21.306
+      },
+      {
+        "text": "belong",
+        "start": 21.326,
+        "end": 22.087
+      },
+      {
+        "text": "I",
+        "start": 22.307,
+        "end": 22.327
+      },
+      {
+        "text": "got",
+        "start": 22.527,
+        "end": 23.048
+      },
+      {
+        "text": "no",
+        "start": 23.088,
+        "end": 23.448
+      },
+      {
+        "text": "other",
+        "start": 23.788,
+        "end": 23.948
+      },
+      {
+        "text": "place",
+        "start": 24.128,
+        "end": 24.369
+      },
+      {
+        "text": "to",
+        "start": 24.469,
+        "end": 24.609
+      },
+      {
+        "text": "go",
+        "start": 24.649,
+        "end": 25.009
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0050.m4a",
+    "word_timing_map": [
+      {
+        "text": "No,",
+        "start": 12.35,
+        "end": 12.771
+      },
+      {
+        "text": "take",
+        "start": 12.871,
+        "end": 13.151
+      },
+      {
+        "text": "me",
+        "start": 13.211,
+        "end": 13.591
+      },
+      {
+        "text": "home,",
+        "start": 14.032,
+        "end": 14.912
+      },
+      {
+        "text": "home",
+        "start": 15.053,
+        "end": 15.333
+      },
+      {
+        "text": "where",
+        "start": 15.353,
+        "end": 16.073
+      },
+      {
+        "text": "I",
+        "start": 16.254,
+        "end": 16.374
+      },
+      {
+        "text": "belong",
+        "start": 16.454,
+        "end": 18.215
+      },
+      {
+        "text": "No,",
+        "start": 18.435,
+        "end": 18.616
+      },
+      {
+        "text": "no,",
+        "start": 18.896,
+        "end": 19.116
+      },
+      {
+        "text": "no,",
+        "start": 19.476,
+        "end": 20.177
+      },
+      {
+        "text": "take",
+        "start": 20.717,
+        "end": 21.578
+      },
+      {
+        "text": "me",
+        "start": 21.598,
+        "end": 21.758
+      },
+      {
+        "text": "home,",
+        "start": 21.838,
+        "end": 23.28
+      },
+      {
+        "text": "home",
+        "start": 23.38,
+        "end": 23.68
+      },
+      {
+        "text": "where",
+        "start": 23.72,
+        "end": 24.801
+      },
+      {
+        "text": "I",
+        "start": 26.062,
+        "end": 26.683
+      },
+      {
+        "text": "belong",
+        "start": 26.783,
+        "end": 27.083
+      },
+      {
+        "text": "I",
+        "start": 27.103,
+        "end": 27.123
+      },
+      {
+        "text": "can",
+        "start": 27.163,
+        "end": 27.403
+      },
+      {
+        "text": "take",
+        "start": 27.483,
+        "end": 27.804
+      },
+      {
+        "text": "it",
+        "start": 27.964,
+        "end": 28.044
+      },
+      {
+        "text": "in",
+        "start": 28.124,
+        "end": 28.184
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0051.m4a",
+    "word_timing_map": []
+  },
+  {
+    "audio_path": "assets/inputs/song_0052.m4a",
+    "word_timing_map": [
+      {
+        "text": "It's",
+        "start": 4.576,
+        "end": 4.959
+      },
+      {
+        "text": "a",
+        "start": 5.14,
+        "end": 5.16
+      },
+      {
+        "text": "day",
+        "start": 5.221,
+        "end": 5.402
+      },
+      {
+        "text": "of",
+        "start": 5.422,
+        "end": 5.483
+      },
+      {
+        "text": "just",
+        "start": 5.503,
+        "end": 5.624
+      },
+      {
+        "text": "a",
+        "start": 5.644,
+        "end": 5.705
+      },
+      {
+        "text": "friend",
+        "start": 5.765,
+        "end": 6.148
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0053.m4a",
+    "word_timing_map": []
+  },
+  {
+    "audio_path": "assets/inputs/song_0054.m4a",
+    "word_timing_map": []
+  },
+  {
+    "audio_path": "assets/inputs/song_0055.m4a",
+    "word_timing_map": []
+  },
+  {
+    "audio_path": "assets/inputs/song_0056.m4a",
+    "word_timing_map": []
+  },
+  {
+    "audio_path": "assets/inputs/song_0057.m4a",
+    "word_timing_map": []
+  },
+  {
+    "audio_path": "assets/inputs/song_0058.m4a",
+    "word_timing_map": []
+  },
+  {
+    "audio_path": "assets/inputs/song_0059.m4a",
+    "word_timing_map": [
+      {
+        "text": "The",
+        "start": 18.35,
+        "end": 18.631
+      },
+      {
+        "text": "End",
+        "start": 18.872,
+        "end": 18.953
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0060.m4a",
+    "word_timing_map": [
+      {
+        "text": "Start",
+        "start": 11.543,
+        "end": 11.884
+      },
+      {
+        "text": "getting",
+        "start": 11.904,
+        "end": 12.224
+      },
+      {
+        "text": "closer",
+        "start": 12.325,
+        "end": 13.006
+      },
+      {
+        "text": "This",
+        "start": 13.807,
+        "end": 13.948
+      },
+      {
+        "text": "rain",
+        "start": 14.008,
+        "end": 14.288
+      },
+      {
+        "text": "is",
+        "start": 14.348,
+        "end": 14.428
+      },
+      {
+        "text": "like",
+        "start": 14.509,
+        "end": 14.649
+      },
+      {
+        "text": "fire",
+        "start": 14.769,
+        "end": 15.39
+      },
+      {
+        "text": "And",
+        "start": 16.933,
+        "end": 17.074
+      },
+      {
+        "text": "my,",
+        "start": 17.154,
+        "end": 17.835
+      },
+      {
+        "text": "my",
+        "start": 18.656,
+        "end": 18.777
+      },
+      {
+        "text": "world's",
+        "start": 18.817,
+        "end": 19.077
+      },
+      {
+        "text": "going",
+        "start": 19.097,
+        "end": 19.518
+      },
+      {
+        "text": "under",
+        "start": 19.678,
+        "end": 20.199
+      },
+      {
+        "text": "And",
+        "start": 21.101,
+        "end": 21.201
+      },
+      {
+        "text": "I",
+        "start": 21.342,
+        "end": 21.502
+      },
+      {
+        "text": "can't",
+        "start": 21.542,
+        "end": 21.722
+      },
+      {
+        "text": "remember",
+        "start": 21.742,
+        "end": 22.624
+      },
+      {
+        "text": "The",
+        "start": 23.466,
+        "end": 23.606
+      },
+      {
+        "text": "reason",
+        "start": 23.646,
+        "end": 23.926
+      },
+      {
+        "text": "that",
+        "start": 23.967,
+        "end": 24.107
+      },
+      {
+        "text": "you",
+        "start": 24.187,
+        "end": 24.367
+      },
+      {
+        "text": "cut",
+        "start": 24.447,
+        "end": 24.688
+      },
+      {
+        "text": "off",
+        "start": 24.808,
+        "end": 24.928
+      },
+      {
+        "text": "the",
+        "start": 24.988,
+        "end": 25.229
+      },
+      {
+        "text": "line",
+        "start": 25.269,
+        "end": 25.53
+      },
+      {
+        "text": "You're",
+        "start": 25.95,
+        "end": 26.131
+      },
+      {
+        "text": "moving",
+        "start": 26.191,
+        "end": 28.455
+      },
+      {
+        "text": "on",
+        "start": 28.535,
+        "end": 28.575
+      },
+      {
+        "text": "insane",
+        "start": 28.615,
+        "end": 29.697
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0061.m4a",
+    "word_timing_map": [
+      {
+        "text": "Here",
+        "start": 0.671,
+        "end": 0.971
+      },
+      {
+        "text": "I",
+        "start": 1.251,
+        "end": 1.311
+      },
+      {
+        "text": "stay",
+        "start": 1.411,
+        "end": 2.232
+      },
+      {
+        "text": "I'll",
+        "start": 2.572,
+        "end": 2.692
+      },
+      {
+        "text": "take",
+        "start": 2.752,
+        "end": 2.972
+      },
+      {
+        "text": "this",
+        "start": 3.332,
+        "end": 3.592
+      },
+      {
+        "text": "day",
+        "start": 3.652,
+        "end": 3.892
+      },
+      {
+        "text": "and",
+        "start": 4.132,
+        "end": 4.212
+      },
+      {
+        "text": "yet",
+        "start": 4.252,
+        "end": 4.572
+      },
+      {
+        "text": "I",
+        "start": 5.072,
+        "end": 5.152
+      },
+      {
+        "text": "can't",
+        "start": 5.192,
+        "end": 5.492
+      },
+      {
+        "text": "What",
+        "start": 5.592,
+        "end": 5.953
+      },
+      {
+        "text": "about",
+        "start": 5.973,
+        "end": 6.333
+      },
+      {
+        "text": "love?",
+        "start": 6.353,
+        "end": 7.813
+      },
+      {
+        "text": "What",
+        "start": 7.873,
+        "end": 8.093
+      },
+      {
+        "text": "about",
+        "start": 8.113,
+        "end": 8.473
+      },
+      {
+        "text": "our",
+        "start": 8.553,
+        "end": 8.693
+      },
+      {
+        "text": "promises?",
+        "start": 8.753,
+        "end": 9.153
+      },
+      {
+        "text": "What",
+        "start": 9.213,
+        "end": 9.594
+      },
+      {
+        "text": "about",
+        "start": 9.694,
+        "end": 10.774
+      },
+      {
+        "text": "love?",
+        "start": 10.854,
+        "end": 11.114
+      },
+      {
+        "text": "You",
+        "start": 11.174,
+        "end": 11.514
+      },
+      {
+        "text": "take",
+        "start": 11.534,
+        "end": 11.694
+      },
+      {
+        "text": "it",
+        "start": 11.714,
+        "end": 11.934
+      },
+      {
+        "text": "all",
+        "start": 12.674,
+        "end": 12.894
+      },
+      {
+        "text": "and",
+        "start": 12.934,
+        "end": 13.075
+      },
+      {
+        "text": "leave",
+        "start": 13.135,
+        "end": 13.435
+      },
+      {
+        "text": "me",
+        "start": 13.455,
+        "end": 13.515
+      },
+      {
+        "text": "nothing",
+        "start": 13.895,
+        "end": 14.315
+      },
+      {
+        "text": "What",
+        "start": 14.335,
+        "end": 14.555
+      },
+      {
+        "text": "about",
+        "start": 14.575,
+        "end": 14.815
+      },
+      {
+        "text": "love?",
+        "start": 14.895,
+        "end": 15.215
+      },
+      {
+        "text": "What",
+        "start": 15.655,
+        "end": 17.056
+      },
+      {
+        "text": "about",
+        "start": 17.616,
+        "end": 18.076
+      },
+      {
+        "text": "us",
+        "start": 18.116,
+        "end": 18.256
+      },
+      {
+        "text": "to",
+        "start": 18.356,
+        "end": 18.576
+      },
+      {
+        "text": "the",
+        "start": 18.616,
+        "end": 19.096
+      },
+      {
+        "text": "end?",
+        "start": 19.296,
+        "end": 19.516
+      },
+      {
+        "text": "What",
+        "start": 20.016,
+        "end": 20.376
+      },
+      {
+        "text": "about",
+        "start": 20.396,
+        "end": 21.277
+      },
+      {
+        "text": "love?",
+        "start": 22.917,
+        "end": 23.237
+      },
+      {
+        "text": "Become",
+        "start": 23.577,
+        "end": 24.157
+      },
+      {
+        "text": "our",
+        "start": 24.298,
+        "end": 24.458
+      },
+      {
+        "text": "wings",
+        "start": 24.518,
+        "end": 24.878
+      },
+      {
+        "text": "What",
+        "start": 24.958,
+        "end": 25.138
+      },
+      {
+        "text": "about",
+        "start": 25.198,
+        "end": 25.538
+      },
+      {
+        "text": "love?",
+        "start": 25.598,
+        "end": 26.018
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0062.m4a",
+    "word_timing_map": [
+      {
+        "text": "colder",
+        "start": 6.848,
+        "end": 7.249
+      },
+      {
+        "text": "than",
+        "start": 7.269,
+        "end": 7.549
+      },
+      {
+        "text": "winter",
+        "start": 7.569,
+        "end": 8.19
+      },
+      {
+        "text": "you're",
+        "start": 8.47,
+        "end": 9.111
+      },
+      {
+        "text": "switching",
+        "start": 9.151,
+        "end": 9.672
+      },
+      {
+        "text": "the",
+        "start": 9.852,
+        "end": 9.912
+      },
+      {
+        "text": "picture",
+        "start": 9.952,
+        "end": 10.573
+      },
+      {
+        "text": "you",
+        "start": 11.414,
+        "end": 11.574
+      },
+      {
+        "text": "used",
+        "start": 11.694,
+        "end": 11.875
+      },
+      {
+        "text": "to",
+        "start": 11.915,
+        "end": 11.995
+      },
+      {
+        "text": "be",
+        "start": 12.055,
+        "end": 12.295
+      },
+      {
+        "text": "perfect",
+        "start": 12.355,
+        "end": 12.996
+      },
+      {
+        "text": "yeah",
+        "start": 13.256,
+        "end": 13.777
+      },
+      {
+        "text": "once",
+        "start": 14.638,
+        "end": 14.758
+      },
+      {
+        "text": "you're",
+        "start": 14.818,
+        "end": 16.36
+      },
+      {
+        "text": "hot",
+        "start": 16.42,
+        "end": 16.681
+      },
+      {
+        "text": "like",
+        "start": 16.721,
+        "end": 16.881
+      },
+      {
+        "text": "the",
+        "start": 16.901,
+        "end": 17.021
+      },
+      {
+        "text": "summer",
+        "start": 17.101,
+        "end": 17.822
+      },
+      {
+        "text": "please",
+        "start": 18.083,
+        "end": 18.844
+      },
+      {
+        "text": "help",
+        "start": 18.884,
+        "end": 19.064
+      },
+      {
+        "text": "me",
+        "start": 19.104,
+        "end": 19.264
+      },
+      {
+        "text": "remember",
+        "start": 19.284,
+        "end": 20.225
+      },
+      {
+        "text": "the",
+        "start": 21.046,
+        "end": 21.187
+      },
+      {
+        "text": "reason",
+        "start": 21.247,
+        "end": 21.667
+      },
+      {
+        "text": "that",
+        "start": 21.707,
+        "end": 21.867
+      },
+      {
+        "text": "you",
+        "start": 21.907,
+        "end": 22.448
+      },
+      {
+        "text": "said",
+        "start": 22.528,
+        "end": 22.929
+      },
+      {
+        "text": "bye",
+        "start": 22.949,
+        "end": 23.189
+      },
+      {
+        "text": "bye",
+        "start": 23.47,
+        "end": 23.71
+      },
+      {
+        "text": "bye",
+        "start": 23.77,
+        "end": 24.01
+      },
+      {
+        "text": "you're",
+        "start": 24.07,
+        "end": 24.311
+      },
+      {
+        "text": "moving",
+        "start": 24.371,
+        "end": 25.873
+      },
+      {
+        "text": "on",
+        "start": 25.893,
+        "end": 26.053
+      },
+      {
+        "text": "you",
+        "start": 26.113,
+        "end": 26.293
+      },
+      {
+        "text": "say",
+        "start": 26.453,
+        "end": 27.555
+      },
+      {
+        "text": "here",
+        "start": 28.256,
+        "end": 28.596
+      },
+      {
+        "text": "I",
+        "start": 28.816,
+        "end": 28.897
+      },
+      {
+        "text": "stay",
+        "start": 29.137,
+        "end": 29.638
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0063.m4a",
+    "word_timing_map": [
+      {
+        "text": "I'll",
+        "start": 0.151,
+        "end": 0.271
+      },
+      {
+        "text": "take",
+        "start": 0.351,
+        "end": 0.611
+      },
+      {
+        "text": "this",
+        "start": 0.672,
+        "end": 0.772
+      },
+      {
+        "text": "pain,",
+        "start": 0.952,
+        "end": 1.192
+      },
+      {
+        "text": "yeah,",
+        "start": 1.252,
+        "end": 1.492
+      },
+      {
+        "text": "I",
+        "start": 1.712,
+        "end": 1.792
+      },
+      {
+        "text": "can't,",
+        "start": 1.872,
+        "end": 2.173
+      },
+      {
+        "text": "I",
+        "start": 2.193,
+        "end": 2.213
+      },
+      {
+        "text": "can't",
+        "start": 2.553,
+        "end": 2.753
+      },
+      {
+        "text": "But",
+        "start": 2.793,
+        "end": 3.093
+      },
+      {
+        "text": "what",
+        "start": 3.194,
+        "end": 3.474
+      },
+      {
+        "text": "about",
+        "start": 3.494,
+        "end": 3.914
+      },
+      {
+        "text": "love?",
+        "start": 5.075,
+        "end": 5.696
+      },
+      {
+        "text": "What",
+        "start": 5.756,
+        "end": 6.276
+      },
+      {
+        "text": "about",
+        "start": 6.436,
+        "end": 6.977
+      },
+      {
+        "text": "our",
+        "start": 6.997,
+        "end": 7.117
+      },
+      {
+        "text": "promises?",
+        "start": 7.137,
+        "end": 7.457
+      },
+      {
+        "text": "What",
+        "start": 8.017,
+        "end": 8.158
+      },
+      {
+        "text": "about",
+        "start": 8.278,
+        "end": 8.698
+      },
+      {
+        "text": "love?",
+        "start": 8.798,
+        "end": 9.118
+      },
+      {
+        "text": "You",
+        "start": 9.238,
+        "end": 10.319
+      },
+      {
+        "text": "take",
+        "start": 10.419,
+        "end": 10.66
+      },
+      {
+        "text": "it",
+        "start": 10.68,
+        "end": 10.9
+      },
+      {
+        "text": "all",
+        "start": 10.92,
+        "end": 11.14
+      },
+      {
+        "text": "and",
+        "start": 11.64,
+        "end": 11.7
+      },
+      {
+        "text": "leave",
+        "start": 11.74,
+        "end": 11.921
+      },
+      {
+        "text": "me",
+        "start": 11.961,
+        "end": 12.141
+      },
+      {
+        "text": "nothing",
+        "start": 12.201,
+        "end": 12.841
+      },
+      {
+        "text": "What",
+        "start": 13.242,
+        "end": 13.502
+      },
+      {
+        "text": "about",
+        "start": 13.662,
+        "end": 14.483
+      },
+      {
+        "text": "love?",
+        "start": 14.683,
+        "end": 15.183
+      },
+      {
+        "text": "What",
+        "start": 15.203,
+        "end": 15.303
+      },
+      {
+        "text": "about",
+        "start": 15.423,
+        "end": 15.844
+      },
+      {
+        "text": "our",
+        "start": 16.004,
+        "end": 16.164
+      },
+      {
+        "text": "studio?",
+        "start": 16.184,
+        "end": 17.145
+      },
+      {
+        "text": "What",
+        "start": 17.625,
+        "end": 17.765
+      },
+      {
+        "text": "about",
+        "start": 17.865,
+        "end": 18.306
+      },
+      {
+        "text": "love?",
+        "start": 18.346,
+        "end": 18.666
+      },
+      {
+        "text": "You",
+        "start": 18.686,
+        "end": 18.866
+      },
+      {
+        "text": "come",
+        "start": 18.966,
+        "end": 20.087
+      },
+      {
+        "text": "on",
+        "start": 20.247,
+        "end": 20.367
+      },
+      {
+        "text": "weeks,",
+        "start": 20.507,
+        "end": 20.828
+      },
+      {
+        "text": "know",
+        "start": 20.848,
+        "end": 21.448
+      },
+      {
+        "text": "I",
+        "start": 21.628,
+        "end": 21.648
+      },
+      {
+        "text": "am",
+        "start": 21.668,
+        "end": 21.768
+      },
+      {
+        "text": "all",
+        "start": 21.909,
+        "end": 22.049
+      },
+      {
+        "text": "in",
+        "start": 22.269,
+        "end": 22.529
+      },
+      {
+        "text": "What",
+        "start": 22.569,
+        "end": 22.749
+      },
+      {
+        "text": "about",
+        "start": 22.789,
+        "end": 23.13
+      },
+      {
+        "text": "love?",
+        "start": 23.21,
+        "end": 23.39
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0064.m4a",
+    "word_timing_map": [
+      {
+        "text": "Moving",
+        "start": 23.159,
+        "end": 23.622
+      },
+      {
+        "text": "on",
+        "start": 23.743,
+        "end": 23.863
+      },
+      {
+        "text": "you",
+        "start": 23.883,
+        "end": 24.004
+      },
+      {
+        "text": "say",
+        "start": 24.044,
+        "end": 25.171
+      },
+      {
+        "text": "here",
+        "start": 25.875,
+        "end": 26.196
+      },
+      {
+        "text": "I",
+        "start": 26.438,
+        "end": 26.639
+      },
+      {
+        "text": "stay",
+        "start": 26.679,
+        "end": 27.584
+      },
+      {
+        "text": "watching",
+        "start": 27.987,
+        "end": 28.509
+      },
+      {
+        "text": "every",
+        "start": 28.791,
+        "end": 29.073
+      },
+      {
+        "text": "night",
+        "start": 29.193,
+        "end": 29.716
+      },
+      {
+        "text": "game",
+        "start": 29.797,
+        "end": 29.978
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0065.m4a",
+    "word_timing_map": [
+      {
+        "text": "You're",
+        "start": 0.091,
+        "end": 2.713
+      },
+      {
+        "text": "moving",
+        "start": 2.753,
+        "end": 3.174
+      },
+      {
+        "text": "on,",
+        "start": 3.334,
+        "end": 3.474
+      },
+      {
+        "text": "you",
+        "start": 3.494,
+        "end": 3.554
+      },
+      {
+        "text": "say",
+        "start": 3.614,
+        "end": 5.036
+      },
+      {
+        "text": "Here",
+        "start": 5.476,
+        "end": 5.756
+      },
+      {
+        "text": "I",
+        "start": 5.956,
+        "end": 6.177
+      },
+      {
+        "text": "stay",
+        "start": 6.217,
+        "end": 7.278
+      },
+      {
+        "text": "I'll",
+        "start": 7.398,
+        "end": 7.498
+      },
+      {
+        "text": "take",
+        "start": 7.538,
+        "end": 7.818
+      },
+      {
+        "text": "this",
+        "start": 7.858,
+        "end": 8.038
+      },
+      {
+        "text": "pain,",
+        "start": 8.158,
+        "end": 8.419
+      },
+      {
+        "text": "yeah",
+        "start": 8.459,
+        "end": 8.719
+      },
+      {
+        "text": "I",
+        "start": 8.939,
+        "end": 8.999
+      },
+      {
+        "text": "can't,",
+        "start": 9.079,
+        "end": 9.379
+      },
+      {
+        "text": "I",
+        "start": 9.54,
+        "end": 9.58
+      },
+      {
+        "text": "can't",
+        "start": 9.78,
+        "end": 10.02
+      },
+      {
+        "text": "But",
+        "start": 10.12,
+        "end": 10.3
+      },
+      {
+        "text": "what",
+        "start": 10.4,
+        "end": 10.681
+      },
+      {
+        "text": "about",
+        "start": 10.701,
+        "end": 11.021
+      },
+      {
+        "text": "love?",
+        "start": 11.041,
+        "end": 11.141
+      },
+      {
+        "text": "What",
+        "start": 12.362,
+        "end": 12.742
+      },
+      {
+        "text": "about",
+        "start": 12.762,
+        "end": 14.104
+      },
+      {
+        "text": "our",
+        "start": 14.144,
+        "end": 14.304
+      },
+      {
+        "text": "promises?",
+        "start": 14.404,
+        "end": 15.285
+      },
+      {
+        "text": "What",
+        "start": 17.427,
+        "end": 17.547
+      },
+      {
+        "text": "about",
+        "start": 17.567,
+        "end": 17.867
+      },
+      {
+        "text": "love?",
+        "start": 17.947,
+        "end": 18.127
+      },
+      {
+        "text": "You",
+        "start": 18.147,
+        "end": 18.207
+      },
+      {
+        "text": "take",
+        "start": 18.227,
+        "end": 18.327
+      },
+      {
+        "text": "it",
+        "start": 18.628,
+        "end": 18.888
+      },
+      {
+        "text": "all",
+        "start": 18.908,
+        "end": 19.008
+      },
+      {
+        "text": "and",
+        "start": 19.048,
+        "end": 19.108
+      },
+      {
+        "text": "leave",
+        "start": 19.148,
+        "end": 19.268
+      },
+      {
+        "text": "me",
+        "start": 19.288,
+        "end": 19.368
+      },
+      {
+        "text": "nothing",
+        "start": 19.408,
+        "end": 20.029
+      },
+      {
+        "text": "What",
+        "start": 20.469,
+        "end": 21.871
+      },
+      {
+        "text": "about",
+        "start": 21.891,
+        "end": 22.331
+      },
+      {
+        "text": "love?",
+        "start": 22.351,
+        "end": 23.092
+      },
+      {
+        "text": "What",
+        "start": 23.172,
+        "end": 23.432
+      },
+      {
+        "text": "about",
+        "start": 23.452,
+        "end": 23.652
+      },
+      {
+        "text": "us",
+        "start": 23.792,
+        "end": 23.852
+      },
+      {
+        "text": "to",
+        "start": 23.933,
+        "end": 24.133
+      },
+      {
+        "text": "the",
+        "start": 24.153,
+        "end": 24.233
+      },
+      {
+        "text": "end?",
+        "start": 24.273,
+        "end": 24.713
+      },
+      {
+        "text": "What",
+        "start": 24.833,
+        "end": 25.054
+      },
+      {
+        "text": "about",
+        "start": 25.254,
+        "end": 25.514
+      },
+      {
+        "text": "love?",
+        "start": 25.554,
+        "end": 27.135
+      },
+      {
+        "text": "Become",
+        "start": 27.195,
+        "end": 27.516
+      },
+      {
+        "text": "our",
+        "start": 27.796,
+        "end": 27.976
+      },
+      {
+        "text": "wings,",
+        "start": 28.036,
+        "end": 28.196
+      },
+      {
+        "text": "now",
+        "start": 28.397,
+        "end": 28.497
+      },
+      {
+        "text": "I",
+        "start": 28.797,
+        "end": 28.817
+      },
+      {
+        "text": "am",
+        "start": 28.837,
+        "end": 28.977
+      },
+      {
+        "text": "falling",
+        "start": 29.017,
+        "end": 29.678
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0066.m4a",
+    "word_timing_map": [
+      {
+        "text": "What",
+        "start": 9.245,
+        "end": 9.549
+      },
+      {
+        "text": "about",
+        "start": 9.61,
+        "end": 9.915
+      },
+      {
+        "text": "love?",
+        "start": 9.975,
+        "end": 10.422
+      }
+    ]
+  },
+  {
+    "audio_path": "assets/inputs/song_0067.m4a",
+    "word_timing_map": [
+      {
+        "text": "Never",
+        "start": 1.812,
+        "end": 2.092
+      },
+      {
+        "text": "be",
+        "start": 2.172,
+        "end": 2.393
+      },
+      {
+        "text": "it",
+        "start": 2.473,
+        "end": 2.573
+      },
+      {
+        "text": "for",
+        "start": 2.613,
+        "end": 2.873
+      },
+      {
+        "text": "anything",
+        "start": 2.993,
+        "end": 3.754
+      },
+      {
+        "text": "Never",
+        "start": 3.774,
+        "end": 5.315
+      },
+      {
+        "text": "shame",
+        "start": 5.395,
+        "end": 5.796
+      },
+      {
+        "text": "but",
+        "start": 5.836,
+        "end": 5.976
+      },
+      {
+        "text": "never",
+        "start": 6.096,
+        "end": 6.396
+      },
+      {
+        "text": "free",
+        "start": 6.516,
+        "end": 6.957
+      },
+      {
+        "text": "A",
+        "start": 7.637,
+        "end": 7.717
+      },
+      {
+        "text": "life",
+        "start": 7.778,
+        "end": 8.138
+      },
+      {
+        "text": "that",
+        "start": 8.178,
+        "end": 8.318
+      },
+      {
+        "text": "healed",
+        "start": 8.358,
+        "end": 8.959
+      },
+      {
+        "text": "the",
+        "start": 8.999,
+        "end": 9.099
+      },
+      {
+        "text": "broken",
+        "start": 9.159,
+        "end": 9.899
+      },
+      {
+        "text": "up",
+        "start": 10.3,
+        "end": 10.68
+      },
+      {
+        "text": "With",
+        "start": 10.72,
+        "end": 10.92
+      },
+      {
+        "text": "all",
+        "start": 11.121,
+        "end": 11.281
+      },
+      {
+        "text": "that",
+        "start": 11.341,
+        "end": 11.701
+      },
+      {
+        "text": "it",
+        "start": 11.841,
+        "end": 11.961
+      },
+      {
+        "text": "could",
+        "start": 12.061,
+        "end": 13.843
+      },
+      {
+        "text": "Live",
+        "start": 14.464,
+        "end": 14.624
+      },
+      {
+        "text": "the",
+        "start": 14.664,
+        "end": 14.824
+      },
+      {
+        "text": "life",
+        "start": 14.884,
+        "end": 15.224
+      },
+      {
+        "text": "so",
+        "start": 15.264,
+        "end": 15.485
+      },
+      {
+        "text": "endlessly",
+        "start": 15.605,
+        "end": 16.385
+      },
+      {
+        "text": "Saw",
+        "start": 17.567,
+        "end": 17.847
+      },
+      {
+        "text": "beyond",
+        "start": 17.887,
+        "end": 18.407
+      },
+      {
+        "text": "what",
+        "start": 18.447,
+        "end": 18.688
+      },
+      {
+        "text": "others",
+        "start": 18.768,
+        "end": 19.088
+      },
+      {
+        "text": "see",
+        "start": 19.148,
+        "end": 19.548
+      },
+      {
+        "text": "I",
+        "start": 19.568,
+        "end": 19.588
+      },
+      {
+        "text": "tried",
+        "start": 20.349,
+        "end": 20.79
+      },
+      {
+        "text": "to",
+        "start": 20.83,
+        "end": 20.95
+      },
+      {
+        "text": "heal",
+        "start": 21.01,
+        "end": 21.55
+      },
+      {
+        "text": "your",
+        "start": 21.59,
+        "end": 21.73
+      },
+      {
+        "text": "broken",
+        "start": 21.79,
+        "end": 22.531
+      },
+      {
+        "text": "up",
+        "start": 23.192,
+        "end": 23.352
+      },
+      {
+        "text": "With",
+        "start": 23.392,
+        "end": 23.552
+      },
+      {
+        "text": "all",
+        "start": 23.752,
+        "end": 23.932
+      },
+      {
+        "text": "that",
+        "start": 23.992,
+        "end": 24.353
+      },
+      {
+        "text": "I",
+        "start": 24.513,
+        "end": 24.653
+      },
+      {
+        "text": "could",
+        "start": 24.753,
+        "end": 26.014
+      },
+      {
+        "text": "Will",
+        "start": 26.815,
+        "end": 27.075
+      },
+      {
+        "text": "you",
+        "start": 27.155,
+        "end": 27.376
+      },
+      {
+        "text": "stay?",
+        "start": 27.416,
+        "end": 27.916
+      }
+    ]
+  }
+]

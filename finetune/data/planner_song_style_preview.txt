@@ -1,0 +1,121 @@
+=== PLANNER EXAMPLE 1 | id=planner_song_style_001 ===
+[SYSTEM]
+You are VASP Planner. Return ONLY EDIT PLAN text with exact headings. No JSON. No markdown.
+
+[USER]
+USER_INSTRUCTION: Make captions neon cyber style with punchy motion and clear readability. Keep captions synced exactly to song chunk song_0002.m4a.
+ELEMENT_COMPACT:
+version:1.0 video:1080x1920 fps=30 output=output/a2v_video.mp4 element:audio_1 type=music source_uri=assets/inputs/song_0002.m4a timing=0.0-29.967 element:caption_track_1 type=caption mapping_json=assets/inputs/song_0002_whisper.json
+
+[ASSISTANT]
+EDIT PLAN
+Global Style: Dynamic caption-focused short with style-driven typography and motion.
+Audio Decision: Use audio_1 from 0.000 to 29.967 as backbone at full volume.
+Caption Style: font_family=sans, font_style=normal, white base, gold inline highlights only for important words.
+Visual Style: Caption-only design test with animated entrances and no image overlays.
+Background Style: grain_vignette with timed subtle design overlays.
+Segmentation Rule: Group transcript into 3-4 word caption blocks using mapping_json timings exactly.
+Segment 1
+Time: 0.000-29.967
+Purpose: Validate caption sync + style diversity on real song chunk mapping.
+Elements Used: audio_1, caption_track_1
+Caption Decision: Important Words: anything, around, their.
+Caption Decision: placement=bottom_safe, animation=slide_up, and grouped timings:
+- 2.157-3.595: "Do anything else,"
+- 3.595-5.034: "look around We"
+- 5.034-6.472: "work to their"
+- 6.472-7.911: "heart for this"
+- 7.911-9.349: "Just to give"
+- 9.349-10.788: "it up now"
+- 10.788-12.226: "If you don't"
+- 12.226-13.665: "swim, you'll drown"
+Visual Decision: Keep text readable and avoid clipping within 9:16 safe area.
+Animation Decision: Animate each caption entry with chosen style and hold until next phrase.
+Placement Decision: Use caption safe zone with translucent panel behind text.
+Timing Events:
+- time: 2.157 event: first caption appears
+- time: 22.295 event: last caption exits
+Transition Out: short fade.
+Engagement Note: Strong typography + motion variety while preserving sync accuracy.
+
+
+=== PLANNER EXAMPLE 2 | id=planner_song_style_002 ===
+[SYSTEM]
+You are VASP Planner. Return ONLY EDIT PLAN text with exact headings. No JSON. No markdown.
+
+[USER]
+USER_INSTRUCTION: Create minimalist luxury captions with elegant serif style and soft motion. Keep captions synced exactly to song chunk song_0003.m4a.
+ELEMENT_COMPACT:
+version:1.0 video:1080x1920 fps=30 output=output/a2v_video.mp4 element:audio_1 type=music source_uri=assets/inputs/song_0003.m4a timing=0.0-29.714 element:caption_track_1 type=caption mapping_json=assets/inputs/song_0003_whisper.json
+
+[ASSISTANT]
+EDIT PLAN
+Global Style: Dynamic caption-focused short with style-driven typography and motion.
+Audio Decision: Use audio_1 from 0.000 to 29.714 as backbone at full volume.
+Caption Style: font_family=serif, font_style=italic, white base, gold inline highlights only for important words.
+Visual Style: Caption-only design test with animated entrances and no image overlays.
+Background Style: cinematic_red with timed subtle design overlays.
+Segmentation Rule: Group transcript into 3-4 word caption blocks using mapping_json timings exactly.
+Segment 1
+Time: 0.000-29.714
+Purpose: Validate caption sync + style diversity on real song chunk mapping.
+Elements Used: audio_1, caption_track_1
+Caption Decision: Important Words: talks, reward, don't.
+Caption Decision: placement=lower_third, animation=slide_left, and grouped timings:
+- 0.031-2.999: "But your name talks"
+- 2.999-5.968: "to it and I"
+- 5.968-8.936: "reward it And I"
+- 8.936-11.904: "don't know that I'm"
+- 11.904-14.873: "so down Let's get"
+- 14.873-17.841: "up, let's get up"
+- 17.841-20.809: "Cause these dead beat"
+- 20.809-23.777: "tones only here just"
+Visual Decision: Keep text readable and avoid clipping within 9:16 safe area.
+Animation Decision: Animate each caption entry with chosen style and hold until next phrase.
+Placement Decision: Use caption safe zone with translucent panel behind text.
+Timing Events:
+- time: 0.031 event: first caption appears
+- time: 29.714 event: last caption exits
+Transition Out: short fade.
+Engagement Note: Strong typography + motion variety while preserving sync accuracy.
+
+
+=== PLANNER EXAMPLE 3 | id=planner_song_style_003 ===
+[SYSTEM]
+You are VASP Planner. Return ONLY EDIT PLAN text with exact headings. No JSON. No markdown.
+
+[USER]
+USER_INSTRUCTION: Design energetic sports-reel captions with impact pops and high contrast. Keep captions synced exactly to song chunk song_0004.m4a.
+ELEMENT_COMPACT:
+version:1.0 video:1080x1920 fps=30 output=output/a2v_video.mp4 element:audio_1 type=music source_uri=assets/inputs/song_0004.m4a timing=0.0-30.018 element:caption_track_1 type=caption mapping_json=assets/inputs/song_0004_whisper.json
+
+[ASSISTANT]
+EDIT PLAN
+Global Style: Dynamic caption-focused short with style-driven typography and motion.
+Audio Decision: Use audio_1 from 0.000 to 30.018 as backbone at full volume.
+Caption Style: font_family=modern_mono, font_style=normal, white base, gold inline highlights only for important words.
+Visual Style: Caption-only design test with animated entrances and no image overlays.
+Background Style: map_blue with timed subtle design overlays.
+Segmentation Rule: Group transcript into 3-4 word caption blocks using mapping_json timings exactly.
+Segment 1
+Time: 0.000-30.018
+Purpose: Validate caption sync + style diversity on real song chunk mapping.
+Elements Used: audio_1, caption_track_1
+Caption Decision: Important Words: perfect, standing, there.
+Caption Decision: placement=left_lower, animation=slide_right, and grouped timings:
+- 15.826-17.600: "Perfect standing there"
+- 17.600-19.374: "in my American"
+- 19.374-21.148: "apparel underwear And"
+- 21.148-22.922: "I know it"
+- 22.922-24.696: "now that I'm"
+- 24.696-26.470: "so down I've"
+- 26.470-28.244: "been missing straight"
+- 28.244-30.018: "out of 94"
+Visual Decision: Keep text readable and avoid clipping within 9:16 safe area.
+Animation Decision: Animate each caption entry with chosen style and hold until next phrase.
+Placement Decision: Use caption safe zone with translucent panel behind text.
+Timing Events:
+- time: 15.826 event: first caption appears
+- time: 30.018 event: last caption exits
+Transition Out: short fade.
+Engagement Note: Strong typography + motion variety while preserving sync accuracy.

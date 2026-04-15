@@ -17,6 +17,18 @@ class AnimationType(str, Enum):
     ROTATE = "rotate"
     TYPEWRITER = "typewriter"
     WORD_REVEAL = "word_reveal"
+    SLIDE_UP = "slide_up"
+    SLIDE_DOWN = "slide_down"
+    SLIDE_LEFT = "slide_left"
+    SLIDE_RIGHT = "slide_right"
+    ZOOM_IN = "zoom_in"
+    ZOOM_OUT = "zoom_out"
+    BREATHE = "breathe"
+    PULSE = "pulse"
+    WIGGLE = "wiggle"
+    SPIN = "spin"
+    FADE = "fade"
+    STOMP = "stomp"
 
 
 class Keyframe(BaseModel):
@@ -33,3 +45,12 @@ class AnimationSpec(BaseModel):
     easing: str = "linear"
     keyframes: List[Keyframe] = Field(default_factory=list)
     params: Optional[Dict[str, float]] = None
+
+
+class AnimationPreset(BaseModel):
+    """Named animation preset that Planner can reference in JSON."""
+
+    id: str
+    type: AnimationType
+    description: str
+    default_params: Dict[str, float] = Field(default_factory=dict)
