@@ -1338,6 +1338,85 @@ def _render_multi_elements(
             bg_color = _safe_drawtext_color(params.get("background_color", "#000000"), fallback="0x000000")
             box_border = _to_int(params.get("box_border", 14), 14)
             box_part = f":box=1:boxcolor={bg_color}@{bg_opacity}:boxborderw={box_border}"
+
+        # Word-timed reveal mode: draw each word one-by-one using exact timings.
+        # Default animation: subtle fade-in + rise from below.
+        word_seq = params.get("word_timing_sequence")
+        caption_mode = str(params.get("caption_mode", "") or "").strip().lower()
+        if isinstance(word_seq, list) and word_seq and caption_mode in {"word_reveal_v2", "word_reveal", "cumulative_words"}:
+            imp_words = params.get("important_words", []) or []
+            imp_norm = {str(w).lower().strip(".,!?;:\"'()[]{}") for w in imp_words if str(w).strip()}
+            fixed_fs = max(8, int(font_size))
+            seq = []
+            for w in word_seq:
+                if not isinstance(w, dict):
+                    continue
+                raw = str(w.get("text", "")).strip()
+                if not raw:
+                    continue
+                try:
+                    ws = max(t_start, float(w.get("start", t_start)))
+                except Exception:
+                    continue
+                seq.append({"text": raw, "start": ws})
+            seq.sort(key=lambda x: x["start"])
+            if not seq:
+                continue
+            # Build cumulative reveal intervals: [word_i_start, word_{i+1}_start)
+            for i, w in enumerate(seq):
+                ws = float(w["start"])
+                we = float(seq[i + 1]["start"]) if i < len(seq) - 1 else t_end
+                we = min(we, t_end)
+                if we <= ws:
+                    continue
+                shown = [x["text"] for x in seq[: i + 1]]
+                space_w = max(10.0, fixed_fs * 0.35)
+                widths = [max(8.0, len(tok) * fixed_fs * 0.56) for tok in shown]
+                total_w = sum(widths) + max(0, len(shown) - 1) * space_w
+                start_x = max(20.0, min(width - total_w - 20.0, x_local - total_w / 2.0))
+                cursor_x = start_x
+                # Animate only the newly appeared word (last token) from down+fade.
+                intro = min(0.14, max(0.04, (we - ws) * 0.45))
+                intro_end = min(we, ws + intro)
+                for j, tok in enumerate(shown):
+                    is_new = j == len(shown) - 1
+                    n = tok.lower().strip(".,!?;:\"'()[]{}")
+                    is_imp = is_new and (n in imp_norm)
+                    tok_color = _safe_drawtext_color(params.get("highlight_color", "#FFD84D"), fallback="0xFFD84D") if is_imp else color
+                    tok_text = _escape_text(tok)
+                    if is_new and intro_end > ws:
+                        draw_intro = (
+                            f"drawtext={font_part}text='{tok_text}':"
+                            f"x={cursor_x}:y={(y_local + 24)}-text_h/2:fontcolor={tok_color}:fontsize={fixed_fs}:"
+                            f"alpha='(t-{ws})/{max(0.001, intro_end-ws)}'"
+                            f"{stroke_part}{shadow_part}{box_part}:fix_bounds=1:"
+                            f"enable='between(t\\,{ws}\\,{intro_end})'"
+                        )
+                        out_intro = f"v{len(filters)}"
+                        filters.append(f"[{base_label}]{draw_intro}[{out_intro}]")
+                        base_label = out_intro
+                        if we > intro_end:
+                            draw_hold = (
+                                f"drawtext={font_part}text='{tok_text}':"
+                                f"x={cursor_x}:y={y_local}-text_h/2:fontcolor={tok_color}:fontsize={fixed_fs}"
+                                f"{stroke_part}{shadow_part}{box_part}:fix_bounds=1:"
+                                f"enable='between(t\\,{intro_end}\\,{we})'"
+                            )
+                            out_hold = f"v{len(filters)}"
+                            filters.append(f"[{base_label}]{draw_hold}[{out_hold}]")
+                            base_label = out_hold
+                    else:
+                        draw_static = (
+                            f"drawtext={font_part}text='{tok_text}':"
+                            f"x={cursor_x}:y={y_local}-text_h/2:fontcolor={tok_color}:fontsize={fixed_fs}"
+                            f"{stroke_part}{shadow_part}{box_part}:fix_bounds=1:"
+                            f"enable='between(t\\,{ws}\\,{we})'"
+                        )
+                        out_static = f"v{len(filters)}"
+                        filters.append(f"[{base_label}]{draw_static}[{out_static}]")
+                        base_label = out_static
+                    cursor_x += widths[j] + space_w
+            continue
         # Optional stacked words mode: render each word on a new line with staggered entrance.
         text_mode = str(params.get("text_mode", "") or "").strip().lower()
         if text_mode in {"stack_words", "word_stack"}:

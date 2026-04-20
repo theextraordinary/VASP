@@ -1,0 +1,3 @@
+Create a clean, fast, caption-first short.
+Keep captions readable in lower safe zone.
+Use the image only when the spoken topic matches it.

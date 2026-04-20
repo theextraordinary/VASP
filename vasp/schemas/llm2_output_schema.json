@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["styled_element_table"],
+  "properties": {
+    "styled_element_table": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["element_id"],
+        "properties": {
+          "element_id": { "type": "string" },
+          "font_family": { "type": ["string", "null"] },
+          "font_size": { "type": ["number", "null"] },
+          "font_weight": { "type": ["string", "null"] },
+          "text_color": { "type": ["string", "null"] },
+          "highlight_color": { "type": ["string", "null"] },
+          "background_color": { "type": ["string", "null"] },
+          "opacity": { "type": ["number", "null"] },
+          "extra_renderer_props": { "type": "object" }
+        }
+      }
+    }
+  }
+}
