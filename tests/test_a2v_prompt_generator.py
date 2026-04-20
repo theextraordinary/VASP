@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from vasp.a2v.prompt_generator import a2v_prompt_generator
+from vasp.a2v.v2.prompt_generator import a2v_prompt_generator
 
 
 def test_a2v_prompt_generator_contains_instruction_bundle_and_transcript() -> None:

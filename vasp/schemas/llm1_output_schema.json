@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["edit_decisions", "element_property_table", "timeline_summary"],
+  "properties": {
+    "edit_decisions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["decision_id", "element_id", "element_type", "action", "t_start", "t_end"],
+        "properties": {
+          "decision_id": { "type": "string" },
+          "element_id": { "type": "string" },
+          "element_type": { "type": "string" },
+          "action": { "type": "string" },
+          "t_start": { "type": "number" },
+          "t_end": { "type": "number" }
+        }
+      }
+    },
+    "element_property_table": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["element_id", "element_type", "t_start", "t_end", "z_index"],
+        "properties": {
+          "element_id": { "type": "string" },
+          "element_type": { "type": "string" },
+          "t_start": { "type": "number" },
+          "t_end": { "type": "number" },
+          "z_index": { "type": "integer" }
+        }
+      }
+    },
+    "timeline_summary": { "type": "array" }
+  }
+}

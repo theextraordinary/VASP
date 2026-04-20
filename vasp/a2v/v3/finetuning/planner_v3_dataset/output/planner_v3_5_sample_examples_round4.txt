@@ -1,0 +1,684 @@
+===== SAMPLE 1 / DATASET ROW 10 =====
+USER PROMPT
+You are Media-Transcript Matching Planner.
+Your job is to match media assets to the transcript text parts they explain best.
+
+Rules:
+- Return valid JSON only.
+- Use all mandatory media at least once.
+- Optional media may be used only if it strongly matches transcript text.
+- Mandatory media has priority over optional media.
+- Each text part may be matched to only ONE media.
+- One media may match multiple text parts.
+- Prefer matching every meaningful transcript part; avoid leaving text unmatched unless no media fits.
+- Match can be a word, phrase, sentence fragment, or full sentence.
+- Always prioritize aim over about.
+- If aim explicitly says media should be used for a certain topic/text, obey aim first.
+- Match creatively like a video editor: use media where it improves clarity, humor, emotional impact, or topic relevance.
+- Do not invent media ids.
+- Do not output timestamps; segment_generator will recover timing from media.json word/caption timing.
+- Do not output layout, animation, x/y/width/height.
+- Do not match audio/caption ids.
+
+USER INSTRUCTION:
+Create a clear short-form edit by matching each visual asset to the transcript text it explains best.
+
+FULL TRANSCRIPT:
+Today was the day. The story moved forward. The fast sequence starts on forest recovery pointed, hits wind farm showed, and finishes with heatwave shocked local. A small clue appeared. The story builds through flood map made, then solar panels fed power, and finally glacier showed the climate. The last moment makes the earlier clues feel connected.
+
+MANDATORY MEDIA:
+media_2 | gif | about: melting glacier image | aim: use during shocking fact
+media_3 | video | about: heatwave reaction gif | aim: show when relevant caption topic is spoken
+media_4 | gif | about: wind farm video | aim: show when relevant caption topic is spoken
+media_5 | sticker | about: solar panel field | aim: show when relevant caption topic is spoken
+media_6 | image | about: flood map image | aim: use during shocking fact
+
+OPTIONAL MEDIA:
+media_7 | video | about: forest recovery video | aim: use during emotional reveal
+media_20 | gif | about: cute dolphin gif | aim: use only for ocean animal joy
+
+Planner output schema:
+
+{
+  "planner_version": "v3_media_text_matching",
+  "matches": [
+    {
+      "match_id": "match_001",
+      "text": "exact transcript text span",
+      "media_id": "media_5",
+      "match_strength": "high | medium | low",
+      "match_reason": "short reason",
+      "mandatory_media": true
+    }
+  ],
+  "unmatched_text": [
+    {
+      "text": "exact transcript text span",
+      "reason": "no suitable media"
+    }
+  ],
+  "warnings": []
+}
+
+Validation:
+- Every mandatory visual media id must appear at least once in matches.
+- No text span should overlap with another text span assigned to a different media.
+- Each match.text must be copied exactly from transcript.
+- No invented text.
+- No invented media ids.
+
+ASSISTANT GOLD OUTPUT
+{
+  "planner_version": "v3_media_text_matching",
+  "matches": [
+    {
+      "match_id": "match_001",
+      "text": "forest recovery pointed",
+      "media_id": "media_7",
+      "match_strength": "high",
+      "match_reason": "emotional reveal emphasis",
+      "mandatory_media": false
+    },
+    {
+      "match_id": "match_002",
+      "text": "wind farm showed",
+      "media_id": "media_4",
+      "match_strength": "high",
+      "match_reason": "clean motion or object beat",
+      "mandatory_media": true
+    },
+    {
+      "match_id": "match_003",
+      "text": "heatwave shocked local",
+      "media_id": "media_3",
+      "match_strength": "high",
+      "match_reason": "fast punch-in visual",
+      "mandatory_media": true
+    },
+    {
+      "match_id": "match_004",
+      "text": "flood map made",
+      "media_id": "media_6",
+      "match_strength": "medium",
+      "match_reason": "contextual cinematic reinforcement",
+      "mandatory_media": true
+    },
+    {
+      "match_id": "match_005",
+      "text": "solar panels fed power",
+      "media_id": "media_5",
+      "match_strength": "low",
+      "match_reason": "mandatory asset used on nearest relevant beat",
+      "mandatory_media": true
+    },
+    {
+      "match_id": "match_006",
+      "text": "glacier showed the climate",
+      "media_id": "media_2",
+      "match_strength": "medium",
+      "match_reason": "shock beat visual",
+      "mandatory_media": true
+    }
+  ],
+  "unmatched_text": [
+    {
+      "text": "A small clue appeared",
+      "reason": "generic filler phrase with no suitable media"
+    },
+    {
+      "text": "The story moved forward",
+      "reason": "generic filler phrase with no suitable media"
+    }
+  ],
+  "warnings": []
+}
+
+===== SAMPLE 2 / DATASET ROW 74 =====
+USER PROMPT
+You are Media-Transcript Matching Planner.
+Your job is to match media assets to the transcript text parts they explain best.
+
+Rules:
+- Return valid JSON only.
+- Use all mandatory media at least once.
+- Optional media may be used only if it strongly matches transcript text.
+- Mandatory media has priority over optional media.
+- Each text part may be matched to only ONE media.
+- One media may match multiple text parts.
+- Prefer matching every meaningful transcript part; avoid leaving text unmatched unless no media fits.
+- Match can be a word, phrase, sentence fragment, or full sentence.
+- Always prioritize aim over about.
+- If aim explicitly says media should be used for a certain topic/text, obey aim first.
+- Match creatively like a video editor: use media where it improves clarity, humor, emotional impact, or topic relevance.
+- Do not invent media ids.
+- Do not output timestamps; segment_generator will recover timing from media.json word/caption timing.
+- Do not output layout, animation, x/y/width/height.
+- Do not match audio/caption ids.
+
+USER INSTRUCTION:
+Create a clear short-form edit by matching each visual asset to the transcript text it explains best.
+
+FULL TRANSCRIPT:
+Today was the day. This part of the story is driven by the fact that pendulum clock changed timekeeping. The fast sequence starts on electric lighting practical, hits telescope opened, and finishes with were shocked by the discovery. The scene first highlights printing press spread ideas, then quickly cuts to recorded the invention. This is why the visual choices matter.
+
+MANDATORY MEDIA:
+media_2 | video | about: light bulb animation | aim: show when relevant caption topic is spoken
+media_3 | image | about: printing press video | aim: show when relevant caption topic is spoken
+media_4 | video | about: lab discovery gif | aim: show when relevant caption topic is spoken
+media_5 | gif | about: telescope image | aim: show when relevant caption topic is spoken
+media_6 | gif | about: patent document image | aim: show when relevant caption topic is spoken
+
+OPTIONAL MEDIA:
+media_7 | sticker | about: pendulum clock image | aim: show when relevant caption topic is spoken
+media_20 | gif | about: cute dolphin gif | aim: use only for ocean animal joy
+
+Planner output schema:
+
+{
+  "planner_version": "v3_media_text_matching",
+  "matches": [
+    {
+      "match_id": "match_001",
+      "text": "exact transcript text span",
+      "media_id": "media_5",
+      "match_strength": "high | medium | low",
+      "match_reason": "short reason",
+      "mandatory_media": true
+    }
+  ],
+  "unmatched_text": [
+    {
+      "text": "exact transcript text span",
+      "reason": "no suitable media"
+    }
+  ],
+  "warnings": []
+}
+
+Validation:
+- Every mandatory visual media id must appear at least once in matches.
+- No text span should overlap with another text span assigned to a different media.
+- Each match.text must be copied exactly from transcript.
+- No invented text.
+- No invented media ids.
+
+ASSISTANT GOLD OUTPUT
+{
+  "planner_version": "v3_media_text_matching",
+  "matches": [
+    {
+      "match_id": "match_001",
+      "text": "pendulum clock changed timekeeping",
+      "media_id": "media_7",
+      "match_strength": "high",
+      "match_reason": "contextual cinematic reinforcement",
+      "mandatory_media": false
+    },
+    {
+      "match_id": "match_002",
+      "text": "electric lighting practical",
+      "media_id": "media_2",
+      "match_strength": "medium",
+      "match_reason": "fast punch-in visual",
+      "mandatory_media": true
+    },
+    {
+      "match_id": "match_003",
+      "text": "telescope opened",
+      "media_id": "media_5",
+      "match_strength": "high",
+      "match_reason": "visual callback for earlier topic",
+      "mandatory_media": true
+    },
+    {
+      "match_id": "match_004",
+      "text": "were shocked by the discovery",
+      "media_id": "media_4",
+      "match_strength": "high",
+      "match_reason": "contextual cinematic reinforcement",
+      "mandatory_media": true
+    },
+    {
+      "match_id": "match_005",
+      "text": "printing press spread ideas",
+      "media_id": "media_3",
+      "match_strength": "low",
+      "match_reason": "closest available mandatory media match",
+      "mandatory_media": true
+    },
+    {
+      "match_id": "match_006",
+      "text": "recorded the invention",
+      "media_id": "media_6",
+      "match_strength": "low",
+      "match_reason": "weak but required visual coverage",
+      "mandatory_media": true
+    }
+  ],
+  "unmatched_text": [],
+  "warnings": []
+}
+
+===== SAMPLE 3 / DATASET ROW 156 =====
+USER PROMPT
+You are Media-Transcript Matching Planner.
+Your job is to match media assets to the transcript text parts they explain best.
+
+Rules:
+- Return valid JSON only.
+- Use all mandatory media at least once.
+- Optional media may be used only if it strongly matches transcript text.
+- Mandatory media has priority over optional media.
+- Each text part may be matched to only ONE media.
+- One media may match multiple text parts.
+- Prefer matching every meaningful transcript part; avoid leaving text unmatched unless no media fits.
+- Match can be a word, phrase, sentence fragment, or full sentence.
+- Always prioritize aim over about.
+- If aim explicitly says media should be used for a certain topic/text, obey aim first.
+- Match creatively like a video editor: use media where it improves clarity, humor, emotional impact, or topic relevance.
+- Do not invent media ids.
+- Do not output timestamps; segment_generator will recover timing from media.json word/caption timing.
+- Do not output layout, animation, x/y/width/height.
+- Do not match audio/caption ids.
+
+USER INSTRUCTION:
+Create a clear short-form edit by matching each visual asset to the transcript text it explains best.
+
+FULL TRANSCRIPT:
+At first glance, the story seems simple. The moment becomes visually important when video reached millions within hours. The scene should build around the reveal that shared the clip on their. The pacing works as a quick contrast between joke became part and another look at video reached millions within hours. The edit becomes stronger once viewers hear that joke became part appears again. The scene should build around the reveal that shocked by the response. The moment becomes visually important when memes spread across social media. The narrator explains that moment into a meme in a way that changes the whole scene. This is why the visual choices matter.
+
+MANDATORY MEDIA:
+media_2 | image | about: phone scrolling video | aim: show when relevant caption topic is spoken
+media_3 | sticker | about: social media animation | aim: show when relevant caption topic is spoken
+media_4 | image | about: viral meme gif | aim: use during funny moment
+media_5 | gif | about: laughing crowd gif | aim: show when relevant caption topic is spoken
+media_6 | image | about: comment section screenshot | aim: use during funny moment
+
+OPTIONAL MEDIA:
+media_7 | sticker | about: creator reaction gif | aim: use during emotional reveal
+media_20 | gif | about: cute dolphin gif | aim: use only for ocean animal joy
+
+Planner output schema:
+
+{
+  "planner_version": "v3_media_text_matching",
+  "matches": [
+    {
+      "match_id": "match_001",
+      "text": "exact transcript text span",
+      "media_id": "media_5",
+      "match_strength": "high | medium | low",
+      "match_reason": "short reason",
+      "mandatory_media": true
+    }
+  ],
+  "unmatched_text": [
+    {
+      "text": "exact transcript text span",
+      "reason": "no suitable media"
+    }
+  ],
+  "warnings": []
+}
+
+Validation:
+- Every mandatory visual media id must appear at least once in matches.
+- No text span should overlap with another text span assigned to a different media.
+- Each match.text must be copied exactly from transcript.
+- No invented text.
+- No invented media ids.
+
+ASSISTANT GOLD OUTPUT
+{
+  "planner_version": "v3_media_text_matching",
+  "matches": [
+    {
+      "match_id": "match_001",
+      "text": "video reached millions within hours",
+      "media_id": "media_3",
+      "match_strength": "high",
+      "match_reason": "clean motion or object beat",
+      "mandatory_media": true
+    },
+    {
+      "match_id": "match_002",
+      "text": "shared the clip on their",
+      "media_id": "media_2",
+      "match_strength": "high",
+      "match_reason": "clean motion or object beat",
+      "mandatory_media": true
+    },
+    {
+      "match_id": "match_003",
+      "text": "joke became part",
+      "media_id": "media_5",
+      "match_strength": "high",
+      "match_reason": "clean motion or object beat",
+      "mandatory_media": true
+    },
+    {
+      "match_id": "match_004",
+      "text": "another look at video reached millions within hours",
+      "media_id": "media_3",
+      "match_strength": "medium",
+      "match_reason": "clean motion or object beat",
+      "mandatory_media": true
+    },
+    {
+      "match_id": "match_005",
+      "text": "joke became part appears again",
+      "media_id": "media_5",
+      "match_strength": "medium",
+      "match_reason": "clean motion or object beat",
+      "mandatory_media": true
+    },
+    {
+      "match_id": "match_006",
+      "text": "shocked by the response",
+      "media_id": "media_7",
+      "match_strength": "high",
+      "match_reason": "emotional reveal emphasis",
+      "mandatory_media": false
+    },
+    {
+      "match_id": "match_007",
+      "text": "memes spread across social media",
+      "media_id": "media_4",
+      "match_strength": "high",
+      "match_reason": "humorous exaggeration match",
+      "mandatory_media": true
+    },
+    {
+      "match_id": "match_008",
+      "text": "moment into a meme",
+      "media_id": "media_6",
+      "match_strength": "high",
+      "match_reason": "humorous exaggeration match",
+      "mandatory_media": true
+    }
+  ],
+  "unmatched_text": [
+    {
+      "text": "This is why the visual choices matter",
+      "reason": "closing narration does not need a separate media match"
+    }
+  ],
+  "warnings": []
+}
+
+===== SAMPLE 4 / DATASET ROW 267 =====
+USER PROMPT
+You are Media-Transcript Matching Planner.
+Your job is to match media assets to the transcript text parts they explain best.
+
+Rules:
+- Return valid JSON only.
+- Use all mandatory media at least once.
+- Optional media may be used only if it strongly matches transcript text.
+- Mandatory media has priority over optional media.
+- Each text part may be matched to only ONE media.
+- One media may match multiple text parts.
+- Prefer matching every meaningful transcript part; avoid leaving text unmatched unless no media fits.
+- Match can be a word, phrase, sentence fragment, or full sentence.
+- Always prioritize aim over about.
+- If aim explicitly says media should be used for a certain topic/text, obey aim first.
+- Match creatively like a video editor: use media where it improves clarity, humor, emotional impact, or topic relevance.
+- Do not invent media ids.
+- Do not output timestamps; segment_generator will recover timing from media.json word/caption timing.
+- Do not output layout, animation, x/y/width/height.
+- Do not match audio/caption ids.
+
+USER INSTRUCTION:
+Create a clear short-form edit by matching each visual asset to the transcript text it explains best.
+
+FULL TRANSCRIPT:
+For a short-form edit, the first detail needs to land quickly. The narration gives us giant arenas before the edit snaps to emperors ruled from lavish palaces. The pacing works as a quick contrast between historic event live and Empire built massive roads. The scene first highlights distant cities and trade routes, then quickly cuts to Moon during Apollo 11. The moment becomes visually important when another look at Empire built massive roads. That final detail gives the edit a strong ending.
+
+MANDATORY MEDIA:
+media_2 | video | about: moon landing footage | aim: show when relevant caption topic is spoken
+media_3 | gif | about: historic map image | aim: show when relevant caption topic is spoken
+media_4 | gif | about: gladiator arena gif | aim: show when relevant caption topic is spoken
+media_5 | image | about: television audience reaction | aim: show when relevant caption topic is spoken
+media_6 | image | about: roman road image | aim: show when relevant caption topic is spoken
+
+OPTIONAL MEDIA:
+media_7 | image | about: emperor painting | aim: show when relevant caption topic is spoken
+media_20 | gif | about: cute dolphin gif | aim: use only for ocean animal joy
+
+Planner output schema:
+
+{
+  "planner_version": "v3_media_text_matching",
+  "matches": [
+    {
+      "match_id": "match_001",
+      "text": "exact transcript text span",
+      "media_id": "media_5",
+      "match_strength": "high | medium | low",
+      "match_reason": "short reason",
+      "mandatory_media": true
+    }
+  ],
+  "unmatched_text": [
+    {
+      "text": "exact transcript text span",
+      "reason": "no suitable media"
+    }
+  ],
+  "warnings": []
+}
+
+Validation:
+- Every mandatory visual media id must appear at least once in matches.
+- No text span should overlap with another text span assigned to a different media.
+- Each match.text must be copied exactly from transcript.
+- No invented text.
+- No invented media ids.
+
+ASSISTANT GOLD OUTPUT
+{
+  "planner_version": "v3_media_text_matching",
+  "matches": [
+    {
+      "match_id": "match_001",
+      "text": "giant arenas",
+      "media_id": "media_4",
+      "match_strength": "low",
+      "match_reason": "closest available mandatory media match",
+      "mandatory_media": true
+    },
+    {
+      "match_id": "match_002",
+      "text": "emperors ruled from lavish palaces",
+      "media_id": "media_7",
+      "match_strength": "high",
+      "match_reason": "clean motion or object beat",
+      "mandatory_media": false
+    },
+    {
+      "match_id": "match_003",
+      "text": "historic event live",
+      "media_id": "media_5",
+      "match_strength": "medium",
+      "match_reason": "strong noun phrase match",
+      "mandatory_media": true
+    },
+    {
+      "match_id": "match_004",
+      "text": "Empire built massive roads",
+      "media_id": "media_6",
+      "match_strength": "high",
+      "match_reason": "strong noun phrase match",
+      "mandatory_media": true
+    },
+    {
+      "match_id": "match_005",
+      "text": "distant cities and trade routes",
+      "media_id": "media_3",
+      "match_strength": "low",
+      "match_reason": "mandatory asset used on nearest relevant beat",
+      "mandatory_media": true
+    },
+    {
+      "match_id": "match_006",
+      "text": "Moon during Apollo 11",
+      "media_id": "media_2",
+      "match_strength": "high",
+      "match_reason": "fast punch-in visual",
+      "mandatory_media": true
+    },
+    {
+      "match_id": "match_007",
+      "text": "another look at Empire built massive roads",
+      "media_id": "media_6",
+      "match_strength": "medium",
+      "match_reason": "visual callback for earlier topic",
+      "mandatory_media": true
+    }
+  ],
+  "unmatched_text": [],
+  "warnings": []
+}
+
+===== SAMPLE 5 / DATASET ROW 448 =====
+USER PROMPT
+You are Media-Transcript Matching Planner.
+Your job is to match media assets to the transcript text parts they explain best.
+
+Rules:
+- Return valid JSON only.
+- Use all mandatory media at least once.
+- Optional media may be used only if it strongly matches transcript text.
+- Mandatory media has priority over optional media.
+- Each text part may be matched to only ONE media.
+- One media may match multiple text parts.
+- Prefer matching every meaningful transcript part; avoid leaving text unmatched unless no media fits.
+- Match can be a word, phrase, sentence fragment, or full sentence.
+- Always prioritize aim over about.
+- If aim explicitly says media should be used for a certain topic/text, obey aim first.
+- Match creatively like a video editor: use media where it improves clarity, humor, emotional impact, or topic relevance.
+- Do not invent media ids.
+- Do not output timestamps; segment_generator will recover timing from media.json word/caption timing.
+- Do not output layout, animation, x/y/width/height.
+- Do not match audio/caption ids.
+
+USER INSTRUCTION:
+Create a clear short-form edit by matching each visual asset to the transcript text it explains best.
+
+FULL TRANSCRIPT:
+Today was the day. A rapid edit can show rovers explore the dusty surface, switch to stars collapse after exploding, and land on regions where gravity becomes so strong. The scene should build around the reveal that our galaxy. The pacing works as a quick contrast between reveal objects too and reveal objects too appears again. The scene first highlights our galaxy returns, then quickly cuts to shocked by the discovery. By the end, the whole story feels much clearer.
+
+MANDATORY MEDIA:
+media_2 | image | about: scientist shocked gif | aim: show when relevant caption topic is spoken
+media_3 | sticker | about: telescope dome image | aim: show when relevant caption topic is spoken
+media_4 | image | about: mars rover image | aim: show when relevant caption topic is spoken
+media_5 | sticker | about: milky way image | aim: show when relevant caption topic is spoken
+media_6 | sticker | about: exploding star gif | aim: show when relevant caption topic is spoken
+media_7 | gif | about: black hole animation | aim: show when relevant caption topic is spoken
+
+OPTIONAL MEDIA:
+media_20 | gif | about: cute dolphin gif | aim: use only for ocean animal joy
+media_21 | gif | about: generic chart image | aim: use only if the transcript discusses charts
+
+Planner output schema:
+
+{
+  "planner_version": "v3_media_text_matching",
+  "matches": [
+    {
+      "match_id": "match_001",
+      "text": "exact transcript text span",
+      "media_id": "media_5",
+      "match_strength": "high | medium | low",
+      "match_reason": "short reason",
+      "mandatory_media": true
+    }
+  ],
+  "unmatched_text": [
+    {
+      "text": "exact transcript text span",
+      "reason": "no suitable media"
+    }
+  ],
+  "warnings": []
+}
+
+Validation:
+- Every mandatory visual media id must appear at least once in matches.
+- No text span should overlap with another text span assigned to a different media.
+- Each match.text must be copied exactly from transcript.
+- No invented text.
+- No invented media ids.
+
+ASSISTANT GOLD OUTPUT
+{
+  "planner_version": "v3_media_text_matching",
+  "matches": [
+    {
+      "match_id": "match_001",
+      "text": "rovers explore the dusty surface",
+      "media_id": "media_4",
+      "match_strength": "low",
+      "match_reason": "weak but required visual coverage",
+      "mandatory_media": true
+    },
+    {
+      "match_id": "match_002",
+      "text": "stars collapse after exploding",
+      "media_id": "media_6",
+      "match_strength": "medium",
+      "match_reason": "clean motion or object beat",
+      "mandatory_media": true
+    },
+    {
+      "match_id": "match_003",
+      "text": "regions where gravity becomes so strong",
+      "media_id": "media_7",
+      "match_strength": "high",
+      "match_reason": "strong noun phrase match",
+      "mandatory_media": true
+    },
+    {
+      "match_id": "match_004",
+      "text": "our galaxy",
+      "media_id": "media_5",
+      "match_strength": "medium",
+      "match_reason": "visual callback for earlier topic",
+      "mandatory_media": true
+    },
+    {
+      "match_id": "match_005",
+      "text": "reveal objects too",
+      "media_id": "media_3",
+      "match_strength": "high",
+      "match_reason": "strong noun phrase match",
+      "mandatory_media": true
+    },
+    {
+      "match_id": "match_006",
+      "text": "reveal objects too appears again",
+      "media_id": "media_3",
+      "match_strength": "medium",
+      "match_reason": "contextual cinematic reinforcement",
+      "mandatory_media": true
+    },
+    {
+      "match_id": "match_007",
+      "text": "our galaxy returns",
+      "media_id": "media_5",
+      "match_strength": "medium",
+      "match_reason": "clean motion or object beat",
+      "mandatory_media": true
+    },
+    {
+      "match_id": "match_008",
+      "text": "shocked by the discovery",
+      "media_id": "media_2",
+      "match_strength": "high",
+      "match_reason": "strong noun phrase match",
+      "mandatory_media": true
+    }
+  ],
+  "unmatched_text": [],
+  "warnings": []
+}

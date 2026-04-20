@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from vasp.a2v.word_features import enrich_transcript_words
+from vasp.a2v.v2.word_features import enrich_transcript_words
 
 
 def test_word_enrichment_preserves_timing_and_adds_tags() -> None:

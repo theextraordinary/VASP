@@ -8,12 +8,18 @@ from typing import Any
 
 from vasp.core.json_compactor import compact_unified_element_json
 from vasp.core.serialization import serialize_element2_json
+from vasp.core.serializer_v3 import write_element3_txt_from_media_json
 from vasp.llm.client import LLMClient
 from vasp.llm.schemas import LLMRequest
 from vasp.media_reader.pipeline import generate_input_json
 from vasp.pipeline.edit_pipeline import run_edit_pipeline
 from vasp.render.element_renderer import render_from_json
 from vasp.refiner.prompt_templates import build_inter_refiner_prompt
+try:
+    from finetune.quality.contracts import check_planner_output, check_refiner_inter
+except Exception:  # pragma: no cover
+    check_planner_output = None
+    check_refiner_inter = None
 
 EXAMPLE_COMMAND = (
     "python -m vasp.a2v.main "
@@ -39,6 +45,27 @@ DUMMY_INPUT = {
     "instruction_2": "Use pauses to drive emphasis.",
     "instruction_3": "Keep captions clean and readable.",
 }
+
+PLANNER_REQUIRED_HEADINGS = [
+    "EDIT PLAN",
+    "Global Style:",
+    "Audio Decision:",
+    "Caption Style:",
+    "Visual Style:",
+    "Background Style:",
+    "Segmentation Rule:",
+    "Segment 1",
+    "Time:",
+    "Purpose:",
+    "Elements Used:",
+    "Caption Decision:",
+    "Visual Decision:",
+    "Animation Decision:",
+    "Placement Decision:",
+    "Timing Events:",
+    "Transition Out:",
+    "Engagement Note:",
+]
 
 PLANNER_PROMPT_TEMPLATE = (
     "Task: Generate a structured language edit plan for a short-form video. "
@@ -126,13 +153,14 @@ def main() -> None:
     )
     parser.add_argument(
         "--mode",
-        choices=("a2v", "full", "serializer", "serializer_v2", "planner_text", "planner_to_video", "build_refiner_prompt"),
+        choices=("a2v", "full", "serializer", "serializer_v2", "serializer_v3", "planner_text", "planner_to_video", "build_refiner_prompt"),
         default="a2v",
         help=(
             "`a2v`: complete A2V flow -> media.json, element2.json, element2_compact.txt, planner.txt, refiner_prompt.txt, inter.json, a2v_video.mp4. "
             "`full`: run end-to-end to mp4. "
             "`serializer`: stop after element.json. "
             "`serializer_v2`: create element2.json (single combined caption element + word time mapping). "
+            "`serializer_v3`: create element3.txt from media.json using media-understanding properties. "
             "`planner_text`: call e2b/e4b endpoint with compact elements and save planner.txt. "
             "`planner_to_video`: convert planner.txt to inter.json via e2b/e4b and render final mp4. "
             "`build_refiner_prompt`: write robust refiner prompt from planner.txt + element_compact.txt."
@@ -178,6 +206,11 @@ def main() -> None:
         "--planner-endpoint",
         default=None,
         help="Optional ngrok endpoint URL override for planner model (e2b/e4b).",
+    )
+    parser.add_argument(
+        "--refiner-endpoint",
+        default=None,
+        help="Optional ngrok endpoint URL override for refiner model (e2b/e4b).",
     )
     parser.add_argument(
         "--planner-input",
@@ -235,7 +268,7 @@ def main() -> None:
         )
         media_path = out_dir / "media.json"
         media_path.write_text(json.dumps(media_json, indent=2), encoding="utf-8")
-        element2_json = serialize_element2_json(media_json, drop_nulls=True)
+        element2_json = serialize_element2_json(media_json, drop_nulls=False)
         element2_path = out_dir / "element2.json"
         element2_path.write_text(json.dumps(element2_json, indent=2), encoding="utf-8")
         element2_compact_path = compact_unified_element_json(
@@ -271,7 +304,7 @@ def main() -> None:
         )
         media_path = out_dir / "media.json"
         media_path.write_text(json.dumps(media_json, indent=2), encoding="utf-8")
-        element2_json = serialize_element2_json(media_json, drop_nulls=True)
+        element2_json = serialize_element2_json(media_json, drop_nulls=False)
         element2_path = out_dir / "element2.json"
         element2_path.write_text(json.dumps(element2_json, indent=2), encoding="utf-8")
         element2_compact_path = compact_unified_element_json(
@@ -282,6 +315,28 @@ def main() -> None:
         print(f"[A2V] Media Reader complete -> {media_path}")
         print(f"[A2V] Serializer v2 complete -> {element2_path}")
         print(f"[A2V] Serializer v2 compact -> {element2_compact_path}")
+        return
+
+    if args.mode == "serializer_v3":
+        out_dir = Path(args.output).parent
+        out_dir.mkdir(parents=True, exist_ok=True)
+        options = dict(options)
+        if args.video_length is not None:
+            options["target_duration_s"] = float(args.video_length)
+        media_json = generate_input_json(
+            instruction=args.instruction,
+            media_paths=_resolved_media(args),
+            output_path=args.output,
+            options=options,
+        )
+        media_path = out_dir / "media.json"
+        media_path.write_text(json.dumps(media_json, indent=2), encoding="utf-8")
+        element3_path = write_element3_txt_from_media_json(
+            media_json_path=media_path,
+            output_path=out_dir / "element3.txt",
+        )
+        print(f"[A2V] Media Reader complete -> {media_path}")
+        print(f"[A2V] Serializer v3 complete -> {element3_path}")
         return
 
     if args.mode == "planner_text":
@@ -390,11 +445,19 @@ def _run_planner_text(args: argparse.Namespace) -> Path:
 
     req = LLMRequest(model=args.planner_model, prompt=prompt, temperature=0.2)
     print(f"[A2V] Planner calling model={args.planner_model} endpoint override={bool(args.planner_endpoint)}")
-    response = client.generate_text(req)
+    response = _generate_planner_text_strict(client, req, user_prompt=prompt)
 
     out_path = Path(args.planner_output)
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(response.text.strip() + "\n", encoding="utf-8")
+    _write_quality_report(
+        Path("output/quality/planner_inference_score.json"),
+        {
+            "model": args.planner_model,
+            "endpoint_override": bool(args.planner_endpoint),
+            "planner_check": _planner_contract_check(response.text, user_prompt=prompt),
+        },
+    )
     return out_path
 
 
@@ -425,43 +488,51 @@ def _run_planner_to_video(args: argparse.Namespace) -> tuple[Path, Path]:
     print(f"[A2V] Refiner prompt written -> {prompt_path}")
 
     client_kwargs: dict[str, str] = {}
-    if args.planner_endpoint:
-        if args.planner_model == "e2b":
-            client_kwargs["e2b_url"] = args.planner_endpoint
+    if args.refiner_endpoint:
+        if args.refiner_model == "e2b":
+            client_kwargs["e2b_url"] = args.refiner_endpoint
         else:
-            client_kwargs["e4b_url"] = args.planner_endpoint
+            client_kwargs["e4b_url"] = args.refiner_endpoint
     client = LLMClient(**client_kwargs)
-    req = LLMRequest(model=args.planner_model, prompt=prompt, temperature=0.2)
-    print(f"[A2V] Inter generation calling model={args.planner_model} endpoint override={bool(args.planner_endpoint)}")
+    req = LLMRequest(model=args.refiner_model, prompt=prompt, temperature=0.1)
+    print(f"[A2V] Inter generation calling model={args.refiner_model} endpoint override={bool(args.refiner_endpoint)}")
     try:
-        inter_json = client.generate_json(req)
+        inter_json = _generate_refiner_json_strict(client, req, planner_text=planner_text)
     except Exception as exc:
-        print(f"[A2V] Primary JSON parse failed, trying repair flow: {exc}")
-        try:
-            raw_text = client.generate_text(req).text
-            inter_json = _try_parse_json_loose(raw_text)
-        except Exception:
-            try:
-                repair_prompt = (
-                    "Convert the following content into STRICT valid JSON only.\n"
-                    "Do not add explanations. Keep the same schema and values where possible.\n\n"
-                    f"{raw_text if 'raw_text' in locals() else ''}"
-                )
-                repair_req = LLMRequest(model=args.planner_model, prompt=repair_prompt, temperature=0.0)
-                repaired_text = client.generate_text(repair_req).text
-                inter_json = _try_parse_json_loose(repaired_text)
-            except Exception as repair_exc:
-                raise SystemExit(
-                    "Inter generation failed from endpoint.\n"
-                    f"Reason: {repair_exc}\n"
-                    "Tips:\n"
-                    f"1. Open {prompt_path} and reduce prompt size.\n"
-                    "2. Check endpoint logs for context/tokenization errors.\n"
-                    "3. Keep endpoint response to JSON only."
-                ) from repair_exc
+        raise SystemExit(
+            "Inter generation failed from endpoint.\n"
+            f"Reason: {exc}\n"
+            "Tips:\n"
+            f"1. Open {prompt_path} and reduce prompt size.\n"
+            "2. Check endpoint logs for context/tokenization errors.\n"
+            "3. Keep endpoint response to JSON only."
+        ) from exc
 
     inter_json = _ground_inter_with_element2(inter_json, element2_json)
+    post_check = _refiner_contract_check(inter_json, planner_text=planner_text)
+    if not post_check.get("ok", False):
+        repair_prompt = (
+            "Fix this inter.json to satisfy strict renderer contract. Return ONLY JSON object.\n"
+            f"Contract errors to fix: {post_check.get('errors', [])}\n"
+            "Preserve existing element ids and intent. Keep timings and safe-screen constraints correct.\n\n"
+            f"{json.dumps(inter_json, ensure_ascii=False)}"
+        )
+        repaired_json = _generate_refiner_json_strict(
+            client,
+            LLMRequest(model=args.refiner_model, prompt=repair_prompt, temperature=0.0, max_tokens=req.max_tokens),
+            planner_text=planner_text,
+        )
+        inter_json = _ground_inter_with_element2(repaired_json, element2_json)
+        post_check = _refiner_contract_check(inter_json, planner_text=planner_text)
     inter_json = _strip_refiner_output_heavy_fields(inter_json)
+    _write_quality_report(
+        Path("output/quality/refiner_inference_score.json"),
+        {
+            "model": args.refiner_model,
+            "endpoint_override": bool(args.refiner_endpoint),
+            "refiner_check": post_check,
+        },
+    )
 
     inter_path = Path(args.inter_output)
     inter_path.parent.mkdir(parents=True, exist_ok=True)
@@ -495,6 +566,113 @@ def _trim_chars(text: str, *, max_chars: int) -> str:
     if len(text) <= max_chars:
         return text
     return text[:max_chars] + "\n...[TRUNCATED]..."
+
+
+def _is_planner_text_valid(text: str) -> bool:
+    return all(h in text for h in PLANNER_REQUIRED_HEADINGS)
+
+
+def _generate_planner_text_strict(client: LLMClient, req: LLMRequest, *, user_prompt: str = "") -> Any:
+    """Generate planner text and repair once if required headings are missing."""
+    first = client.generate_text(req).text.strip()
+    first_check = _planner_contract_check(first, user_prompt=user_prompt)
+    if first_check.get("ok", False):
+        return type("Resp", (), {"text": first})()
+
+    repair_prompt = (
+        "Rewrite into EXACT planner output format.\n"
+        "Return plain text only. No JSON. No markdown fences.\n"
+        "Must include these headings exactly and in order:\n"
+        + "\n".join(f"- {h}" for h in PLANNER_REQUIRED_HEADINGS)
+        + "\nMust include explicit caption grouping logic and exact group timing rule lines."
+        + f"\nContract errors to fix: {first_check.get('errors', [])}"
+        + "\n\nOriginal output:\n"
+        + first
+    )
+    repaired = client.generate_text(
+        LLMRequest(model=req.model, prompt=repair_prompt, temperature=0.0, max_tokens=req.max_tokens)
+    ).text.strip()
+    repaired_check = _planner_contract_check(repaired, user_prompt=user_prompt)
+    if not repaired_check.get("ok", False):
+        raise ValueError(f"Planner output failed strict contract after repair: {repaired_check.get('errors', [])}")
+    return type("Resp", (), {"text": repaired})()
+
+
+def _is_refiner_json_valid(obj: Any) -> bool:
+    if not isinstance(obj, dict):
+        return False
+    if not isinstance(obj.get("video"), dict):
+        return False
+    if not isinstance(obj.get("elements"), list):
+        return False
+    video = obj.get("video", {})
+    size = video.get("size", {})
+    if not isinstance(size, dict):
+        return False
+    if size.get("width") is None or size.get("height") is None:
+        return False
+    if video.get("fps") is None or video.get("output_path") is None:
+        return False
+    for e in obj.get("elements", []):
+        if not isinstance(e, dict):
+            return False
+        for k in ("element_id", "type", "timing", "actions", "properties"):
+            if k not in e:
+                return False
+    return True
+
+
+def _generate_refiner_json_strict(client: LLMClient, req: LLMRequest, *, planner_text: str = "") -> dict[str, Any]:
+    """Generate inter JSON with strict parse + one deterministic repair pass."""
+    raw_first = client.generate_text(req).text
+    first_contract: dict[str, Any] = {"ok": False, "errors": ["refiner_not_json"], "score": 0.0, "details": {}}
+    try:
+        parsed = _try_parse_json_loose(raw_first)
+        first_contract = _refiner_contract_check(parsed, planner_text=planner_text)
+        if first_contract.get("ok", False):
+            return parsed
+    except Exception:
+        pass
+
+    repair_prompt = (
+        "Convert the following content into STRICT valid JSON only.\n"
+        "No markdown, no explanations.\n"
+        "Required top-level keys: version, video, elements.\n"
+        "video must include: size.width, size.height, fps, output_path.\n"
+        "Each element must include: element_id, type, timing, actions, properties.\n\n"
+        f"Contract errors to fix: {first_contract.get('errors', [])}\n\n"
+        "Content:\n"
+        f"{raw_first}"
+    )
+    repaired_text = client.generate_text(
+        LLMRequest(model=req.model, prompt=repair_prompt, temperature=0.0, max_tokens=req.max_tokens)
+    ).text
+    parsed = _try_parse_json_loose(repaired_text)
+    repaired_contract = _refiner_contract_check(parsed, planner_text=planner_text)
+    if not repaired_contract.get("ok", False):
+        raise ValueError(f"Refiner JSON failed strict schema contract after repair: {repaired_contract.get('errors', [])}")
+    return parsed
+
+
+def _planner_contract_check(text: str, *, user_prompt: str = "") -> dict[str, Any]:
+    if check_planner_output is None:
+        ok = _is_planner_text_valid(text)
+        return {"ok": ok, "score": 1.0 if ok else 0.0, "errors": [] if ok else ["planner_missing_headings"], "details": {}}
+    check = check_planner_output(text, user_prompt=user_prompt)
+    return {"ok": check.ok, "score": check.score, "errors": check.errors, "details": check.details}
+
+
+def _refiner_contract_check(inter: Any, *, planner_text: str = "") -> dict[str, Any]:
+    if check_refiner_inter is None:
+        ok = _is_refiner_json_valid(inter)
+        return {"ok": ok, "score": 1.0 if ok else 0.0, "errors": [] if ok else ["refiner_schema_invalid"], "details": {}}
+    check = check_refiner_inter(inter, planner_text=planner_text)
+    return {"ok": check.ok, "score": check.score, "errors": check.errors, "details": check.details}
+
+
+def _write_quality_report(path: Path, payload: dict[str, Any]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 def _ground_inter_with_element2(inter_json: dict[str, Any], element2_json: dict[str, Any]) -> dict[str, Any]:

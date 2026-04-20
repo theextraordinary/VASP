@@ -5,7 +5,7 @@ import subprocess
 from pathlib import Path
 from typing import Any, Optional
 
-from vasp.a2v.word_features import enrich_transcript_words
+from vasp.a2v.v2.word_features import enrich_transcript_words
 
 
 def transcribe_with_whisperx(
@@ -30,7 +30,17 @@ def transcribe_with_whisperx(
 
         # CPU default keeps behavior predictable across environments.
         device = "cpu"
-        model = whisperx.load_model(model_size, device=device, language=language)
+        vad_options = {
+            # Song/music beds often make pyannote/WhisperX VAD too conservative.
+            # Lower thresholds keep quiet/fast vocal regions from being dropped,
+            # which is safer for caption generation than leaving the tail blank.
+            "vad_onset": 0.08,
+            "vad_offset": 0.08,
+        }
+        try:
+            model = whisperx.load_model(model_size, device=device, language=language, vad_options=vad_options)
+        except TypeError:
+            model = whisperx.load_model(model_size, device=device, language=language)
         result = model.transcribe(str(path))
 
         # Force alignment pass so word boundaries match actual spoken regions

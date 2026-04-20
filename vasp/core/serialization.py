@@ -191,6 +191,8 @@ def serialize_element2_json(
     actions_json, props_json = serialize_element_json(input_path)
     unified = merge_serialized_bundle(actions_json, props_json, drop_nulls=drop_nulls)
     out = _collapse_captions_to_single_element(unified)
+    out = _strip_redundancy_for_element2(out)
+    out = _minimize_element2_payload(out, keep_nulls=not drop_nulls)
     if drop_nulls:
         out = _drop_null_fields(out)
     out["serializer_mode"] = "v2"
@@ -765,10 +767,16 @@ def _compact_media_context_for_unified(media_context: Any) -> Any:
         block_copy = dict(block)
         transcript = block_copy.get("transcript")
         if isinstance(transcript, dict):
-            t = dict(transcript)
-            # Words already become caption elements in unified output.
-            t.pop("words", None)
-            t.pop("segments", None)
+            # Keep only fields needed by downstream planning/serialization.
+            t: dict[str, Any] = {}
+            if transcript.get("language") is not None:
+                t["language"] = transcript.get("language")
+            if isinstance(transcript.get("caption_groups"), list):
+                t["caption_groups"] = transcript.get("caption_groups")
+            if isinstance(transcript.get("grouping_config"), dict):
+                t["grouping_config"] = transcript.get("grouping_config")
+            if isinstance(transcript.get("word_stats"), dict):
+                t["word_stats"] = transcript.get("word_stats")
             block_copy["transcript"] = t
         compact_analysis[media_id] = block_copy
     out["analysis"] = compact_analysis
@@ -830,8 +838,6 @@ def _collapse_captions_to_single_element(unified: dict[str, Any]) -> dict[str, A
         metadata = {}
     metadata["caption_mode"] = "single_combined_element"
     metadata["word_timing_map"] = word_map
-    if transcript_meta:
-        metadata["transcript"] = transcript_meta
     props["metadata"] = metadata
 
     caption_action = {
@@ -862,6 +868,177 @@ def _collapse_captions_to_single_element(unified: dict[str, Any]) -> dict[str, A
     return out
 
 
+def _strip_redundancy_for_element2(unified: dict[str, Any]) -> dict[str, Any]:
+    """Remove heavy duplicate fields from serializer_v2 output while preserving key planning data."""
+    out = dict(unified)
+    elements = out.get("elements")
+    if isinstance(elements, list):
+        cleaned: list[dict[str, Any]] = []
+        for row in elements:
+            if not isinstance(row, dict):
+                continue
+            r = dict(row)
+            props = r.get("properties")
+            if isinstance(props, dict):
+                p = dict(props)
+                # timing/text already represented at element level for v2 use; keep only for caption
+                if str(r.get("type", "")).lower() != "caption":
+                    p.pop("timing", None)
+                # Avoid duplicate transcript payload in properties metadata.
+                md = p.get("metadata")
+                if isinstance(md, dict):
+                    md2 = dict(md)
+                    md2.pop("transcript", None)
+                    p["metadata"] = md2
+                r["properties"] = p
+            cleaned.append(r)
+        out["elements"] = cleaned
+    return out
+
+
+def _minimize_element2_payload(unified: dict[str, Any], *, keep_nulls: bool) -> dict[str, Any]:
+    """Keep only planner-relevant fields in serializer_v2 output."""
+    out = dict(unified)
+
+    def _pick(d: dict[str, Any], keys: list[str]) -> dict[str, Any]:
+        picked: dict[str, Any] = {}
+        for k in keys:
+            if k in d:
+                picked[k] = d.get(k)
+            elif keep_nulls:
+                picked[k] = None
+        return picked
+
+    elements = out.get("elements")
+    if isinstance(elements, list):
+        slim_elements: list[dict[str, Any]] = []
+        for row in elements:
+            if not isinstance(row, dict):
+                continue
+            props = row.get("properties", {}) if isinstance(row.get("properties"), dict) else {}
+            etype = str(props.get("type") or row.get("type") or "").lower()
+
+            if etype in {"music", "audio", "sfx"}:
+                base_keys = [
+                    "type",
+                    "timing",
+                    "source_uri",
+                    "loop",
+                    "volume",
+                    "fade_in",
+                    "fade_out",
+                    "muted",
+                    "trim_in",
+                    "trim_out",
+                    "layer",
+                    "z_index",
+                ]
+            elif etype == "caption":
+                base_keys = [
+                    "type",
+                    "timing",
+                    "text",
+                    "language",
+                    "layer",
+                    "z_index",
+                    "text_align",
+                    "line_height",
+                    "letter_spacing",
+                    "wrap",
+                    "background_opacity",
+                    "stroke_width",
+                ]
+            else:
+                base_keys = [
+                    "type",
+                    "timing",
+                    "source_uri",
+                    "layer",
+                    "z_index",
+                ]
+            slim_props: dict[str, Any] = _pick(props, base_keys)
+
+            tr = props.get("transform", {}) if isinstance(props.get("transform"), dict) else {}
+            tr_size = tr.get("size", {}) if isinstance(tr.get("size"), dict) else {}
+            slim_props["transform"] = {
+                "x": tr.get("x"),
+                "y": tr.get("y"),
+                "width": tr_size.get("width"),
+                "height": tr_size.get("height"),
+                "scale_x": tr.get("scale_x"),
+                "scale_y": tr.get("scale_y"),
+                "rotation_deg": tr.get("rotation_deg"),
+                "opacity": tr.get("opacity"),
+                "anchor": tr.get("anchor"),
+            }
+
+            md = props.get("metadata", {}) if isinstance(props.get("metadata"), dict) else {}
+            if etype == "caption":
+                md_keys = ["media_id", "aim", "about", "caption_mode", "word_timing_map"]
+            else:
+                md_keys = ["media_id", "aim", "about"]
+            slim_md = _pick(md, md_keys)
+            slim_props["metadata"] = slim_md
+
+            slim_row = {
+                "element_id": row.get("element_id"),
+                "actions": row.get("actions", []),
+                "properties": slim_props,
+            }
+            # keep top-level type/timing only if present (avoid duplicates unless helpful)
+            if "type" in row:
+                slim_row["type"] = row.get("type")
+            if "timing" in row:
+                slim_row["timing"] = row.get("timing")
+            if "about" in row:
+                slim_row["about"] = row.get("about")
+            if "aim" in row:
+                slim_row["aim"] = row.get("aim")
+            slim_elements.append(slim_row)
+        out["elements"] = slim_elements
+
+    # media_context: keep compact, remove obvious null-heavy blocks
+    mc = out.get("media_context")
+    if isinstance(mc, dict):
+        mc_out: dict[str, Any] = {}
+        if isinstance(mc.get("inputs"), list):
+            mc_out["inputs"] = [
+                {
+                    "id": i.get("id"),
+                    "path": i.get("path"),
+                    "media_type": i.get("media_type"),
+                    "aim": i.get("aim"),
+                    "about": i.get("about"),
+                }
+                for i in mc.get("inputs", [])
+                if isinstance(i, dict)
+            ]
+        analysis = mc.get("analysis")
+        if isinstance(analysis, dict):
+            a_out: dict[str, Any] = {}
+            for mid, block in analysis.items():
+                if not isinstance(block, dict):
+                    continue
+                b: dict[str, Any] = {
+                    "media_tags": block.get("media_tags"),
+                    "warnings": block.get("warnings"),
+                    "summary": block.get("summary"),
+                }
+                t = block.get("transcript")
+                if isinstance(t, dict):
+                    b["transcript"] = {
+                        "language": t.get("language"),
+                        "caption_groups": t.get("caption_groups"),
+                        "grouping_config": t.get("grouping_config"),
+                        "word_stats": t.get("word_stats"),
+                    }
+                a_out[mid] = b
+            mc_out["analysis"] = a_out
+        out["media_context"] = mc_out
+
+    return out
+
+
 def _word_timing_map_from_context(media_context: Any) -> list[dict[str, Any]]:
     if not isinstance(media_context, dict):
         return []
@@ -869,6 +1046,7 @@ def _word_timing_map_from_context(media_context: Any) -> list[dict[str, Any]]:
     if not isinstance(analysis, dict):
         return []
     words: list[dict[str, Any]] = []
+    groups: list[dict[str, Any]] = []
     idx = 0
     for block in analysis.values():
         if not isinstance(block, dict):
@@ -876,6 +1054,26 @@ def _word_timing_map_from_context(media_context: Any) -> list[dict[str, Any]]:
         transcript = block.get("transcript")
         if not isinstance(transcript, dict):
             continue
+        for g in transcript.get("caption_groups", []) or []:
+            if not isinstance(g, dict):
+                continue
+            text = str(g.get("text", "")).strip()
+            if not text:
+                continue
+            start = _safe_float(g.get("start"))
+            end = _safe_float(g.get("end"))
+            if start is None:
+                continue
+            if end is None or end < start:
+                end = start
+            groups.append(
+                {
+                    "index": len(groups),
+                    "text": text,
+                    "start": float(start),
+                    "end": float(end),
+                }
+            )
         for w in transcript.get("words", []) or []:
             if not isinstance(w, dict):
                 continue
@@ -897,6 +1095,11 @@ def _word_timing_map_from_context(media_context: Any) -> list[dict[str, Any]]:
                 }
             )
             idx += 1
+    if groups:
+        groups.sort(key=lambda g: float(g.get("start", 0.0)))
+        for i, g in enumerate(groups):
+            g["index"] = i
+        return groups
     words.sort(key=lambda w: float(w.get("start", 0.0)))
     for i, w in enumerate(words):
         w["index"] = i

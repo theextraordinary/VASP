@@ -1,0 +1,32 @@
+{
+  "elements": [
+    {
+      "element_id": "audio_1",
+      "type": "Music",
+      "timing": { "start": 0.0, "duration": 6.0 },
+      "properties": {
+        "source_uri": "assets/inputs/audio.wav",
+        "transform": {}
+      }
+    },
+    {
+      "element_id": "image_1",
+      "type": "Image",
+      "timing": { "start": 0.0, "duration": 6.0 },
+      "properties": {
+        "source_uri": "assets/inputs/image.jpg",
+        "transform": { "x": 540.0, "y": 800.0, "width": 960.0, "height": 960.0 },
+        "z_index": 1
+      }
+    },
+    {
+      "element_id": "caption_track_1",
+      "type": "Caption",
+      "timing": { "start": 0.0, "duration": 6.0 },
+      "properties": {
+        "transform": { "x": 540.0, "y": 1600.0, "width": 920.0, "height": 200.0 },
+        "z_index": 3
+      }
+    }
+  ]
+}

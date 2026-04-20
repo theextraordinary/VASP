@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[2]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from vasp.a2v.main import PLANNER_PROMPT_TEMPLATE
+from vasp.a2v.v2.main import PLANNER_PROMPT_TEMPLATE
 from vasp.refiner.prompt_templates import build_inter_refiner_prompt
 from vasp.render.element_renderer import render_from_json
 

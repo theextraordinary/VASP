@@ -7,7 +7,7 @@ import subprocess
 from pathlib import Path
 from typing import Any
 
-from vasp.a2v.transcription import transcribe_media_with_features
+from vasp.a2v.v2.transcription import transcribe_media_with_features
 from vasp.media_reader.probe import probe_media
 
 def build_song_chunks_and_sync_examples(

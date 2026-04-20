@@ -1,0 +1,242 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are Refiner V3. Choose professional preset names.\n\nCREATIVITY LEVEL: 4\n\nTARGET BUNDLE HINT: emotional_quote\n\nSEGMENT:\n```json\n{\n  \"segment_id\": \"segment_001\",\n  \"matched_text\": \"Nobody expected this moment\",\n  \"t_start\": 2.4,\n  \"t_end\": 4.6,\n  \"media_id\": \"\",\n  \"media\": {\n    \"element_id\": \"\",\n    \"type\": \"\",\n    \"source_path\": \"\",\n    \"about\": \"\",\n    \"aim\": \"\"\n  },\n  \"caption_groups\": [\n    {\n      \"index\": 1,\n      \"text\": \"Nobody expected this moment\",\n      \"start\": 2.4,\n      \"end\": 4.6\n    }\n  ],\n  \"warnings\": [\n    \"caption_only_unmatched_from_media_json\"\n  ]\n}\n```"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"segment_id\": \"segment_001\", \"creativity_level\": 4, \"preset_bundle\": \"emotional_quote\", \"background_preset\": \"cinematic_letterbox_grain\", \"caption_preset\": \"soft_emotional_script\", \"caption_layout_preset\": \"caption_only_center\", \"visual_layout_preset\": \"image_card_center\", \"caption_animation_preset\": \"caption_slide_up_clean\", \"visual_animation_preset\": \"visual_float_soft\", \"transition_preset\": \"soft_fade\", \"t_start\": 2.4, \"t_end\": 4.6, \"background_timeline\": [{\"t_start\": 2.4, \"t_end\": 4.6, \"reason\": \"preset:cinematic_letterbox_grain\"}], \"caption_timeline\": [{\"caption_group_index\": 1, \"text\": \"Nobody expected this moment\", \"t_start\": 2.4, \"t_end\": 4.6, \"highlight_words\": []}], \"visual_timeline\": [], \"warnings\": []}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are Refiner V3. Choose professional preset names.\n\nCREATIVITY LEVEL: 4\n\nTARGET BUNDLE HINT: emotional_quote\n\nSEGMENT:\n```json\n{\n  \"segment_id\": \"segment_002\",\n  \"matched_text\": \"the ancient pyramid stood alone\",\n  \"t_start\": 4.8,\n  \"t_end\": 7.0,\n  \"media_id\": \"\",\n  \"media\": {\n    \"element_id\": \"\",\n    \"type\": \"\",\n    \"source_path\": \"\",\n    \"about\": \"\",\n    \"aim\": \"\"\n  },\n  \"caption_groups\": [\n    {\n      \"index\": 2,\n      \"text\": \"the ancient pyramid stood alone\",\n      \"start\": 4.8,\n      \"end\": 7.0\n    }\n  ],\n  \"warnings\": [\n    \"caption_only_unmatched_from_media_json\"\n  ]\n}\n```"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"segment_id\": \"segment_002\", \"creativity_level\": 4, \"preset_bundle\": \"emotional_quote\", \"background_preset\": \"cinematic_letterbox_grain\", \"caption_preset\": \"soft_emotional_script\", \"caption_layout_preset\": \"caption_only_center\", \"visual_layout_preset\": \"image_card_center\", \"caption_animation_preset\": \"caption_slide_up_clean\", \"visual_animation_preset\": \"visual_float_soft\", \"transition_preset\": \"soft_fade\", \"t_start\": 4.8, \"t_end\": 7.0, \"background_timeline\": [{\"t_start\": 4.8, \"t_end\": 7.0, \"reason\": \"preset:cinematic_letterbox_grain\"}], \"caption_timeline\": [{\"caption_group_index\": 2, \"text\": \"the ancient pyramid stood alone\", \"t_start\": 4.8, \"t_end\": 7.0, \"highlight_words\": []}], \"visual_timeline\": [], \"warnings\": []}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are Refiner V3. Choose professional preset names.\n\nCREATIVITY LEVEL: 2\n\nTARGET BUNDLE HINT: emotional_quote\n\nSEGMENT:\n```json\n{\n  \"segment_id\": \"segment_003\",\n  \"matched_text\": \"scientists watched the rocket launch\",\n  \"t_start\": 7.2,\n  \"t_end\": 9.4,\n  \"media_id\": \"\",\n  \"media\": {\n    \"element_id\": \"\",\n    \"type\": \"\",\n    \"source_path\": \"\",\n    \"about\": \"\",\n    \"aim\": \"\"\n  },\n  \"caption_groups\": [\n    {\n      \"index\": 3,\n      \"text\": \"scientists watched the rocket launch\",\n      \"start\": 7.2,\n      \"end\": 9.4\n    }\n  ],\n  \"warnings\": [\n    \"caption_only_unmatched_from_media_json\"\n  ]\n}\n```"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"segment_id\": \"segment_003\", \"creativity_level\": 2, \"preset_bundle\": \"emotional_quote\", \"background_preset\": \"cinematic_letterbox_grain\", \"caption_preset\": \"soft_emotional_script\", \"caption_layout_preset\": \"caption_only_center\", \"visual_layout_preset\": \"image_card_center\", \"caption_animation_preset\": \"caption_slide_up_clean\", \"visual_animation_preset\": \"visual_float_soft\", \"transition_preset\": \"soft_fade\", \"t_start\": 7.2, \"t_end\": 9.4, \"background_timeline\": [{\"t_start\": 7.2, \"t_end\": 9.4, \"reason\": \"preset:cinematic_letterbox_grain\"}], \"caption_timeline\": [{\"caption_group_index\": 3, \"text\": \"scientists watched the rocket launch\", \"t_start\": 7.2, \"t_end\": 9.4, \"highlight_words\": []}], \"visual_timeline\": [], \"warnings\": []}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are Refiner V3. Choose professional preset names.\n\nCREATIVITY LEVEL: 4\n\nTARGET BUNDLE HINT: emotional_quote\n\nSEGMENT:\n```json\n{\n  \"segment_id\": \"segment_004\",\n  \"matched_text\": \"everyone was completely shocked\",\n  \"t_start\": 9.6,\n  \"t_end\": 11.8,\n  \"media_id\": \"\",\n  \"media\": {\n    \"element_id\": \"\",\n    \"type\": \"\",\n    \"source_path\": \"\",\n    \"about\": \"\",\n    \"aim\": \"\"\n  },\n  \"caption_groups\": [\n    {\n      \"index\": 4,\n      \"text\": \"everyone was completely shocked\",\n      \"start\": 9.6,\n      \"end\": 11.8\n    }\n  ],\n  \"warnings\": [\n    \"caption_only_unmatched_from_media_json\"\n  ]\n}\n```"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"segment_id\": \"segment_004\", \"creativity_level\": 4, \"preset_bundle\": \"emotional_quote\", \"background_preset\": \"cinematic_letterbox_grain\", \"caption_preset\": \"soft_emotional_script\", \"caption_layout_preset\": \"caption_only_center\", \"visual_layout_preset\": \"image_card_center\", \"caption_animation_preset\": \"caption_slide_up_clean\", \"visual_animation_preset\": \"visual_float_soft\", \"transition_preset\": \"soft_fade\", \"t_start\": 9.6, \"t_end\": 11.8, \"background_timeline\": [{\"t_start\": 9.6, \"t_end\": 11.8, \"reason\": \"preset:cinematic_letterbox_grain\"}], \"caption_timeline\": [{\"caption_group_index\": 4, \"text\": \"everyone was completely shocked\", \"t_start\": 9.6, \"t_end\": 11.8, \"highlight_words\": []}], \"visual_timeline\": [], \"warnings\": []}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are Refiner V3. Choose professional preset names.\n\nCREATIVITY LEVEL: 4\n\nTARGET BUNDLE HINT: emotional_quote\n\nSEGMENT:\n```json\n{\n  \"segment_id\": \"segment_005\",\n  \"matched_text\": \"breaking news changed the story\",\n  \"t_start\": 12.0,\n  \"t_end\": 14.2,\n  \"media_id\": \"\",\n  \"media\": {\n    \"element_id\": \"\",\n    \"type\": \"\",\n    \"source_path\": \"\",\n    \"about\": \"\",\n    \"aim\": \"\"\n  },\n  \"caption_groups\": [\n    {\n      \"index\": 5,\n      \"text\": \"breaking news changed the story\",\n      \"start\": 12.0,\n      \"end\": 14.2\n    }\n  ],\n  \"warnings\": [\n    \"caption_only_unmatched_from_media_json\"\n  ]\n}\n```"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"segment_id\": \"segment_005\", \"creativity_level\": 4, \"preset_bundle\": \"emotional_quote\", \"background_preset\": \"cinematic_letterbox_grain\", \"caption_preset\": \"soft_emotional_script\", \"caption_layout_preset\": \"caption_only_center\", \"visual_layout_preset\": \"image_card_center\", \"caption_animation_preset\": \"caption_slide_up_clean\", \"visual_animation_preset\": \"visual_float_soft\", \"transition_preset\": \"soft_fade\", \"t_start\": 12.0, \"t_end\": 14.2, \"background_timeline\": [{\"t_start\": 12.0, \"t_end\": 14.2, \"reason\": \"preset:cinematic_letterbox_grain\"}], \"caption_timeline\": [{\"caption_group_index\": 5, \"text\": \"breaking news changed the story\", \"t_start\": 12.0, \"t_end\": 14.2, \"highlight_words\": []}], \"visual_timeline\": [], \"warnings\": []}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are Refiner V3. Choose professional preset names.\n\nCREATIVITY LEVEL: 2\n\nTARGET BUNDLE HINT: emotional_quote\n\nSEGMENT:\n```json\n{\n  \"segment_id\": \"segment_006\",\n  \"matched_text\": \"soldiers returned after the war\",\n  \"t_start\": 14.4,\n  \"t_end\": 16.6,\n  \"media_id\": \"\",\n  \"media\": {\n    \"element_id\": \"\",\n    \"type\": \"\",\n    \"source_path\": \"\",\n    \"about\": \"\",\n    \"aim\": \"\"\n  },\n  \"caption_groups\": [\n    {\n      \"index\": 6,\n      \"text\": \"soldiers returned after the war\",\n      \"start\": 14.4,\n      \"end\": 16.6\n    }\n  ],\n  \"warnings\": [\n    \"caption_only_unmatched_from_media_json\"\n  ]\n}\n```"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"segment_id\": \"segment_006\", \"creativity_level\": 2, \"preset_bundle\": \"emotional_quote\", \"background_preset\": \"cinematic_letterbox_grain\", \"caption_preset\": \"soft_emotional_script\", \"caption_layout_preset\": \"caption_only_center\", \"visual_layout_preset\": \"image_card_center\", \"caption_animation_preset\": \"caption_slide_up_clean\", \"visual_animation_preset\": \"visual_float_soft\", \"transition_preset\": \"soft_fade\", \"t_start\": 14.4, \"t_end\": 16.6, \"background_timeline\": [{\"t_start\": 14.4, \"t_end\": 16.6, \"reason\": \"preset:cinematic_letterbox_grain\"}], \"caption_timeline\": [{\"caption_group_index\": 6, \"text\": \"soldiers returned after the war\", \"t_start\": 14.4, \"t_end\": 16.6, \"highlight_words\": []}], \"visual_timeline\": [], \"warnings\": []}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are Refiner V3. Choose professional preset names.\n\nCREATIVITY LEVEL: 4\n\nTARGET BUNDLE HINT: emotional_quote\n\nSEGMENT:\n```json\n{\n  \"segment_id\": \"segment_007\",\n  \"matched_text\": \"the galaxy revealed a strange signal\",\n  \"t_start\": 16.8,\n  \"t_end\": 19.0,\n  \"media_id\": \"\",\n  \"media\": {\n    \"element_id\": \"\",\n    \"type\": \"\",\n    \"source_path\": \"\",\n    \"about\": \"\",\n    \"aim\": \"\"\n  },\n  \"caption_groups\": [\n    {\n      \"index\": 7,\n      \"text\": \"the galaxy revealed a strange signal\",\n      \"start\": 16.8,\n      \"end\": 19.0\n    }\n  ],\n  \"warnings\": [\n    \"caption_only_unmatched_from_media_json\"\n  ]\n}\n```"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"segment_id\": \"segment_007\", \"creativity_level\": 4, \"preset_bundle\": \"emotional_quote\", \"background_preset\": \"cinematic_letterbox_grain\", \"caption_preset\": \"soft_emotional_script\", \"caption_layout_preset\": \"caption_only_center\", \"visual_layout_preset\": \"image_card_center\", \"caption_animation_preset\": \"caption_slide_up_clean\", \"visual_animation_preset\": \"visual_float_soft\", \"transition_preset\": \"soft_fade\", \"t_start\": 16.8, \"t_end\": 19.0, \"background_timeline\": [{\"t_start\": 16.8, \"t_end\": 19.0, \"reason\": \"preset:cinematic_letterbox_grain\"}], \"caption_timeline\": [{\"caption_group_index\": 7, \"text\": \"the galaxy revealed a strange signal\", \"t_start\": 16.8, \"t_end\": 19.0, \"highlight_words\": []}], \"visual_timeline\": [], \"warnings\": []}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are Refiner V3. Choose professional preset names.\n\nCREATIVITY LEVEL: 4\n\nTARGET BUNDLE HINT: emotional_quote\n\nSEGMENT:\n```json\n{\n  \"segment_id\": \"segment_008\",\n  \"matched_text\": \"the mystery only got darker\",\n  \"t_start\": 19.2,\n  \"t_end\": 21.4,\n  \"media_id\": \"\",\n  \"media\": {\n    \"element_id\": \"\",\n    \"type\": \"\",\n    \"source_path\": \"\",\n    \"about\": \"\",\n    \"aim\": \"\"\n  },\n  \"caption_groups\": [\n    {\n      \"index\": 8,\n      \"text\": \"the mystery only got darker\",\n      \"start\": 19.2,\n      \"end\": 21.4\n    }\n  ],\n  \"warnings\": [\n    \"caption_only_unmatched_from_media_json\"\n  ]\n}\n```"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"segment_id\": \"segment_008\", \"creativity_level\": 4, \"preset_bundle\": \"emotional_quote\", \"background_preset\": \"cinematic_letterbox_grain\", \"caption_preset\": \"soft_emotional_script\", \"caption_layout_preset\": \"caption_only_center\", \"visual_layout_preset\": \"image_card_center\", \"caption_animation_preset\": \"caption_slide_up_clean\", \"visual_animation_preset\": \"visual_float_soft\", \"transition_preset\": \"soft_fade\", \"t_start\": 19.2, \"t_end\": 21.4, \"background_timeline\": [{\"t_start\": 19.2, \"t_end\": 21.4, \"reason\": \"preset:cinematic_letterbox_grain\"}], \"caption_timeline\": [{\"caption_group_index\": 8, \"text\": \"the mystery only got darker\", \"t_start\": 19.2, \"t_end\": 21.4, \"highlight_words\": []}], \"visual_timeline\": [], \"warnings\": []}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are Refiner V3. Choose professional preset names.\n\nCREATIVITY LEVEL: 2\n\nTARGET BUNDLE HINT: emotional_quote\n\nSEGMENT:\n```json\n{\n  \"segment_id\": \"segment_009\",\n  \"matched_text\": \"the teacher explained the simple idea\",\n  \"t_start\": 21.6,\n  \"t_end\": 23.8,\n  \"media_id\": \"\",\n  \"media\": {\n    \"element_id\": \"\",\n    \"type\": \"\",\n    \"source_path\": \"\",\n    \"about\": \"\",\n    \"aim\": \"\"\n  },\n  \"caption_groups\": [\n    {\n      \"index\": 9,\n      \"text\": \"the teacher explained the simple idea\",\n      \"start\": 21.6,\n      \"end\": 23.8\n    }\n  ],\n  \"warnings\": [\n    \"caption_only_unmatched_from_media_json\"\n  ]\n}\n```"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"segment_id\": \"segment_009\", \"creativity_level\": 2, \"preset_bundle\": \"emotional_quote\", \"background_preset\": \"cinematic_letterbox_grain\", \"caption_preset\": \"soft_emotional_script\", \"caption_layout_preset\": \"caption_only_center\", \"visual_layout_preset\": \"image_card_center\", \"caption_animation_preset\": \"caption_slide_up_clean\", \"visual_animation_preset\": \"visual_float_soft\", \"transition_preset\": \"soft_fade\", \"t_start\": 21.6, \"t_end\": 23.8, \"background_timeline\": [{\"t_start\": 21.6, \"t_end\": 23.8, \"reason\": \"preset:cinematic_letterbox_grain\"}], \"caption_timeline\": [{\"caption_group_index\": 9, \"text\": \"the teacher explained the simple idea\", \"t_start\": 21.6, \"t_end\": 23.8, \"highlight_words\": []}], \"visual_timeline\": [], \"warnings\": []}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are Refiner V3. Choose professional preset names.\n\nCREATIVITY LEVEL: 4\n\nTARGET BUNDLE HINT: emotional_quote\n\nSEGMENT:\n```json\n{\n  \"segment_id\": \"segment_010\",\n  \"matched_text\": \"the joke landed instantly\",\n  \"t_start\": 24.0,\n  \"t_end\": 26.2,\n  \"media_id\": \"\",\n  \"media\": {\n    \"element_id\": \"\",\n    \"type\": \"\",\n    \"source_path\": \"\",\n    \"about\": \"\",\n    \"aim\": \"\"\n  },\n  \"caption_groups\": [\n    {\n      \"index\": 10,\n      \"text\": \"the joke landed instantly\",\n      \"start\": 24.0,\n      \"end\": 26.2\n    }\n  ],\n  \"warnings\": [\n    \"caption_only_unmatched_from_media_json\"\n  ]\n}\n```"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"segment_id\": \"segment_010\", \"creativity_level\": 4, \"preset_bundle\": \"emotional_quote\", \"background_preset\": \"cinematic_letterbox_grain\", \"caption_preset\": \"soft_emotional_script\", \"caption_layout_preset\": \"caption_only_center\", \"visual_layout_preset\": \"image_card_center\", \"caption_animation_preset\": \"caption_slide_up_clean\", \"visual_animation_preset\": \"visual_float_soft\", \"transition_preset\": \"soft_fade\", \"t_start\": 24.0, \"t_end\": 26.2, \"background_timeline\": [{\"t_start\": 24.0, \"t_end\": 26.2, \"reason\": \"preset:cinematic_letterbox_grain\"}], \"caption_timeline\": [{\"caption_group_index\": 10, \"text\": \"the joke landed instantly\", \"t_start\": 24.0, \"t_end\": 26.2, \"highlight_words\": []}], \"visual_timeline\": [], \"warnings\": []}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are Refiner V3. Choose professional preset names.\n\nCREATIVITY LEVEL: 4\n\nTARGET BUNDLE HINT: emotional_quote\n\nSEGMENT:\n```json\n{\n  \"segment_id\": \"segment_011\",\n  \"matched_text\": \"Nobody expected this moment\",\n  \"t_start\": 26.4,\n  \"t_end\": 28.6,\n  \"media_id\": \"\",\n  \"media\": {\n    \"element_id\": \"\",\n    \"type\": \"\",\n    \"source_path\": \"\",\n    \"about\": \"\",\n    \"aim\": \"\"\n  },\n  \"caption_groups\": [\n    {\n      \"index\": 11,\n      \"text\": \"Nobody expected this moment\",\n      \"start\": 26.4,\n      \"end\": 28.6\n    }\n  ],\n  \"warnings\": [\n    \"caption_only_unmatched_from_media_json\"\n  ]\n}\n```"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"segment_id\": \"segment_011\", \"creativity_level\": 4, \"preset_bundle\": \"emotional_quote\", \"background_preset\": \"cinematic_letterbox_grain\", \"caption_preset\": \"soft_emotional_script\", \"caption_layout_preset\": \"caption_only_center\", \"visual_layout_preset\": \"image_card_center\", \"caption_animation_preset\": \"caption_slide_up_clean\", \"visual_animation_preset\": \"visual_float_soft\", \"transition_preset\": \"soft_fade\", \"t_start\": 26.4, \"t_end\": 28.6, \"background_timeline\": [{\"t_start\": 26.4, \"t_end\": 28.6, \"reason\": \"preset:cinematic_letterbox_grain\"}], \"caption_timeline\": [{\"caption_group_index\": 11, \"text\": \"Nobody expected this moment\", \"t_start\": 26.4, \"t_end\": 28.6, \"highlight_words\": []}], \"visual_timeline\": [], \"warnings\": []}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are Refiner V3. Choose professional preset names.\n\nCREATIVITY LEVEL: 2\n\nTARGET BUNDLE HINT: emotional_quote\n\nSEGMENT:\n```json\n{\n  \"segment_id\": \"segment_012\",\n  \"matched_text\": \"the ancient pyramid stood alone\",\n  \"t_start\": 28.8,\n  \"t_end\": 31.0,\n  \"media_id\": \"\",\n  \"media\": {\n    \"element_id\": \"\",\n    \"type\": \"\",\n    \"source_path\": \"\",\n    \"about\": \"\",\n    \"aim\": \"\"\n  },\n  \"caption_groups\": [\n    {\n      \"index\": 12,\n      \"text\": \"the ancient pyramid stood alone\",\n      \"start\": 28.8,\n      \"end\": 31.0\n    }\n  ],\n  \"warnings\": [\n    \"caption_only_unmatched_from_media_json\"\n  ]\n}\n```"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"segment_id\": \"segment_012\", \"creativity_level\": 2, \"preset_bundle\": \"emotional_quote\", \"background_preset\": \"cinematic_letterbox_grain\", \"caption_preset\": \"soft_emotional_script\", \"caption_layout_preset\": \"caption_only_center\", \"visual_layout_preset\": \"image_card_center\", \"caption_animation_preset\": \"caption_slide_up_clean\", \"visual_animation_preset\": \"visual_float_soft\", \"transition_preset\": \"soft_fade\", \"t_start\": 28.8, \"t_end\": 31.0, \"background_timeline\": [{\"t_start\": 28.8, \"t_end\": 31.0, \"reason\": \"preset:cinematic_letterbox_grain\"}], \"caption_timeline\": [{\"caption_group_index\": 12, \"text\": \"the ancient pyramid stood alone\", \"t_start\": 28.8, \"t_end\": 31.0, \"highlight_words\": []}], \"visual_timeline\": [], \"warnings\": []}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are Refiner V3. Choose professional preset names.\n\nCREATIVITY LEVEL: 4\n\nTARGET BUNDLE HINT: emotional_quote\n\nSEGMENT:\n```json\n{\n  \"segment_id\": \"segment_013\",\n  \"matched_text\": \"scientists watched the rocket launch\",\n  \"t_start\": 31.2,\n  \"t_end\": 33.4,\n  \"media_id\": \"\",\n  \"media\": {\n    \"element_id\": \"\",\n    \"type\": \"\",\n    \"source_path\": \"\",\n    \"about\": \"\",\n    \"aim\": \"\"\n  },\n  \"caption_groups\": [\n    {\n      \"index\": 13,\n      \"text\": \"scientists watched the rocket launch\",\n      \"start\": 31.2,\n      \"end\": 33.4\n    }\n  ],\n  \"warnings\": [\n    \"caption_only_unmatched_from_media_json\"\n  ]\n}\n```"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"segment_id\": \"segment_013\", \"creativity_level\": 4, \"preset_bundle\": \"emotional_quote\", \"background_preset\": \"cinematic_letterbox_grain\", \"caption_preset\": \"soft_emotional_script\", \"caption_layout_preset\": \"caption_only_center\", \"visual_layout_preset\": \"image_card_center\", \"caption_animation_preset\": \"caption_slide_up_clean\", \"visual_animation_preset\": \"visual_float_soft\", \"transition_preset\": \"soft_fade\", \"t_start\": 31.2, \"t_end\": 33.4, \"background_timeline\": [{\"t_start\": 31.2, \"t_end\": 33.4, \"reason\": \"preset:cinematic_letterbox_grain\"}], \"caption_timeline\": [{\"caption_group_index\": 13, \"text\": \"scientists watched the rocket launch\", \"t_start\": 31.2, \"t_end\": 33.4, \"highlight_words\": []}], \"visual_timeline\": [], \"warnings\": []}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are Refiner V3. Choose professional preset names.\n\nCREATIVITY LEVEL: 4\n\nTARGET BUNDLE HINT: emotional_quote\n\nSEGMENT:\n```json\n{\n  \"segment_id\": \"segment_014\",\n  \"matched_text\": \"everyone was completely shocked\",\n  \"t_start\": 33.6,\n  \"t_end\": 35.8,\n  \"media_id\": \"\",\n  \"media\": {\n    \"element_id\": \"\",\n    \"type\": \"\",\n    \"source_path\": \"\",\n    \"about\": \"\",\n    \"aim\": \"\"\n  },\n  \"caption_groups\": [\n    {\n      \"index\": 14,\n      \"text\": \"everyone was completely shocked\",\n      \"start\": 33.6,\n      \"end\": 35.8\n    }\n  ],\n  \"warnings\": [\n    \"caption_only_unmatched_from_media_json\"\n  ]\n}\n```"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"segment_id\": \"segment_014\", \"creativity_level\": 4, \"preset_bundle\": \"emotional_quote\", \"background_preset\": \"cinematic_letterbox_grain\", \"caption_preset\": \"soft_emotional_script\", \"caption_layout_preset\": \"caption_only_center\", \"visual_layout_preset\": \"image_card_center\", \"caption_animation_preset\": \"caption_slide_up_clean\", \"visual_animation_preset\": \"visual_float_soft\", \"transition_preset\": \"soft_fade\", \"t_start\": 33.6, \"t_end\": 35.8, \"background_timeline\": [{\"t_start\": 33.6, \"t_end\": 35.8, \"reason\": \"preset:cinematic_letterbox_grain\"}], \"caption_timeline\": [{\"caption_group_index\": 14, \"text\": \"everyone was completely shocked\", \"t_start\": 33.6, \"t_end\": 35.8, \"highlight_words\": []}], \"visual_timeline\": [], \"warnings\": []}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are Refiner V3. Choose professional preset names.\n\nCREATIVITY LEVEL: 2\n\nTARGET BUNDLE HINT: emotional_quote\n\nSEGMENT:\n```json\n{\n  \"segment_id\": \"segment_015\",\n  \"matched_text\": \"breaking news changed the story\",\n  \"t_start\": 36.0,\n  \"t_end\": 38.2,\n  \"media_id\": \"\",\n  \"media\": {\n    \"element_id\": \"\",\n    \"type\": \"\",\n    \"source_path\": \"\",\n    \"about\": \"\",\n    \"aim\": \"\"\n  },\n  \"caption_groups\": [\n    {\n      \"index\": 15,\n      \"text\": \"breaking news changed the story\",\n      \"start\": 36.0,\n      \"end\": 38.2\n    }\n  ],\n  \"warnings\": [\n    \"caption_only_unmatched_from_media_json\"\n  ]\n}\n```"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"segment_id\": \"segment_015\", \"creativity_level\": 2, \"preset_bundle\": \"emotional_quote\", \"background_preset\": \"cinematic_letterbox_grain\", \"caption_preset\": \"soft_emotional_script\", \"caption_layout_preset\": \"caption_only_center\", \"visual_layout_preset\": \"image_card_center\", \"caption_animation_preset\": \"caption_slide_up_clean\", \"visual_animation_preset\": \"visual_float_soft\", \"transition_preset\": \"soft_fade\", \"t_start\": 36.0, \"t_end\": 38.2, \"background_timeline\": [{\"t_start\": 36.0, \"t_end\": 38.2, \"reason\": \"preset:cinematic_letterbox_grain\"}], \"caption_timeline\": [{\"caption_group_index\": 15, \"text\": \"breaking news changed the story\", \"t_start\": 36.0, \"t_end\": 38.2, \"highlight_words\": []}], \"visual_timeline\": [], \"warnings\": []}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are Refiner V3. Choose professional preset names.\n\nCREATIVITY LEVEL: 4\n\nTARGET BUNDLE HINT: emotional_quote\n\nSEGMENT:\n```json\n{\n  \"segment_id\": \"segment_016\",\n  \"matched_text\": \"soldiers returned after the war\",\n  \"t_start\": 38.4,\n  \"t_end\": 40.6,\n  \"media_id\": \"\",\n  \"media\": {\n    \"element_id\": \"\",\n    \"type\": \"\",\n    \"source_path\": \"\",\n    \"about\": \"\",\n    \"aim\": \"\"\n  },\n  \"caption_groups\": [\n    {\n      \"index\": 16,\n      \"text\": \"soldiers returned after the war\",\n      \"start\": 38.4,\n      \"end\": 40.6\n    }\n  ],\n  \"warnings\": [\n    \"caption_only_unmatched_from_media_json\"\n  ]\n}\n```"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"segment_id\": \"segment_016\", \"creativity_level\": 4, \"preset_bundle\": \"emotional_quote\", \"background_preset\": \"cinematic_letterbox_grain\", \"caption_preset\": \"soft_emotional_script\", \"caption_layout_preset\": \"caption_only_center\", \"visual_layout_preset\": \"image_card_center\", \"caption_animation_preset\": \"caption_slide_up_clean\", \"visual_animation_preset\": \"visual_float_soft\", \"transition_preset\": \"soft_fade\", \"t_start\": 38.4, \"t_end\": 40.6, \"background_timeline\": [{\"t_start\": 38.4, \"t_end\": 40.6, \"reason\": \"preset:cinematic_letterbox_grain\"}], \"caption_timeline\": [{\"caption_group_index\": 16, \"text\": \"soldiers returned after the war\", \"t_start\": 38.4, \"t_end\": 40.6, \"highlight_words\": []}], \"visual_timeline\": [], \"warnings\": []}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are Refiner V3. Choose professional preset names.\n\nCREATIVITY LEVEL: 4\n\nTARGET BUNDLE HINT: emotional_quote\n\nSEGMENT:\n```json\n{\n  \"segment_id\": \"segment_017\",\n  \"matched_text\": \"the galaxy revealed a strange signal\",\n  \"t_start\": 40.8,\n  \"t_end\": 43.0,\n  \"media_id\": \"\",\n  \"media\": {\n    \"element_id\": \"\",\n    \"type\": \"\",\n    \"source_path\": \"\",\n    \"about\": \"\",\n    \"aim\": \"\"\n  },\n  \"caption_groups\": [\n    {\n      \"index\": 17,\n      \"text\": \"the galaxy revealed a strange signal\",\n      \"start\": 40.8,\n      \"end\": 43.0\n    }\n  ],\n  \"warnings\": [\n    \"caption_only_unmatched_from_media_json\"\n  ]\n}\n```"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"segment_id\": \"segment_017\", \"creativity_level\": 4, \"preset_bundle\": \"emotional_quote\", \"background_preset\": \"cinematic_letterbox_grain\", \"caption_preset\": \"soft_emotional_script\", \"caption_layout_preset\": \"caption_only_center\", \"visual_layout_preset\": \"image_card_center\", \"caption_animation_preset\": \"caption_slide_up_clean\", \"visual_animation_preset\": \"visual_float_soft\", \"transition_preset\": \"soft_fade\", \"t_start\": 40.8, \"t_end\": 43.0, \"background_timeline\": [{\"t_start\": 40.8, \"t_end\": 43.0, \"reason\": \"preset:cinematic_letterbox_grain\"}], \"caption_timeline\": [{\"caption_group_index\": 17, \"text\": \"the galaxy revealed a strange signal\", \"t_start\": 40.8, \"t_end\": 43.0, \"highlight_words\": []}], \"visual_timeline\": [], \"warnings\": []}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are Refiner V3. Choose professional preset names.\n\nCREATIVITY LEVEL: 2\n\nTARGET BUNDLE HINT: emotional_quote\n\nSEGMENT:\n```json\n{\n  \"segment_id\": \"segment_018\",\n  \"matched_text\": \"the mystery only got darker\",\n  \"t_start\": 43.2,\n  \"t_end\": 45.4,\n  \"media_id\": \"\",\n  \"media\": {\n    \"element_id\": \"\",\n    \"type\": \"\",\n    \"source_path\": \"\",\n    \"about\": \"\",\n    \"aim\": \"\"\n  },\n  \"caption_groups\": [\n    {\n      \"index\": 18,\n      \"text\": \"the mystery only got darker\",\n      \"start\": 43.2,\n      \"end\": 45.4\n    }\n  ],\n  \"warnings\": [\n    \"caption_only_unmatched_from_media_json\"\n  ]\n}\n```"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"segment_id\": \"segment_018\", \"creativity_level\": 2, \"preset_bundle\": \"emotional_quote\", \"background_preset\": \"cinematic_letterbox_grain\", \"caption_preset\": \"soft_emotional_script\", \"caption_layout_preset\": \"caption_only_center\", \"visual_layout_preset\": \"image_card_center\", \"caption_animation_preset\": \"caption_slide_up_clean\", \"visual_animation_preset\": \"visual_float_soft\", \"transition_preset\": \"soft_fade\", \"t_start\": 43.2, \"t_end\": 45.4, \"background_timeline\": [{\"t_start\": 43.2, \"t_end\": 45.4, \"reason\": \"preset:cinematic_letterbox_grain\"}], \"caption_timeline\": [{\"caption_group_index\": 18, \"text\": \"the mystery only got darker\", \"t_start\": 43.2, \"t_end\": 45.4, \"highlight_words\": []}], \"visual_timeline\": [], \"warnings\": []}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are Refiner V3. Choose professional preset names.\n\nCREATIVITY LEVEL: 4\n\nTARGET BUNDLE HINT: emotional_quote\n\nSEGMENT:\n```json\n{\n  \"segment_id\": \"segment_019\",\n  \"matched_text\": \"the teacher explained the simple idea\",\n  \"t_start\": 45.6,\n  \"t_end\": 47.8,\n  \"media_id\": \"\",\n  \"media\": {\n    \"element_id\": \"\",\n    \"type\": \"\",\n    \"source_path\": \"\",\n    \"about\": \"\",\n    \"aim\": \"\"\n  },\n  \"caption_groups\": [\n    {\n      \"index\": 19,\n      \"text\": \"the teacher explained the simple idea\",\n      \"start\": 45.6,\n      \"end\": 47.8\n    }\n  ],\n  \"warnings\": [\n    \"caption_only_unmatched_from_media_json\"\n  ]\n}\n```"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"segment_id\": \"segment_019\", \"creativity_level\": 4, \"preset_bundle\": \"emotional_quote\", \"background_preset\": \"cinematic_letterbox_grain\", \"caption_preset\": \"soft_emotional_script\", \"caption_layout_preset\": \"caption_only_center\", \"visual_layout_preset\": \"image_card_center\", \"caption_animation_preset\": \"caption_slide_up_clean\", \"visual_animation_preset\": \"visual_float_soft\", \"transition_preset\": \"soft_fade\", \"t_start\": 45.6, \"t_end\": 47.8, \"background_timeline\": [{\"t_start\": 45.6, \"t_end\": 47.8, \"reason\": \"preset:cinematic_letterbox_grain\"}], \"caption_timeline\": [{\"caption_group_index\": 19, \"text\": \"the teacher explained the simple idea\", \"t_start\": 45.6, \"t_end\": 47.8, \"highlight_words\": []}], \"visual_timeline\": [], \"warnings\": []}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are Refiner V3. Choose professional preset names.\n\nCREATIVITY LEVEL: 4\n\nTARGET BUNDLE HINT: emotional_quote\n\nSEGMENT:\n```json\n{\n  \"segment_id\": \"segment_020\",\n  \"matched_text\": \"the joke landed instantly\",\n  \"t_start\": 48.0,\n  \"t_end\": 50.2,\n  \"media_id\": \"\",\n  \"media\": {\n    \"element_id\": \"\",\n    \"type\": \"\",\n    \"source_path\": \"\",\n    \"about\": \"\",\n    \"aim\": \"\"\n  },\n  \"caption_groups\": [\n    {\n      \"index\": 20,\n      \"text\": \"the joke landed instantly\",\n      \"start\": 48.0,\n      \"end\": 50.2\n    }\n  ],\n  \"warnings\": [\n    \"caption_only_unmatched_from_media_json\"\n  ]\n}\n```"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"segment_id\": \"segment_020\", \"creativity_level\": 4, \"preset_bundle\": \"emotional_quote\", \"background_preset\": \"cinematic_letterbox_grain\", \"caption_preset\": \"soft_emotional_script\", \"caption_layout_preset\": \"caption_only_center\", \"visual_layout_preset\": \"image_card_center\", \"caption_animation_preset\": \"caption_slide_up_clean\", \"visual_animation_preset\": \"visual_float_soft\", \"transition_preset\": \"soft_fade\", \"t_start\": 48.0, \"t_end\": 50.2, \"background_timeline\": [{\"t_start\": 48.0, \"t_end\": 50.2, \"reason\": \"preset:cinematic_letterbox_grain\"}], \"caption_timeline\": [{\"caption_group_index\": 20, \"text\": \"the joke landed instantly\", \"t_start\": 48.0, \"t_end\": 50.2, \"highlight_words\": []}], \"visual_timeline\": [], \"warnings\": []}"
+      }
+    ]
+  }
+]

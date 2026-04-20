@@ -1,0 +1,381 @@
+================ EXAMPLE 1 ================
+
+USER PROMPT:
+You are Refiner V3. Choose professional preset names.
+
+CREATIVITY LEVEL: 4
+
+TARGET BUNDLE HINT: emotional_quote
+
+SEGMENT:
+```json
+{
+  "segment_id": "segment_029",
+  "matched_text": "the teacher explained the simple idea",
+  "t_start": 69.6,
+  "t_end": 71.8,
+  "media_id": "",
+  "media": {
+    "element_id": "",
+    "type": "",
+    "source_path": "",
+    "about": "",
+    "aim": ""
+  },
+  "caption_groups": [
+    {
+      "index": 29,
+      "text": "the teacher explained the simple idea",
+      "start": 69.6,
+      "end": 71.8
+    }
+  ],
+  "warnings": [
+    "caption_only_unmatched_from_media_json"
+  ]
+}
+```
+
+GOLD OUTPUT:
+{
+  "segment_id": "segment_029",
+  "creativity_level": 4,
+  "preset_bundle": "emotional_quote",
+  "background_preset": "cinematic_letterbox_grain",
+  "caption_preset": "soft_emotional_script",
+  "caption_layout_preset": "caption_only_center",
+  "visual_layout_preset": "image_card_center",
+  "caption_animation_preset": "caption_slide_up_clean",
+  "visual_animation_preset": "visual_float_soft",
+  "transition_preset": "soft_fade",
+  "t_start": 69.6,
+  "t_end": 71.8,
+  "background_timeline": [
+    {
+      "t_start": 69.6,
+      "t_end": 71.8,
+      "reason": "preset:cinematic_letterbox_grain"
+    }
+  ],
+  "caption_timeline": [
+    {
+      "caption_group_index": 29,
+      "text": "the teacher explained the simple idea",
+      "t_start": 69.6,
+      "t_end": 71.8,
+      "highlight_words": []
+    }
+  ],
+  "visual_timeline": [],
+  "warnings": []
+}
+
+
+================ EXAMPLE 2 ================
+
+USER PROMPT:
+You are Refiner V3. Choose professional preset names.
+
+CREATIVITY LEVEL: 4
+
+TARGET BUNDLE HINT: emotional_quote
+
+SEGMENT:
+```json
+{
+  "segment_id": "segment_007",
+  "matched_text": "the galaxy revealed a strange signal",
+  "t_start": 16.8,
+  "t_end": 19.0,
+  "media_id": "",
+  "media": {
+    "element_id": "",
+    "type": "",
+    "source_path": "",
+    "about": "",
+    "aim": ""
+  },
+  "caption_groups": [
+    {
+      "index": 7,
+      "text": "the galaxy revealed a strange signal",
+      "start": 16.8,
+      "end": 19.0
+    }
+  ],
+  "warnings": [
+    "caption_only_unmatched_from_media_json"
+  ]
+}
+```
+
+GOLD OUTPUT:
+{
+  "segment_id": "segment_007",
+  "creativity_level": 4,
+  "preset_bundle": "emotional_quote",
+  "background_preset": "cinematic_letterbox_grain",
+  "caption_preset": "soft_emotional_script",
+  "caption_layout_preset": "caption_only_center",
+  "visual_layout_preset": "image_card_center",
+  "caption_animation_preset": "caption_slide_up_clean",
+  "visual_animation_preset": "visual_float_soft",
+  "transition_preset": "soft_fade",
+  "t_start": 16.8,
+  "t_end": 19.0,
+  "background_timeline": [
+    {
+      "t_start": 16.8,
+      "t_end": 19.0,
+      "reason": "preset:cinematic_letterbox_grain"
+    }
+  ],
+  "caption_timeline": [
+    {
+      "caption_group_index": 7,
+      "text": "the galaxy revealed a strange signal",
+      "t_start": 16.8,
+      "t_end": 19.0,
+      "highlight_words": []
+    }
+  ],
+  "visual_timeline": [],
+  "warnings": []
+}
+
+
+================ EXAMPLE 3 ================
+
+USER PROMPT:
+You are Refiner V3. Choose professional preset names.
+
+CREATIVITY LEVEL: 4
+
+TARGET BUNDLE HINT: emotional_quote
+
+SEGMENT:
+```json
+{
+  "segment_id": "segment_071",
+  "matched_text": "Nobody expected this moment",
+  "t_start": 170.4,
+  "t_end": 172.6,
+  "media_id": "media_71",
+  "media": {
+    "element_id": "media_71",
+    "type": "gif",
+    "source_path": "assets/fake/media_71.mp4",
+    "about": "Nobody expected this moment",
+    "aim": "show during 'Nobody expected this moment'"
+  },
+  "caption_groups": [
+    {
+      "index": 71,
+      "text": "Nobody expected this moment",
+      "start": 170.4,
+      "end": 172.6
+    }
+  ],
+  "warnings": []
+}
+```
+
+GOLD OUTPUT:
+{
+  "segment_id": "segment_071",
+  "creativity_level": 4,
+  "preset_bundle": "emotional_quote",
+  "background_preset": "cinematic_letterbox_grain",
+  "caption_preset": "soft_emotional_script",
+  "caption_layout_preset": "caption_bottom_safe",
+  "visual_layout_preset": "image_card_center",
+  "caption_animation_preset": "caption_slide_up_clean",
+  "visual_animation_preset": "visual_float_soft",
+  "transition_preset": "soft_fade",
+  "t_start": 170.4,
+  "t_end": 172.6,
+  "background_timeline": [
+    {
+      "t_start": 170.4,
+      "t_end": 172.6,
+      "reason": "preset:cinematic_letterbox_grain"
+    }
+  ],
+  "caption_timeline": [
+    {
+      "caption_group_index": 71,
+      "text": "Nobody expected this moment",
+      "t_start": 170.4,
+      "t_end": 172.6,
+      "highlight_words": []
+    }
+  ],
+  "visual_timeline": [
+    {
+      "element_id": "media_71",
+      "source_ref": "media_71",
+      "type": "gif",
+      "t_start": 170.4,
+      "t_end": 172.6
+    }
+  ],
+  "warnings": []
+}
+
+
+================ EXAMPLE 4 ================
+
+USER PROMPT:
+You are Refiner V3. Choose professional preset names.
+
+CREATIVITY LEVEL: 2
+
+TARGET BUNDLE HINT: science_discovery
+
+SEGMENT:
+```json
+{
+  "segment_id": "segment_063",
+  "matched_text": "scientists watched the rocket launch",
+  "t_start": 151.2,
+  "t_end": 153.4,
+  "media_id": "media_63",
+  "media": {
+    "element_id": "media_63",
+    "type": "gif",
+    "source_path": "assets/fake/media_63.mp4",
+    "about": "scientists watched the rocket launch",
+    "aim": "show during 'scientists watched the rocket launch'"
+  },
+  "caption_groups": [
+    {
+      "index": 63,
+      "text": "scientists watched the rocket launch",
+      "start": 151.2,
+      "end": 153.4
+    }
+  ],
+  "warnings": []
+}
+```
+
+GOLD OUTPUT:
+{
+  "segment_id": "segment_063",
+  "creativity_level": 2,
+  "preset_bundle": "science_discovery",
+  "background_preset": "neon_science_blue",
+  "caption_preset": "science_clean_blue",
+  "caption_layout_preset": "caption_bottom_safe",
+  "visual_layout_preset": "visual_center_800h",
+  "caption_animation_preset": "caption_word_reveal_fast",
+  "visual_animation_preset": "visual_slow_zoom_in",
+  "transition_preset": "soft_fade",
+  "t_start": 151.2,
+  "t_end": 153.4,
+  "background_timeline": [
+    {
+      "t_start": 151.2,
+      "t_end": 153.4,
+      "reason": "preset:neon_science_blue"
+    }
+  ],
+  "caption_timeline": [
+    {
+      "caption_group_index": 63,
+      "text": "scientists watched the rocket launch",
+      "t_start": 151.2,
+      "t_end": 153.4,
+      "highlight_words": []
+    }
+  ],
+  "visual_timeline": [
+    {
+      "element_id": "media_63",
+      "source_ref": "media_63",
+      "type": "gif",
+      "t_start": 151.2,
+      "t_end": 153.4
+    }
+  ],
+  "warnings": []
+}
+
+
+================ EXAMPLE 5 ================
+
+USER PROMPT:
+You are Refiner V3. Choose professional preset names.
+
+CREATIVITY LEVEL: 4
+
+TARGET BUNDLE HINT: dark_mystery
+
+SEGMENT:
+```json
+{
+  "segment_id": "segment_058",
+  "matched_text": "the mystery only got darker",
+  "t_start": 139.2,
+  "t_end": 141.4,
+  "media_id": "media_58",
+  "media": {
+    "element_id": "media_58",
+    "type": "image",
+    "source_path": "assets/fake/media_58.jpg",
+    "about": "the mystery only got darker",
+    "aim": "show during 'the mystery only got darker'"
+  },
+  "caption_groups": [
+    {
+      "index": 58,
+      "text": "the mystery only got darker",
+      "start": 139.2,
+      "end": 141.4
+    }
+  ],
+  "warnings": []
+}
+```
+
+GOLD OUTPUT:
+{
+  "segment_id": "segment_058",
+  "creativity_level": 4,
+  "preset_bundle": "dark_mystery",
+  "background_preset": "dark_film_vignette",
+  "caption_preset": "small_cinematic_quote",
+  "caption_layout_preset": "caption_bottom_safe",
+  "visual_layout_preset": "image_card_center",
+  "caption_animation_preset": "caption_fade_soft",
+  "visual_animation_preset": "visual_float_soft",
+  "transition_preset": "cinematic_fade",
+  "t_start": 139.2,
+  "t_end": 141.4,
+  "background_timeline": [
+    {
+      "t_start": 139.2,
+      "t_end": 141.4,
+      "reason": "preset:dark_film_vignette"
+    }
+  ],
+  "caption_timeline": [
+    {
+      "caption_group_index": 58,
+      "text": "the mystery only got darker",
+      "t_start": 139.2,
+      "t_end": 141.4,
+      "highlight_words": []
+    }
+  ],
+  "visual_timeline": [
+    {
+      "element_id": "media_58",
+      "source_ref": "media_58",
+      "type": "image",
+      "t_start": 139.2,
+      "t_end": 141.4
+    }
+  ],
+  "warnings": []
+}

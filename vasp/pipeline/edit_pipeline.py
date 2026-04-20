@@ -4,8 +4,8 @@ import json
 from pathlib import Path
 from typing import Any, Optional
 
-from vasp.a2v.caption_grouping import caption_grouping
-from vasp.a2v.prompt_generator import a2v_prompt_generator
+from vasp.a2v.v2.caption_grouping import caption_grouping
+from vasp.a2v.v2.prompt_generator import a2v_prompt_generator
 from vasp.llm.client import LLMClient
 from vasp.core.json_compactor import compact_unified_element_json
 from vasp.core.serialization import merge_serialized_bundle, serialize_element_json

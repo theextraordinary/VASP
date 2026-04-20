@@ -1,0 +1,70 @@
+{
+  "path": "C:\\Users\\SHIVANG\\AI\\VASP\\vasp\\a2v\\finetuning\\planner_v3_dataset\\output\\planner_v3_500_examples.jsonl",
+  "rows": 500,
+  "passed": 500,
+  "failed": 0,
+  "failures": [],
+  "warnings": [
+    "emotional/humorous/reaction styles below 30%: rows=0.138, matches=0.037",
+    "match_reason repeats too much: Direct visual match for the spoken concept.=634, Clear object match that anchors the phrase.=609, Specific media fits the exact topic being mentioned.=602"
+  ],
+  "style_counts": {
+    "literal": 1845,
+    "contextual": 204,
+    "cinematic": 184,
+    "humorous": 86
+  },
+  "reason_top": [
+    [
+      "Direct visual match for the spoken concept.",
+      634
+    ],
+    [
+      "Clear object match that anchors the phrase.",
+      609
+    ],
+    [
+      "Specific media fits the exact topic being mentioned.",
+      602
+    ],
+    [
+      "Useful background visual for the broader explanation.",
+      81
+    ],
+    [
+      "Strong visual moment for the main payoff phrase.",
+      72
+    ],
+    [
+      "Contextual support that makes the idea easier to understand.",
+      65
+    ],
+    [
+      "Editor-style hero visual for the most important concept.",
+      59
+    ],
+    [
+      "Supporting visual that reinforces the narration.",
+      58
+    ],
+    [
+      "Cinematic beat that makes the key idea feel bigger.",
+      53
+    ],
+    [
+      "Comic timing visual for a lighter phrase.",
+      32
+    ],
+    [
+      "Humorous visual that makes the beat more engaging.",
+      30
+    ],
+    [
+      "Meme-style match for the playful moment.",
+      24
+    ]
+  ],
+  "emotional_row_ratio": 0.138,
+  "emotional_match_ratio": 0.0371,
+  "fallback_ratio": 0.0
+}
