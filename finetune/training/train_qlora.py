@@ -77,14 +77,23 @@ def main() -> None:
 
     training_args = TrainingArguments(**training_kwargs)
 
-    trainer = Trainer(
+    trainer_kwargs = dict(
         model=model,
         args=training_args,
         train_dataset=tokenized["train"],
         eval_dataset=tokenized["validation"],
-        tokenizer=tokenizer,
         data_collator=build_collator(tokenizer),
     )
+    # Transformers API compatibility:
+    # older versions accept `tokenizer=...`; newer versions replaced it with
+    # `processing_class=...`.
+    tr_params = inspect.signature(Trainer.__init__).parameters
+    if "tokenizer" in tr_params:
+        trainer_kwargs["tokenizer"] = tokenizer
+    elif "processing_class" in tr_params:
+        trainer_kwargs["processing_class"] = tokenizer
+
+    trainer = Trainer(**trainer_kwargs)
 
     trainer.train(resume_from_checkpoint=cfg.get("resume_from_checkpoint"))
     trainer.save_model(cfg["output_dir"])
