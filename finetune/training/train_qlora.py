@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import inspect
 from pathlib import Path
 from typing import Any
 
@@ -44,7 +45,12 @@ def main() -> None:
 
     tokenized = dataset.map(tokenize, batched=True, remove_columns=dataset["train"].column_names)
 
-    training_args = TrainingArguments(
+    # Transformers API compatibility:
+    # some versions use `evaluation_strategy`, others `eval_strategy`.
+    ta_params = inspect.signature(TrainingArguments.__init__).parameters
+    strategy_key = "evaluation_strategy" if "evaluation_strategy" in ta_params else "eval_strategy"
+
+    training_kwargs = dict(
         output_dir=cfg["output_dir"],
         learning_rate=float(cfg["learning_rate"]),
         num_train_epochs=float(cfg["num_train_epochs"]),
@@ -57,7 +63,6 @@ def main() -> None:
         eval_steps=int(cfg["eval_steps"]),
         save_steps=int(cfg["save_steps"]),
         save_total_limit=int(cfg["save_total_limit"]),
-        evaluation_strategy=str(cfg["evaluation_strategy"]),
         save_strategy=str(cfg["save_strategy"]),
         load_best_model_at_end=bool(cfg["load_best_model_at_end"]),
         metric_for_best_model=str(cfg["metric_for_best_model"]),
@@ -68,6 +73,9 @@ def main() -> None:
         seed=int(cfg.get("seed", 42)),
         report_to=["none"],
     )
+    training_kwargs[strategy_key] = str(cfg["evaluation_strategy"])
+
+    training_args = TrainingArguments(**training_kwargs)
 
     trainer = Trainer(
         model=model,

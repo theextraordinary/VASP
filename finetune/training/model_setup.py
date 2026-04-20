@@ -68,4 +68,4 @@ def load_model_and_tokenizer(cfg: dict[str, Any]):
         )
         model = get_peft_model(model, lora_config)
     model.print_trainable_parameters()
-    return model, tokenizer
+    return model, tokenizer 
