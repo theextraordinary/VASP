@@ -1,5 +1,5 @@
 # A2V Pipeline V3
-
+VASP is an AI video editor which use Gemma 4 e2b 4-bit quantized model with LoRA adapters. This editor can easily run on your personal PC without using any external compute, API_KEY for llms or anything else. It converts your raw inputs to fully fledged 9:16 video for your social media.
 Pipeline v3 separates media selection, timing, styling, and rendering.
 
 ## Overview
